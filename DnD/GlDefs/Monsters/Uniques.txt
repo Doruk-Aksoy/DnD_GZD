@@ -1,0 +1,705 @@
+object Gant_AcidShot {
+	frame ACID { light SedrinLight1 }
+	
+	frame BPLOA { light SedrinLight2 }
+	frame BPLOB { light SedrinLight2 }
+	frame BPLOC { light SedrinLight3 }
+	frame BPLOD { light SedrinLight3 }
+	frame BPLOE { light SedrinLight4 }
+	frame BPLOF { light SedrinLight4 }
+	frame BPLOG { light SedrinLight5 }
+	frame BPLOH { light SedrinLight6 }
+}
+
+object Bronn_AcidShot {
+	frame ACID { light SedrinLight1 }
+	
+	frame BPLOA { light SedrinLight2 }
+	frame BPLOB { light SedrinLight2 }
+	frame BPLOC { light SedrinLight3 }
+	frame BPLOD { light SedrinLight3 }
+	frame BPLOE { light SedrinLight4 }
+	frame BPLOF { light SedrinLight4 }
+	frame BPLOG { light SedrinLight5 }
+	frame BPLOH { light SedrinLight6 }
+}
+
+flickerlight VaajLight1 {
+	color 1.0 0.6 0.75
+	size 50
+	secondarysize 80
+	chance 0.4
+}
+
+pointlight VaajLight2 {
+	color 1.0 0.6 0.75
+	size 160
+}
+
+pointlight VaajLight3 {
+	color 1.0 0.6 0.75
+	size 144
+}
+
+pointlight VaajLight4 {
+	color 1.0 0.6 0.75
+	size 108
+}
+
+pointlight VaajLight5 {
+	color 1.0 0.6 0.75
+	size 64
+}
+
+pointlight VaajLight6 {
+	color 1.0 0.6 0.75
+	size 32
+}
+
+object VaajBigBall {
+	frame SUCP { light VaajLight1 }
+}
+
+object VaajBigBall_ExplodeFX {
+	frame BFOGA { light VaajLight2 }
+	frame BFOGB { light VaajLight3 }
+	frame BFOGC { light VaajLight4 }
+	frame BFOGD { light VaajLight5 }
+	frame BFOGE { light VaajLight6 }
+}
+
+flickerlight ELECSHINE1
+{
+    color 0.2 0.2 1.0
+    size 64
+    secondarySize 72
+    chance 0.4
+}
+
+flickerlight ELECSHINE2
+{
+    color 0.2 0.2 0.8
+    size 80
+    secondarySize 88
+    chance 0.4
+}
+
+flickerlight ELECSHINE3
+{
+    color 0.1 0.1 0.5
+    size 64
+    secondarySize 72
+    chance 0.4
+}
+
+flickerlight ELECSHINE4
+{
+    color 0.0 0.0 0.2
+    size 8
+    secondarySize 16
+    chance 0.4
+}
+
+object Remus {
+    frame UEA4A { light ELECSHINE1 }
+    frame UEA4B { light ELECSHINE1 }
+    frame UEA4C { light ELECSHINE1 }
+    frame UEA4D { light ELECSHINE1 }
+
+    frame UEB4A { light ELECSHINE2 }
+    frame UEB4B { light ELECSHINE2 }
+    frame UEB4C { light ELECSHINE2 }
+    frame UEB4D { light ELECSHINE2 }
+
+    frame UEC4A { light ELECSHINE3 }
+    frame UEC4B { light ELECSHINE3 }
+    frame UEC4C { light ELECSHINE3 }
+    frame UEC4D { light ELECSHINE3 }
+
+    frame UED4A { light ELECSHINE4 }
+    frame UED4B { light ELECSHINE4 }
+    frame UED4C { light ELECSHINE4 }
+    frame UED4D { light ELECSHINE4 }
+	
+	frame UE04R { light ELECSHINE1 }
+	frame UE04S { light ELECSHINE2 }
+	frame UE04T { light ELECSHINE3 }
+	frame UE04U { light ELECSHINE3 }
+	frame UE04V { light ELECSHINE2 }
+	frame UE04W { light ELECSHINE1 }
+}
+
+object OmniLightning {
+	frame LFX1X { light VoidRedLight2 }
+	frame LFX1Y { light VoidRedLight2 }
+	frame LFX1Z { light VoidRedLight2 }
+	
+	frame DLITD { light VoidRedLight2 }
+	frame DLITE { light VoidRedLight2 }
+	frame DLITF { light VoidRedLight2 }
+	frame DLITG { light VoidRedLight2 }
+	frame DLITH { light VoidRedLight2 }
+	frame DLITI { light VoidRedLight2 }
+	frame DLITJ { light VoidRedLight2 }
+	frame DLITK { light VoidRedLight2 }
+	frame DLITL { light VoidRedLight2 }
+	frame DLITM { light VoidRedLight2 }
+	frame DLITN { light VoidRedLight2 }
+	frame DLITO { light VoidRedLight2 }
+}
+
+Object OmniBall {
+	Frame UP06A { Light HadesBall1 }
+	Frame UP06B { Light HadesBall1 }
+	Frame UP06C { Light HadesBall1 }
+	Frame UP06D { Light HadesBall2 }
+	Frame UP06E { Light HadesBall3 }
+	Frame UP06F { Light HadesBall4 }
+	Frame UP06G { Light HadesBall5 }
+	Frame UP06H { Light HadesBall6 }
+	Frame UP06I { Light HadesBall7 }
+}
+
+object Chegovax {
+	frame UE07R { light LOSTSOUL_X1 }
+	frame UE07S { light LOSTSOUL_X1 }
+	frame UE07T { light LOSTSOUL_X2 }
+	frame UE07U { light LOSTSOUL_X3 }
+	frame UE07V { light LOSTSOUL_X4 }
+	frame UE07W { light LOSTSOUL_X4 }
+	frame UE07X { light LOSTSOUL_X4 }
+	frame UE07Y { light LOSTSOUL_X4 }
+	frame UE07Z { light LOSTSOUL_X4 }
+}
+
+Object HarkimondeFlameTracer
+{
+	Frame FTRAK { Light DiabloistTracer11 }
+	Frame FTRAL { Light DiabloistTracer12 }
+	Frame FTRAM { Light DiabloistTracer13 }
+	Frame FTRAN { Light DiabloistTracer14 }
+	Frame FTRAO { Light DiabloistTracer15 }
+}
+
+Object Harkimonde_BoomTrail
+{
+	Frame FTRAA { Light DiabloistTracer1 }
+	Frame FTRAB { Light DiabloistTracer2 }
+	Frame FTRAC { Light DiabloistTracer3 }
+	Frame FTRAD { Light DiabloistTracer4 }
+	Frame FTRAE { Light DiabloistTracer5 }
+	Frame FTRAF { Light DiabloistTracer6 }
+	Frame FTRAG { Light DiabloistTracer7 }
+	Frame FTRAH { Light DiabloistTracer8 }
+	Frame FTRAI { Light DiabloistTracer9 }
+	Frame FTRAJ { Light DiabloistTracer10 }
+}
+
+object Leshrac_LobbedMine {
+	frame BNADA { light VenomLight2 }
+	frame BNADB { light VenomLight2 }
+	frame BNADC { light VenomLight2 }
+	frame BNADD { light VenomLight2 }
+	
+	frame BNADE { light VenomLight3 }
+	frame BNADF { light VenomLight4 }
+	frame BNADG { light VenomLight5 }
+	frame BNADH { light VenomLight6 }
+	frame BNADI { light VenomLight7 }
+	frame BNADJ { light VenomLight8 }
+}
+
+object Leshrac_LobbedMineGround {
+	frame BNADA { light VenomLight2 }
+	frame BNADB { light VenomLight2 }
+	frame BNADC { light VenomLight2 }
+	frame BNADD { light VenomLight2 }
+	
+	frame BNADE { light VenomLight3 }
+	frame BNADF { light VenomLight4 }
+	frame BNADG { light VenomLight5 }
+	frame BNADH { light VenomLight6 }
+	frame BNADI { light VenomLight7 }
+	frame BNADJ { light VenomLight8 }
+}
+
+Object Leshrac_Ball {
+	Frame BDP2A { Light SBeastBall11 }
+	Frame BDP2B { Light SBeastBall11 }
+	Frame BDP2C { Light SBeastBall11 }
+	Frame BDP2D { Light SBeastBall12 }
+	Frame BDP2E { Light SBeastBall13 }
+	Frame BDP2F { Light SBeastBall14 }
+	Frame BDP2G { Light SBeastBall15 }
+	Frame BDP2H { Light SBeastBall16 }
+}
+
+pointlight LeshracMineLight {
+	color 0.2 1.0 0.175
+	size 56
+	offset 0 20 0
+}
+
+pointlight LeshracMineLight2 {
+	color 0.2 1.0 0.175
+	size 38
+	offset 0 20 0
+}
+
+pointlight LeshracMineLight3 {
+	color 0.2 1.0 0.175
+	size 40
+	offset 0 20 0
+}
+
+pointlight LeshracMineLight4 {
+	color 0.2 1.0 0.175
+	size 60
+	offset 0 20 0
+}
+
+pointlight LeshracMineLight5 {
+	color 0.2 1.0 0.175
+	size 72
+	offset 0 20 0
+}
+
+pointlight LeshracMineLight6 {
+	color 0.2 1.0 0.175
+	size 36
+	offset 0 20 0
+}
+
+pointlight LeshracMineLight_Red {
+	color 1.0 0.175 0.175
+	size 56
+	offset 0 20 0
+}
+
+object LeshracPoisonMine {
+	frame UP11A { light LeshracMineLight }
+	frame UP11B { light LeshracMineLight2 }
+	frame UP11C { light LeshracMineLight3 }
+	frame UP11D { light LeshracMineLight4 }
+	frame UP11E { light LeshracMineLight5 }
+	frame UP11F { light LeshracMineLight6 }
+	frame UP11Q { light LeshracMineLight_Red }
+}
+
+object KrullRocket
+{
+	frame HLMLA { light HellsmawLight1    }
+	frame HLMLB { light HellsmawLight1    }
+	frame HLMLC { light HellsmawLight1    }
+
+	frame HLMLD { light HellsmawLight2 }
+	frame HLMLE { light HellsmawLight3 }
+	frame HLMLF { light HellsmawLight4 }
+}
+
+object KrullMiniRocket
+{
+	frame HLMLG { light HellsmawLight1    }
+	frame HLMLL { light HellsmawLight1    }
+	frame HLMLM { light HellsmawLight1    }
+
+	frame HLMLN { light HellsmawLight2 }
+	frame HLMLO { light HellsmawLight3 }
+	frame HLMLP { light HellsmawLight4 }
+	frame HLMLQ { light HellsmawLight4 }
+	frame HLMLR { light HellsmawLight4 }
+}
+
+object KrullMiniRocket_Split
+{
+	frame HLMLG { light HellsmawLight1    }
+	frame HLMLL { light HellsmawLight1    }
+	frame HLMLM { light HellsmawLight1    }
+
+	frame HLMLN { light HellsmawLight2 }
+	frame HLMLO { light HellsmawLight3 }
+	frame HLMLP { light HellsmawLight4 }
+	frame HLMLQ { light HellsmawLight4 }
+	frame HLMLR { light HellsmawLight4 }
+}
+
+flickerlight KrullLight1 {
+	color 1.0 0.75 0.2
+	size 48
+	secondarysize 56
+	offset 0 48 0
+	chance 0.5
+}
+
+flickerlight KrullLight2 {
+	color 1.0 0.8 0.3
+	size 72
+	secondarysize 96
+	offset 0 44 0
+	chance 0.5
+}
+
+flickerlight KrullLight3 {
+	color 1.0 0.82 0.375
+	size 96
+	secondarysize 112
+	offset 0 32 0
+	chance 0.5
+}
+
+pointlight KrullLight4 {
+	color 0.8 0.6 0.1
+	size 72
+	offset 0 16 0
+}
+
+pointlight KrullLight5 {
+	color 0.6 0.4 0.075
+	size 40
+}
+
+pointlight KrullLight6 {
+	color 0.4 0.2 0.0
+	size 30
+}
+
+object Krull {
+	frame UE12H { light KrullLight4 }
+	frame UE12L { light KrullLight1 }
+	frame UE12M { light KrullLight2 }
+	frame UE12N { light KrullLight2 }
+	frame UE12O { light KrullLight3 }
+	frame UE12P { light KrullLight3 }
+	frame UE12Q { light KrullLight4 }
+	frame UE12R { light KrullLight5 }
+	frame UE12S { light KrullLight6 }
+}
+
+object ThoraxMissile {
+	frame HMISA { light ROCKET }
+	frame MACXA { light ROCKET_X1 }
+	frame MACXB { light ROCKET_X1 }
+	frame MACXC { light ROCKET_X1 }
+	frame MACXD { light ROCKET_X2 }
+	frame MACXE { light ROCKET_X2 }
+	frame MACXF { light ROCKET_X2 }
+	frame MACXG { light ROCKET_X2 }
+	frame MACXH { light ROCKET_X3 }
+	frame MACXI { light ROCKET_X3 }
+	frame MACXJ { light ROCKET_X3 }
+}
+
+object ThoraxMissile_Homing {
+	frame HMISA { light ROCKET }
+	frame MACXA { light ROCKET_X1 }
+	frame MACXB { light ROCKET_X1 }
+	frame MACXC { light ROCKET_X1 }
+	frame MACXD { light ROCKET_X2 }
+	frame MACXE { light ROCKET_X2 }
+	frame MACXF { light ROCKET_X2 }
+	frame MACXG { light ROCKET_X2 }
+	frame MACXH { light ROCKET_X3 }
+	frame MACXI { light ROCKET_X3 }
+	frame MACXJ { light ROCKET_X3 }
+}
+
+flickerlight ThoraxFireLight1 {
+	color 1.0 0.7 0.4
+	size 48
+	secondarysize 72
+	chance 0.33
+}
+
+pointlight ThoraxFireLight2 {
+	color 1.0 0.7 0.4
+	size 64
+}
+
+pointlight ThoraxFireLight3 {
+	color 1.0 0.6 0.3
+	size 80
+}
+
+pointlight ThoraxFireLight4 {
+	color 1.0 0.5 0.25
+	size 48
+}
+
+pointlight ThoraxFireLight5 {
+	color 1.0 0.4 0.2
+	size 32
+}
+
+object ThoraxFireBall {
+	frame UP12A { light ThoraxFireLight1 }
+	frame UP12B { light ThoraxFireLight1 }
+	frame UP12C { light ThoraxFireLight1 }
+	frame UP12D { light ThoraxFireLight1 }
+	frame UP12E { light ThoraxFireLight1 }
+	
+	frame UP12Q { light ThoraxFireLight2 }
+	frame UP12R { light ThoraxFireLight3 }
+	frame UP12S { light ThoraxFireLight4 }
+	frame UP12T { light ThoraxFireLight5 }
+}
+
+object HollowshellGas {
+	Frame DB58A { Light CacolichFlame1 }
+	Frame DB58B { Light CacolichFlame2 }
+	Frame DB58C { Light CacolichFlame3 }
+	Frame DB58D { Light CacolichFlame4 }
+	Frame DB58E { Light CacolichFlame4 }
+	Frame DB58F { Light CacolichFlame4 }
+	Frame DB58G { Light CacolichFlame5 }
+	Frame DB58H { Light CacolichFlame5 }
+	Frame DB58I { Light CacolichFlame5 }
+	Frame DB58J { Light CacolichFlame6 }
+	Frame DB58K { Light CacolichFlame6 }
+	Frame DB58L { Light CacolichFlame6 }
+	Frame DB58M { Light CacolichFlame7 }
+	Frame DB58N { Light CacolichFlame7 }
+	Frame DB58O { Light CacolichFlame7 }
+	Frame DB58P { Light CacolichFlame8 }
+	Frame DB58Q { Light CacolichFlame8 }
+	Frame DB58R { Light CacolichFlame8 }
+	Frame DB58S { Light CacolichFlame9 }
+	Frame DB58T { Light CacolichFlame9 }
+	Frame DB58U { Light CacolichFlame10 }
+	Frame DB58V { Light CacolichFlame11 }
+	Frame DB58W { Light CacolichFlame12 }
+	Frame DB58X { Light CacolichFlame13 }
+	Frame DB58Y { Light CacolichFlame14 }
+	Frame DB58Z { Light CacolichFlame15 }
+}
+
+Object HollowShellComet
+{
+	Frame ARCBA { Light ArchonComet1 }
+	Frame ARCBB { Light ArchonComet1 }
+	Frame ARCBC { Light ArchonComet1 }
+	Frame ARCBJ { Light ArchonComet2 }
+	Frame ARCBK { Light ArchonComet3 }
+	Frame ARCBL { Light ArchonComet4 }
+	Frame ARCBM { Light ArchonComet5 }
+	Frame ARCBN { Light ArchonComet6 }
+}
+
+flickerlight HollowShellLight1 {
+	color 0.33 1.0 0.4
+	size 38
+	secondarysize 48
+	chance 0.333
+}
+
+pointlight HollowShellLight2 {
+	color 0.33 1.0 0.4
+	size 40
+}
+
+pointlight HollowShellLight3 {
+	color 0.33 1.0 0.4
+	size 48
+}
+
+pointlight HollowShellLight4 {
+	color 0.33 1.0 0.4
+	size 60
+}
+
+pointlight HollowShellLight5 {
+	color 0.33 1.0 0.4
+	size 30
+}
+
+pointlight HollowShellLight6 {
+	color 0.33 1.0 0.4
+	size 24
+}
+
+object Hollowshell {
+	frame UE10A { light HollowshellLight1 }
+	frame UE10B { light HollowshellLight1 }
+	frame UE10C { light HollowshellLight1 }
+	frame UE10F { light HollowshellLight2 }
+	frame UE10G { light HollowshellLight3 }
+	frame UE10H { light HollowshellLight4 }
+	frame UE10I { light HollowshellLight5 }
+	frame UE10J { light HollowshellLight6 }
+}
+
+object ZravogHomingBall {
+	frame BSBSF { light DISCIPLEBALL    }
+	frame BSBSG { light DISCIPLEBALL    }
+	frame BSBSH { light DISCIPLEBALL    }
+	frame BSBSI { light DISCIPLEBALL_X1 }
+	frame BSBSJ { light DISCIPLEBALL_X1 }
+	frame BSBSK { light DISCIPLEBALL_X1 }
+	frame BSBSL { light DISCIPLEBALL_X2 }
+	frame BSBSM { light DISCIPLEBALL_X2 }
+}
+
+object ZravogMissile
+{
+    frame UP22A { light DISCIPLEBALL }
+    frame UP22B { light DISCIPLEBALL }
+    frame UP22C { light DISCIPLEBALL }
+
+    frame UP22D { light DISCIPLEBALL    }
+    frame UP22E { light DISCIPLEBALL    }
+    frame UP22F { light DISCIPLEBALL_X1 }
+    frame UP22G { light DISCIPLEBALL_X2 }
+}
+
+object AbaxothRocket {
+	frame MICM { light ROCKET }
+	frame MACXA { light ROCKET_X1 }
+	frame MACXB { light ROCKET_X1 }
+	frame MACXC { light ROCKET_X1 }
+	frame MACXD { light ROCKET_X2 }
+	frame MACXE { light ROCKET_X2 }
+	frame MACXF { light ROCKET_X2 }
+	frame MACXG { light ROCKET_X2 }
+	frame MACXH { light ROCKET_X3 }
+	frame MACXI { light ROCKET_X3 }
+	frame MACXJ { light ROCKET_X3 }
+}
+
+object AbaxothRocketL {
+	frame MICM { light ROCKET }
+	frame MACXA { light ROCKET_X1 }
+	frame MACXB { light ROCKET_X1 }
+	frame MACXC { light ROCKET_X1 }
+	frame MACXD { light ROCKET_X2 }
+	frame MACXE { light ROCKET_X2 }
+	frame MACXF { light ROCKET_X2 }
+	frame MACXG { light ROCKET_X2 }
+	frame MACXH { light ROCKET_X3 }
+	frame MACXI { light ROCKET_X3 }
+	frame MACXJ { light ROCKET_X3 }
+}
+
+pointlight AbaxothLightning1
+{
+    color 0.33 0.33 1.0
+    size 56
+}
+
+flickerlight AbaxothLightning2
+{
+    color 0.4 0.4 1.0
+    size 20
+    secondarySize 28
+    chance 0.3
+}
+
+flickerlight AbaxothThunderLight {
+	color 0.55 0.55 1.0
+	size 120
+	secondarysize 160
+	chance 0.5
+}
+
+pointlight AbaxothThunderLight2 {
+	color 0.675 0.675 1.0
+	size 160
+}
+
+pointlight AbaxothRocketLight {
+	color 1.0 0.6 0.0
+	size 120
+	offset 0 60 0
+}
+
+flickerlight AbaxothLaserLight {
+	color 1.0 0.225 0.225
+	size 90
+	secondarySize 128
+	chance 0.33
+	offset 20 30 0
+}
+
+pointlight AbaxothBlueLight
+{
+	color 0.35 0.35 0.875
+	size 64
+}
+
+object AbaxothThunderRetaliation {
+	frame HSPL { light AbaxothBlueLight }
+	frame HSP2 { light AbaxothBlueLight }
+}
+
+pointlight AbaxothDeathLight1 {
+	color 1.0 0.6 0.0
+	size 40
+}
+
+pointlight AbaxothDeathLight2 {
+	color 1.0 0.6 0.0
+	size 56
+}
+
+flickerlight AbaxothDeathLight3 {
+	color 1.0 0.6 0.0
+	size 64
+	secondarysize 96
+	chance 0.33
+}
+
+pointlight AbaxothDeathLight4 {
+	color 1.0 0.6 0.0
+	size 96
+}
+
+pointlight AbaxothDeathLight5 {
+	color 1.0 0.6 0.0
+	size 128
+}
+
+pointlight AbaxothDeathLight6 {
+	color 1.0 0.6 0.0
+	size 160
+}
+
+pointlight AbaxothDeathLight7 {
+	color 1.0 0.6 0.0
+	size 112
+}
+
+pointlight AbaxothDeathLight8 {
+	color 1.0 0.6 0.0
+	size 72
+}
+
+pointlight AbaxothDeathLight9 {
+	color 1.0 0.6 0.0
+	size 48
+}
+
+object Abaxoth {
+	frame UE16F { light AbaxothRocketLight }
+	frame UE16J { light AbaxothLaserLight }
+	
+	frame UP23D { light AbaxothDeathLight1 }
+	frame UP23E { light AbaxothDeathLight2 }
+	frame UP23F { light AbaxothDeathLight3 }
+	frame UP23G { light AbaxothDeathLight3 }
+	frame UP23H { light AbaxothDeathLight3 }
+	frame UP23I { light AbaxothDeathLight3 }
+	frame UP23J { light AbaxothDeathLight4 }
+	frame UP23K { light AbaxothDeathLight5 }
+	frame UP23L { light AbaxothDeathLight6 }
+	frame UP23M { light AbaxothDeathLight7 }
+	frame UP23N { light AbaxothDeathLight8 }
+	frame UP23O { light AbaxothDeathLight9 }
+}
+
+object RedAxe2_Onimuz
+{
+    frame RAXEA { light REDAXE }
+    frame RAXEB { light REDAXE }
+
+    frame RAXEC { light REDAXE_X1 }
+    frame RAXED { light REDAXE_X2 }
+    frame RAXEE { light REDAXE_X3 }
+}

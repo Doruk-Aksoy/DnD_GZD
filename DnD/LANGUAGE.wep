@@ -1,0 +1,268 @@
+[enu default]
+
+// MOD TEXTS
+WEPMOD_TEXT1		=		"Quality";
+WEPMOD_TEXT2		=		"Crit Chance";
+WEPMOD_TEXT3		=		"Crit Damage";
+WEPMOD_TEXT4		=		"Damage Bonus";
+WEPMOD_TEXT5		=		"monster health on hits";
+WEPMOD_TEXT6		=		"of damage dealt as additional poison on hits";
+WEPMOD_TEXT7		=		"chance to force pain on hits";
+
+// TAGS
+WEP_0_0_TAG 			= 			"Fists";
+WEP_0_1_TAG 			= 			"Chainsaw";
+	 
+WEP_0_2_TAG 			= 			"Dual Chainsaw";
+WEP_0_3_TAG 			= 			"Katana";
+WEP_0_4_TAG 			= 			"Excalibat";
+WEP_0_5_TAG 			= 			"Inferno Sword";
+WEP_0_6_TAG 			= 			"Dusk Blade";
+WEP_0_7_TAG 			= 			"Necromancer's Sickle";
+	 
+WEP_1_0_TAG 			= 			"Pistol";
+WEP_1_1_TAG 			= 			"Akimbo Longslides";
+WEP_1_2_TAG 			= 			"Magnum";
+WEP_1_3_TAG 			= 			"Laser Pistol";
+WEP_1_4_TAG 			= 			"Ruby Wand";
+WEP_1_5_TAG 			= 			"Assault Rifle";
+WEP_1_6_TAG 			= 			"Viper Staff";
+	 
+WEP_1_7_TAG 			= 			"Scatter Pistol";
+	 
+WEP_2_0_TAG 			= 			"Shotgun";
+WEP_2_1_TAG 			= 			"Purifier";
+WEP_2_2_TAG 			= 			"KillStorm";
+WEP_2_3_TAG 			= 			"Emerald Wand";
+WEP_2_4_TAG 			= 			"Deadlock";
+WEP_2_5_TAG 			= 			"Nitrogen Crossbow";
+WEP_2_6_TAG 			= 			"Wheel of Torment";
+WEP_2_7_TAG 			= 			"Charon Blaster";
+	 
+WEP_3_0_TAG 			= 			"Super Shotgun";
+WEP_3_1_TAG 			= 			"Heavy Super Shotgun";
+WEP_3_2_TAG 			= 			"Erasus";
+WEP_3_3_TAG 			= 			"Hell's Maw";
+WEP_3_4_TAG				=			"Siegebreaker";
+WEP_3_5_TAG 			= 			"Plasma Cannon";
+WEP_3_6_TAG 			= 			"Shocker";
+WEP_3_7_TAG 			= 			"Hades Shotgun";
+WEP_3_8_TAG 			= 			"Flayer Crossbow";
+	 
+WEP_3_9_TAG 			= 			"White Death";
+WEP_3_10_TAG 			= 			"Slayer";
+	 
+WEP_4_0_TAG 			= 			"Machine Gun";
+WEP_4_1_TAG 			= 			"Heavy Machine Gun";
+WEP_4_2_TAG 			= 			"Lead Spitter";
+WEP_4_3_TAG 			= 			"Demon Sealer";
+WEP_4_4_TAG 			= 			"Templar Machine Gun";
+WEP_4_5_TAG 			= 			"Riot Cannon";
+WEP_4_6_TAG 			= 			"Acid Rifle";
+WEP_4_7_TAG 			= 			"Fusion Blaster";
+WEP_4_8_TAG 			= 			"Incinerator Shotgun";
+	 
+WEP_4_9_TAG 			= 			"Desolator Cannon";
+WEP_4_10_TAG 			= 			"Minigun";
+WEP_4_11_TAG 			= 			"Ebony Cannon";
+WEP_4_12_TAG 			= 			"MP. Photon Blaster";					WEP_4_12_TAG_ALT = "Multi-Phase Photon Blaster";
+	 
+WEP_5_0_TAG 			= 			"Rocket Launcher";
+WEP_5_1_TAG 			= 			"Torpedo Launcher";
+WEP_5_2_TAG 			= 			"Grenade Launcher";
+WEP_5_3_TAG 			= 			"Vindicator";
+WEP_5_4_TAG				=			"Prometheus' Hammer";
+WEP_5_5_TAG 			= 			"Meteor Launcher";
+WEP_5_6_TAG 			= 			"Heavy Grenade Launcher";
+WEP_5_7_TAG 			= 			"Freezer Cannon";
+WEP_5_8_TAG 			= 			"Gravdis 5000";
+
+WEP_5_9_TAG 			= 			"Void Cannon";
+WEP_5_10_TAG 			= 			"Mercury Launcher";
+WEP_5_11_TAG 			= 			"Rotary Grenade Launcher";
+WEP_5_12_TAG 			= 			"Heavy Missile Launcher";
+WEP_5_13_TAG 			= 			"Sedrin Staff";
+	 
+WEP_6_0_TAG 			= 			"Plasma Rifle";
+WEP_6_1_TAG 			= 			"Nuclear Plasma Rifle";
+WEP_6_2_TAG 			= 			"Particle Cannon";
+WEP_6_3_TAG 			= 			"Frost Fang";
+WEP_6_4_TAG				=			"Anti-Personnel Rifle";
+WEP_6_5_TAG 			= 			"Flamethrower";
+WEP_6_6_TAG 			= 			"Lightning Gun";
+WEP_6_7_TAG 			= 			"Rebounder";
+
+WEP_6_8_TAG 			= 			"Dark Lance";
+WEP_6_9_TAG 			= 			"Rhino Assault Rifle";
+WEP_6_10_TAG 			= 			"Nail Gun";
+WEP_6_11_TAG 			= 			"Basilisk";
+	 
+WEP_7_0_TAG 			= 			"BFG 6000";
+WEP_7_1_TAG 			= 			"BFG 32768";
+WEP_7_2_TAG 			= 			"Devastator 5000";
+WEP_7_3_TAG 			= 			"Destruction Generator";
+WEP_7_4_TAG 			= 			"Ion Cannon";
+WEP_7_5_TAG 			= 			"Thunder Staff";
+	 
+WEP_7_6_TAG 			= 			"Gauss Rifle";
+WEP_7_7_TAG 			= 			"Rail Gun";
+WEP_7_8_TAG 			= 			"Death Ray";
+	 
+WEP_8_0_TAG 			= 			"Death Staff";
+WEP_8_1_TAG 			= 			"Razorfang";
+WEP_8_2_TAG 			= 			"Sun Staff";
+WEP_8_3_TAG 			= 			"Soul Reaver";
+	 
+WEP_9_0_TAG 			= 			"Sawed-off Shotgun";
+WEP_9_1_TAG 			= 			"Soul Render";
+WEP_9_2_TAG 			= 			"Submachine Gun";
+WEP_9_3_TAG 			= 			"Hellforge Cannon";
+WEP_9_4_TAG 			= 			"Bloodfiend Spine";
+WEP_9_5_TAG 			= 			"Laser Rifle";
+WEP_9_6_TAG 			= 			"Venom";
+WEP_9_7_TAG 			= 			"Demon Heart";
+WEP_9_8_TAG 			= 			"Dark Servant Gloves";
+WEP_9_9_TAG 			= 			"Heavy Nail Gun";
+WEP_9_10_TAG 			= 			"Akimbo Berettas";
+WEP_9_11_TAG 			= 			"Plasma Bolter";
+WEP_9_12_TAG 			= 			"Ripper Cannon";
+
+DND_WEPPROP_1		=	"Through Ghost";
+DND_WEPPROP_2		=	"Self Damage";
+DND_WEPPROP_3		=	"Overheat";
+DND_WEPPROP_4		=	"Ignores Shields";
+DND_WEPPROP_5		=	"Alternate Ammo";
+DND_WEPPROP_6		=	"Ripper";
+DND_WEPPROP_7		=	"Irreducable";
+DND_WEPPROP_8		=	"No reflect";
+DND_WEPPROP_9		=	"Inflicts Poison";
+DND_WEPPROP_10		=	"Tech Weapon";
+DND_WEPPROP_11		=	"Shotgun";
+DND_WEPPROP_12		=	"Precision Weapon";
+DND_WEPPROP_13		=	"Handgun";
+DND_WEPPROP_14		=	"Automatic Weapon";
+DND_WEPPROP_15		=	"Artillery Weapon";
+DND_WEPPROP_16		=	"Magical Weapon";
+DND_WEPPROP_17		=	"Melee Weapon";
+
+// TIPS
+
+WEPTIP_0_0 		= "Time to get your hands dirty. Does 10 - 30 damage normally or 180 - 240 with berserk per hit.";
+WEPTIP_0_1 		= "Open invitiation to the slaughterhouse! Does 20-40 damage. Can be \cdreplaced.";
+WEPTIP_0_2 		= "Double the blade, double the fun! Twice as much damage of the regular chainsaw, same firing rate.";
+WEPTIP_0_3 		= "Unsheathing does 140 damage, normal firing does 84. Altfire allows swinging combos to do massive damage. Altfire requires Melee Expertise ability.";
+WEPTIP_0_4 		= "Does 80 - 120 damage per swing. Melee does triple damage against undead or magical enemies. Alt fire charges and releases 17 baseballs each doing 100 - 150 on impact and 128 damage in a 128 unit radius. Alt fire requires Melee Expertise ability.";
+WEPTIP_0_5 		= "60 - 240 damage per swing with 48 - 192 additional damage in a 96 unit radius. Alt fire throws 5 flames doing 40 - 80 on hit and 192 - 240 damage in a 160 unit radius. Combo melee with altfire to ignite enemies. Altfire requires Melee Expertise ability.";
+WEPTIP_0_6 		= "Does 100 - 400 damage per swing depending on how long you hold. Alt fire makes you shoot ripping slashes doing 24 damage in a 104 unit radius, run 15% faster but can't change weapons. Alt fire requires Melee Expertise ability.";
+WEPTIP_0_7 		= "Sickle deals 40 - 60 damage 3 times. Slain enemies have 66% chance to be raised as minions temporarily. Alt fire sends a ghost dealing 80 damage that has 66% chance to raise enemies with 10 second cooldown. Melee kills reduce this cooldown by 20%. Altfire requires Melee Expertise ability.";
+
+WEPTIP_1_0 		= "Your trustworthy Colt45, been with you since the start. Does 15 damage in a 0.5 spread. Can be \cdreplaced.";
+WEPTIP_1_1 		= "Akimbo longslides. Does 30 damage per shot firing silver bullets in a 3.5 by 2.5 spread.";
+WEPTIP_1_2 		= "Magnum is a true classic, shooting bullets each doing 150 - 200 damage. Has a capacity of 6. 50 damage from bullet rip through enemies.";
+WEPTIP_1_3 		= "Laser Pistol is the fresh invention of UAC. Shoots lasers doing 15 - 30 damage in a 2.0 by 1.25 spread. Alt fire charges to do up to a x5 damage rail. Doesn't use ammo.";
+WEPTIP_1_4 		= "Casts 3 flames doing 10-40 damage each. Alt fire casts a flame circle at most 384 units away doing 25 initial damage and creating 8 flames doing 32-64 damage on hit and 24 radius damage in 24 units.";
+WEPTIP_1_5 		= "Assault Rifle does 30 damage per bullet in a 3.6 by 2.4 spread. Magazine capacity of 31. Alt fire zooms, allowing more precise shots.";
+WEPTIP_1_6 		= "Summons mobile viper traps, jumping on enemies doing 120-200 damage in 128 unit radius. They expire after 12 seconds. Alt fire shoots slithering vipers doing 150-250 damage, \cfignoring shields\c-.";
+WEPTIP_1_7 		= "Scatter Pistol shoots 3 pellets each doing 10 - 20 damage. Pellets scatter to 6 tiny pellets doing 6 - 12 damage. Alt fire shoots one pellet. Main pellet ignores enemy resistances.";
+	 
+WEPTIP_2_0 		= "Typical boomstick, now spreads vertically too. 10 pellets, each doing 10-15 damage. Can be \cdreplaced\c-. Can use \cialternate\c- ammo.";
+WEPTIP_2_1 		= "The purifier shotgun, spreads with 3.6 by 3.6. 15 pellets, each doing 15 damage. Has a shell capacity of 8. Alt fire reloads.";
+WEPTIP_2_2 		= "Killstorm Auto Shotgun, drum fed with 12 shells, can shoot 12 pellets each doing 18 damage in a 9.6 by 7.2 spread.";
+WEPTIP_2_3 		= "Fires 5 blasts doing 15 damage in a 6 by 4.25 spread. Altfire fires a projectile that deals 150 damage, releasing an acid rain, doing 8-32 damage each. Can't hit \cughosts\c-. Victims explode on death doing 50 damage in 96 unit radius.";
+WEPTIP_2_4 		= "Deadlock fires 16 pellets doing 15 damage in a 7.0 by 5.2 spread. Has a shell capacity of 12.";
+WEPTIP_2_5 		= "Fires shots that do 210 ice damage. Alt fire shoots a blast of nitrogen 384 units ahead, creating 4 series of icy gas streams doing 5 damage.";
+WEPTIP_2_6 		= "An artifact that does 160 damage up to 1024 units, sending a healing bolt. If a \cgdemon\c- was hit, does an explosion in 160 unit radius doing 192 damage. Altfire does 10-20 melee damage. If a \cgdemon\c- is hit, gives 1 ammo.";
+WEPTIP_2_7 		= "Emits three fireballs each doing 60-72 damage on hit, burning enemies. They start homing after a bit. If they hit a target, they build charges for altfire. It fires a ray of 10-16 damage and applying ignite, poison or chill. The ray \cfignores shields\c-.";
+	 
+WEPTIP_3_0 		= "Same old buckshot we all love! Can be \cdreplaced.";
+WEPTIP_3_1 		= "Heavy Super Shotgun shoots 28 pellets doing 15 damage in a 9.6 by 5.8 spread. Half of these rip through targets.";
+WEPTIP_3_2 		= "Erasus shotgun shoots highly ballistic shells with 18 pellets each doing 15 damage. Has to reload after shooting twice. Alt fire shoots both shells in the chamber, or reloads.";
+WEPTIP_3_3 		= "Shoots a missile and 3 mini missiles. Missile does 75, mini missiles do 30 and explode for 25 in 32 unit radius, not hitting \cughosts\c-. Main missile can scatter. If it hits an object, explodes for 45 in 64 unit radius. Altfire fires the other side.";
+WEPTIP_3_4		= "Deals 150-225 damage on melee hits, chaining 5 times for x1.5 the damage, reduced by 10% per bounce. Altfire throws the axe, ripping for 125 damage and exploding after hitting a surface for 100 damage, reducing lightning resist by 50% for 4 seconds.";
+WEPTIP_3_5 		= "Fires 12 plasma balls in a circular fashion each doing 40 damage. Altfire fires them in a horizontal spread over 3 bursts. Has a clip size of 5.";
+WEPTIP_3_6 		= "Shoots 18 shells each doing 18 damage and forcing pain. Overheats when used. Altfire releases a portion of it with the attack, dealing 240-300 damage in 108 unit radius. \cfIgnores shields.";
+WEPTIP_3_7 		= "Fires 15 shells doing 2-3 damage in a 11.6 and 9.0 spread, igniting enemies. Altfire shoots a chunk of embers doing 18 damage on hit, able to ignite always. Pressing altfire while on flight splits it into 15 embers doing 10 damage with guaranteed ignite.";
+WEPTIP_3_8 		= "Fires silver bolts dealing 400 damage. Altfire increases tension, allowing shots to rip and gain 50% more damage per increase. Magical or undead enemies hit causes a 200 damage explosion in 128 unit radius.";
+	 
+WEPTIP_3_9 		= "The explosive shotgun, the best there is. Fires 10 pellets, each doing 15 on hit. Each pellet does 32-48 damage in a small area. Does self damage. \cfIgnores shields.";
+WEPTIP_3_10 	= "Slayer creates 6 blades each doing 10 damage and rip through. Alt fire detonates blades at will for 100 damage in a 108 unit radius, \cfignoring \cfshields\c-. Blades return to you after travelling a bit. Can't hit \cughosts.";
+	 
+WEPTIP_4_0 		= "An accurate and a very reliable weapon. Each bullet does 15-20 damage. Alt fire reloads. Clip size is 50. Can be \cdreplaced\c-. Can use \cialternate\c- ammo."; 
+WEPTIP_4_1 		= "Finest machine guns UAC has to offer. Bullets do 25 damage in a 1.6 by 0.8 spread. Clip size is 60. Can zoom.";
+WEPTIP_4_2 		= "Lead Spitter is a super sonic bullet shooter shooting 2 bullets doing 16 damage in a 7.2 by 5.2 spread. Clip size is 75.";
+WEPTIP_4_3 		= "Japanese technology brings the finest demon hunting tool. Shoots magic cards that deal 18 damage, reduce monster damage and resistance by 50%. Altfire places Kanji Traps that deal 150 damage in 144 unit radius. If the monster is below 15% health, culls the monster.";
+WEPTIP_4_4 		= "Templar fires silver bullets doing 20 damage in a 4.4 by 2.8 spread. Bullets deal x3 damage to undead and magical enemies. Clip size of 40. Can use \cigrenades\c-.";
+WEPTIP_4_5 		= "Fires 7 pellets doing 12 damage in a 3.6 by 3.6 spread. Alt fire makes it full auto, but twice as inaccurate. Can use \cialternate\c- ammo. Reload when full to use other ammo.";
+WEPTIP_4_6 		= "Fires acid rounds doing 18 damage on hit and 10-15 damage in a 48 unit radius. Alt fire shoots a bolt that sticks to enemies, detonating after 3 seconds for 96 damage and release toxic cloud doing 3-6 damage in 96 unit radius. Inflicts \cqpoison.";
+WEPTIP_4_7 		= "Fires in bursts of 5 each doing 30 damage in a 6.8 by 4.2 spread. Altfire shoots a fusion grenade doing 200 damage and releasing rippers doing 6 damage around. Attacks do more damage with more distance. \cfIgnores shields.\c-";
+WEPTIP_4_8 		= "Burns enemies with 12 projectiles each dealing 20-24 damage going through enemies and in a 48 unit radius on impact. Every four shots two lava balls are fired dealing 120-160 damage on impact and 128 damage in 96 unit radius. Lava balls \cfignore shields\c-.";
+
+WEPTIP_4_9 		= "Desolator fires highly toxic rounds doing 30 damage. Subsequent hits make enemies take 10% more damage from elemental attacks, maximum 5 stacks. At max stacks, rounds cause a toxic explosion doing 80 damage in 128 unit radius. Inflicts \cqpoison.";
+WEPTIP_4_10 	= "Stronger, faster and better than ever! Poor accuracy, shoots tracers that do 16 - 28 damage each. Alt fire to spin. Can't hit \cughosts.";
+WEPTIP_4_11 	= "The ebony cannon shoots bouncing balls of death. 32 - 48 damage with 48 explosion damage in 64 units. Alt fire shoots scatter bombs. \cfIgnores shields.";
+WEPTIP_4_12 	= "Launches photon blasts in multiple phases all dealing 42 - 56 damage. Some can hit ghosts and can't be reflected, some can rip but can't hit ghosts and some deal only area damage in 80 unit radius but can be reflected.";
+	 
+WEPTIP_5_0 		= "A true classic. Just don't blow yourself up. Can be \cdreplaced. Can't hit \cughosts.";
+WEPTIP_5_1 		= "The Torpedo Launcher shoots fast torpedos each doing 300 - 400 damage on impact and 224 damage in a 144 unit radius. Altfire detonates the rocket midflight, doing the same impact damage in an area instead. Can't hit \cughosts.";
+WEPTIP_5_2 		= "Useful for when you can't reach around corners. Does 80 damage on impact and 128 damage in a 144 unit radius. Can't hit \cughosts\c-. Can use \cialternate\c- ammo.";
+WEPTIP_5_3 		= "Shoots 10 flak shells in 10.4 by 7.8 doing 5 impact damage and 20 explosion damage in 96 unit radius. The shells explode 320 units ahead to scatter into 3 explosive particles each doing 16 damage in 96 unit radius. Alt fire can zoom to improve accuracy by 50%.";
+WEPTIP_5_4		= "Tap to melee for 180 damage. Hold and let go to toss the hammer. Deals 75-125 on impact and 96 damage in a 96 unit radius. Bounces 8 times, bouncing off entities makes it seek enemies. After bouncing 4 times, it explodes more. Altfire or move far away to recall the hammer back to you.";	
+WEPTIP_5_5 		= "Fires a meteor doing 200 on impact and 192 in a 192 unit radius. The meteor then splits into smaller pieces, and those pieces into further smaller with half of the values each split. Main meteor \cfignores shields\c-.";
+WEPTIP_5_6 		= "Fires grenades doing 128 on impact and 128 in a 128 unit radius. The grenade explodes into shrapnels ripping through doing 6-18 damage. Alt fire loads more grenades in the chamber. At most 3 additional grenades. Can't hit \cughosts.";
+WEPTIP_5_7 		= "Launches a ball of ice that does 150 damage on impact. After some time it'll stop and explode doing 150 damage in 176 unit radius, releasing many ice particles around each doing 3-9 damage, ripping through enemies. They also explode and do 36 damage in 64 unit radius. Can \cgoverheat\c-.";
+WEPTIP_5_8 		= "Distorts gravity around 256 units on impact, stunning, pulling and lifting enemies into the air. After a brief delay or using altfire, enemies will be slammed dealing 400 damage and 15% more for every 64 units off the ground. \cfIgnores shields\c-.";
+
+WEPTIP_5_9 		= "Creates a black hole doing 100 damage when it goes through enemies. On impact with a surface, hardened skin enemy or alt fire press, the projectile is detonated for 300 damage. Does 180 damage afterwards through 7 tics. Drags enemies towards it at all times. \cfIgnores shields\c-.";
+WEPTIP_5_10 	= "Mercury Launcher fires accelerating and heat seeking mercury missiles doing 256 - 320 damage on hit and 192 damage in a 160 unit radius over 2 seconds. Can't hit \cughosts.";
+WEPTIP_5_11 	= "The UAC Rotary Grenade Launcher does 384 damage on impact and 192 damage on a 192 unit radius. Can't hit \cughosts";
+WEPTIP_5_12 	= "Top of the food chain for rockets. Shoots two homing rockets each doing 192 damage both on impact and explosion. Can't hit \cughosts.";
+WEPTIP_5_13 	= "Sends irradiating energy balls dealing 75-100 damage on impact and 96 damage in a 128 unit radius. Splits into 6 smaller balls exploding for half damage in half the radius. Ineffective versus robotic enemies. Explosions inflict \cqpoison\c-.";
+	 
+WEPTIP_6_0 		= "Best friend of the trigger happy. Can be \cdreplaced.";
+WEPTIP_6_1 		= "Improved with a nuclear reactor, does 36 - 60 on hit and 10 - 30 energy damage in a 48 unit radius. Can \cgoverheat\c-. Does self damage.";
+WEPTIP_6_2 		= "Particle Cannon fires highly ionized particles doing 80 damage ripping through everything. Continuous fire is less accurate and does less damage to subsequent enemies. Has a range of 1024 units. Altfire fires focused shots with no damage penalty that go up to 1576 units for 135 damage.";
+WEPTIP_6_3 		= "Launches 5 ice shards doing 15 - 30 damage in a 7.5 by 7.5 spread. Alt fire launches a glacial orb launching ice shards all around with itself doing 6-9 damage and rips through enemies. Can't hit \cughosts.";
+WEPTIP_6_4		= "Fires armor piercing rounds that do 350-400 damage. Altfire to scope, getting more precise and deadlier shots with additional chance to critical strike the longer you stay scoped up to 75% more. \cfIgnores shields.";
+WEPTIP_6_5 		= "Flamethrower does what it says and throws flames doing 1 - 8 damage. When they hit, they leave a trail of flame doing 5 damage every 2 tics. Fuel size of 75.";
+WEPTIP_6_6 		= "UAC offers this shockingly deadly weapon that can shoot lightning doing 1-10 damage. Alt fire shoots forked lightning. Keep firing to do 2% more damage per stack. Stacks additively.";
+WEPTIP_6_7 		= "Fires projectiles doing 35 damage. For every 15 point mark on your overheat, each hit rebounds to 2 other projectiles. Altfire shoots a special projectile doing 600 damage in 256 radius to enemies with \cuHardened Skin\c- or \cfShield\c-.";
+WEPTIP_6_8 		= "Fire lances that penetrate all targets dealing 25 damage each. The lance grows stronger the more it deals damage. Altfire uses all stacks to curse an enemy, dealing 50 damage + 1% more damage per stack every 0.2 seconds for 3 seconds. The curse bounces to nearby enemies, \cfignoring shields.";
+	 
+WEPTIP_6_9 		= "Rhino AR fires heavy rounds dealing 75 damage in a 7.2 by 4.8 spread. Alt fire zooms, allowing for higher precision but loss of rapid fire. Can use \cialternate\c- ammo. Reload when full to use other ammo.";
+WEPTIP_6_10 	= "An interesting demonic artifact shooting nails. Each nail does 13 - 21 damage and rips through. Alt fire shoots explosive lava nails that \cfignores shields.\c- Can't hit \cughosts.";
+WEPTIP_6_11 	= "Basilisk is said to be the ancient weapon of hell's most elite warriors. If not loaded, shoots fire balls doing 18 - 48 damage. If loaded, shoots meteors doing 72 - 144 on impact and 96 explosion damage. \cfIgnores shields.";
+	 
+WEPTIP_7_0 		= "BFG 6000, an older model but still capable. Can be \cdreplaced. \cfIgnores shields.";
+WEPTIP_7_1 		= "The newest BFG model 32768, devastates with 600 - 900 damage on impact and 224 damage in a 160 unit radius.";
+WEPTIP_7_2 		= "Devastator launches five mini rockets each doing 64 to 80 with 64 radius damage in 96 units. Altfire charges up a barrage over 1.5 seconds to fire for a second up to 60 missiles that \cucannot be reflected.\c- Barrage slows user by 66%.";
+WEPTIP_7_3 		= "Fires a destructive orb doing 425 damage on impact and 448 damage in a 768 unit radius. Creates 6 smaller explosions doing 200 damage on impact and 192 damage in a 256 unit radius. Does self damage. Main orb \cfignores shields\c- and has limited range.";
+WEPTIP_7_4 		= "Fires ionized energy doing 160 impact and 144 area damage in 160 unit radius, halving over two more explosions in both radius and damage.";
+WEPTIP_7_5 		= "Summons a lightning ball that zaps 5 nearest enemies for 20-80 damage in 360 units. On impact deals 250-500 and 250 radius damage in 128 units. Altfire zaps all enemies in range for 250-650 damage, \cfignoring shields.";
+
+WEPTIP_7_6 		= "Gauss Rifle fires a magnetic pulse dealing 200 direct hit damage and 96 radius damage in a 128 unit radius. Alt fire zooms, amplifying the damage for each zoom.";
+WEPTIP_7_7 		= "This baby can rip through concrete with ease. Each shot does multiples of 400. Alt fire charges up the next shot up to 2 times.";
+WEPTIP_7_8 		= "Fires energy particles doing 450 damage on impact and 150 area damage in 96 unit radius. Using altfire while particles are midflight causes a laser to be emitted to target area, doing 550 damage both on impact and in a 160 unit radius, \cfignoring shields.\c-";
+	 
+WEPTIP_8_0 		= "A magical staff, using demon souls as energy. Fires meteors of magic, bursting on impact. Alt fire fires 3 columns of fire both on floor and ceiling that travel and explode in flames.";
+WEPTIP_8_1 		= "This once was the ribcage of a powerful demon. Fires magical bone shards that rip through. Alt fire switches the mode to shoot three demon shredders that seek demons.";
+WEPTIP_8_2 		= "This holy relic was lost in ancient battles. Fires sun beams to burn anything. Alt fire channels the very essence of sun causing a massive meltdown.";
+WEPTIP_8_3 		= "Soul Reaver creates portals that lead to hungry ghosts that devour their enemies. Hold to gain a deflective shield.";
+	 
+WEPTIP_9_0 		= "The sawedoff is a western classic. Fires 16 pellets each doing 15 damage. \ceTemporary Weapon.";
+WEPTIP_9_1 		= "Soul Render is an unholy melee weapon. Each hit makes the weapon become less durable. Alt fire toggles life drain mode. \ceTemporary Weapon.";
+WEPTIP_9_2 		= "A standard UAC submachine gun. Each bullet does 15 damage. \ceTemporary Weapon.";
+WEPTIP_9_3 		= "The arm-cannon of a Corpulent. Shoots metallic cannon balls that split on impact. Alt fire shoots tiny ripping cannon balls. \ceTemporary Weapon.";
+WEPTIP_9_4 		= "The spine of a Bloodfiend. Shoots tiny explosive pukes. Alt fire changes it to a limited range hitscan, and can heal on hit. Mainfire can't hit \cughosts\c-. \ceTemporary Weapon.";
+WEPTIP_9_5 		= "The laser rifle shoots a laser or two, if using alt fire, each doing 20-45 damage. \cfIgnores \cfshields. \ceTemporary Weapon.";
+WEPTIP_9_6 		= "The torso of a Vulgar. Shoots acidic bones. Alt fire shoots bouncing acid bombs. Can't hit \cughosts\c-. Inflicts \cqpoison. \ceTemporary Weapon.";
+WEPTIP_9_7 		= "A demon heart. Squeeze to damage all enemies in an area.\cfIgnores shields. \ceTemporary Weapon.";
+WEPTIP_9_8 		= "Gloves of a dark servant. Can shoot pain enforcing lightning bolts doing 60-90 damage. Alt fire shoots a homing explosive lightning ball doing 192 damage on hit and 144 area damage over 9 tics. \ceTemporary Weapon.";
+WEPTIP_9_9 		= "A nail-chaingun, quite useful for mass murder of demons. Shoots nails ripping for 16-32 damage. \ceTemporary Weapon.";
+WEPTIP_9_10 	= "True classic, in akimbo fashion too! Shoots bullets doing 10-30 damage each. \ceTemporary Weapon.";
+WEPTIP_9_11 	= "Can blast foes with plasma doing 24-40 damage with 35 explosion damage. Alt fire can shoot a ripping version of this same plasma. \ceTemporary Weapon.";
+WEPTIP_9_12 	= "Ripper fires penetrating rounds in a 14.2 and 7.6 spread each doing 25 damage. \ceTemporary Weapon.";
+
+DND_WEPMOD_PERCENTDMG		=	"of monster health as damage on hits";
+DND_WEPMOD_POISONHITS		=	"of damage dealt on hits does additional poison damage";
+DND_WEPMOD_CHANCEFORCEPAIN	=	"chance to force pain on hits";
+DND_WEPMOD_POW_GHOSTHIT		=	"Weapon can hit ghosts, but consumes x2.5 more ammo.";

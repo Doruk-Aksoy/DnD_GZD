@@ -1,0 +1,591 @@
+[enu default]
+
+// don't translate these!
+DND_KEYN1			=	"BronzeChestKey";
+DND_KEYN2			=	"SilverChestKey";
+DND_KEYN3			=	"GoldChestKey";
+
+DND_ORBN1			=	"OrbOfEnhancement";
+DND_ORBN2			=	"OrbOfCorruption";
+DND_ORBN3			=	"PrismaticOrb";
+DND_ORBN4			=	"OrbofRepentance";
+DND_ORBN5			=	"OrbofAffluence";
+DND_ORBN6			=	"OrbofCalamity";
+DND_ORBN7			=	"OrbofProsperity";
+DND_ORBN8			=	"OrbofNullification";
+DND_ORBN9			=	"OrbofDestruction";
+DND_ORBN10			=	"OrbofViolence";
+DND_ORBN11			=	"OrbofFortitude";
+DND_ORBN12			=	"OrbofSin";
+DND_ORBN13			=	"OrbofTremors";
+DND_ORBN14			=	"OrbofTinkerer";
+DND_ORBN15			=	"OrbofRefinement";
+DND_ORBN16			=	"OrbofSculpting";
+DND_ORBN17			=	"OrbofElevation";
+DND_ORBN18			=	"OrbofTurmoil";
+DND_ORBN19			=	"OrbofHexes";
+DND_ORBN20			=	"OrbofGrowth";
+DND_ORBN21			=	"OrbofPotency";
+DND_ORBN22			=	"OrbofCrackling";
+DND_ORBN23			=	"OrbofBrute";
+DND_ORBN24			=	"OrbofJagged";
+DND_ORBN25			=	"OrbofAlchemist";
+DND_ORBN26			=	"OrbofEvoker";
+DND_ORBN27			=	"OrbofSavagery";
+DND_ORBN28			=	"OrbofWinter";
+DND_ORBN29			=	"OrbofVoltaic";
+DND_ORBN30			=	"OrbofVile";
+DND_ORBN31			=	"OrbofEmbers";
+
+// monster specific orb drops
+DND_ORBNM1			=	"OrbofHollow";
+DND_ORBNM2			=	"OrbofPhantasmal";
+DND_ORBNM3			=	"OrbofAssimilation";
+
+DND_TOKENN1			=	"ArmorerToken";
+DND_TOKENN2			=	"GunsmithToken";
+///////////////////////////////////////////////////////
+
+// Inventory images
+
+// charms
+DND_CSIMG1			=	"SCHRM1";
+DND_CSIMG2			=	"SCHRM2";
+DND_CSIMG3			=	"SCHRM3";
+	
+DND_CMIMG1			=	"MCHRM1";
+DND_CMIMG2			=	"MCHRM2";
+DND_CMIMG3			=	"MCHRM3";
+
+DND_CGIMG1			=	"LCHRM1";
+DND_CGIMG2			=	"LCHRM2";
+DND_CGIMG3			=	"LCHRM3";
+	
+// unique charms
+DND_UCIMG1			=	"UCHRM1";
+DND_UCIMG2			=	"UCHRM2";
+DND_UCIMG3			=	"UCHRM3";
+DND_UCIMG4			=	"UCHRM4";
+DND_UCIMG5			=	"UCHRM5";
+DND_UCIMG6			=	"UCHRM6";
+DND_UCIMG7			=	"UCHRM7";
+DND_UCIMG8			=	"UCHRM8";
+DND_UCIMG9			=	"UCHRM9";
+DND_UCIMG10			=	"UCHRM10";
+DND_UCIMG11			=	"UCHRM11";
+DND_UCIMG12			=	"UCHRM12";
+DND_UCIMG13			=	"UCHRM13";
+DND_UCIMG14			=	"UCHRM14";
+DND_UCIMG15			=	"UCHRM15";
+DND_UCIMG16			=	"UCHRM16";
+DND_UCIMG17			=	"UCHRM17";
+DND_UCIMG18			=	"UCHRM18";
+DND_UCIMG19			=	"UCHRM19";
+DND_UCIMG20			=	"UCHRM20";
+DND_UCIMG21			=	"UCHRM21";
+
+DND_UDCIMG1			=	"UDCHRM1";
+DND_UDCIMG2			=	"UDCHRM2";
+DND_UDCIMG3			=	"UDCHRM3";
+DND_UDCIMG4			=	"UDCHRM4";
+DND_UDCIMG5			=	"UDCHRM5";
+
+// unique cores
+DND_UCORIMG1		=	"UCORE01";
+
+// unique body armors
+DND_UARMIMG1		=	"UARM1";
+DND_UARMIMG2		=	"UARM2";
+DND_UARMIMG3		=	"UARM3";
+	
+// orbs
+DND_OIMG1			=	"ORB1D0";
+DND_OIMG2			=	"ORB1B0";
+DND_OIMG3			=	"ORB1I0";
+DND_OIMG4			=	"ORB1Z0";
+DND_OIMG5			=	"ORB3A0";
+DND_OIMG6			=	"ORB1N0";
+DND_OIMG7			=	"ORB1S0";
+DND_OIMG8			=	"ORB2J0";
+DND_OIMG9			=	"ORB3E0";
+DND_OIMG10			=	"ORB2O0";
+DND_OIMG11			=	"ORB2V0";
+DND_OIMG12			=	"ORB2E0";
+DND_OIMG13			=	"ORB3G0";
+DND_OIMG14			=	"ORB3I0";
+DND_OIMG15			=	"ORB3K0";
+DND_OIMG16			=	"ORB3M0";
+DND_OIMG17			=	"ORB3O0";
+DND_OIMG18			=	"ORB4B0";
+DND_OIMG19			=	"ORB4I0";
+DND_OIMG20			=	"ORB4D0";
+DND_OIMG21			=	"ORB4R0";
+DND_OIMG22			=	"ORB5A0";
+DND_OIMG23			=	"ORB5C0";
+DND_OIMG24			=	"ORB5E0";
+DND_OIMG25			=	"ORB5G0";
+DND_OIMG26			=	"ORB5L0";
+DND_OIMG27			=	"ORB5N0";
+DND_OIMG28			=	"ORB5P0";
+DND_OIMG29			=	"ORB6E0";
+DND_OIMG30			=	"ORB6F0";
+DND_OIMG31			=	"ORB6C0";
+
+DND_MOIMG1			=	"ORB3Q0";
+DND_MOIMG2			=	"ORB3Z0";
+DND_MOIMG3			=	"ORB3S0";
+
+// armor images
+
+DND_ARIMG1			=	"ARICO1";			DND_ARWIMG1			=	"ARWICO1";
+DND_ARIMG2			=	"ARICO2";			DND_ARWIMG2			=	"ARWICO2";
+DND_ARIMG3			=	"ARICO3";			DND_ARWIMG3			=	"ARWICO3";
+DND_ARIMG4			=	"ARICO4";			DND_ARWIMG4			=	"ARWICO4";
+
+DND_ARIMG5			=	"ARICO5";			DND_ARWIMG5			=	"ARWICO5";
+DND_ARIMG6			=	"ARICO6";			DND_ARWIMG6			=	"ARWICO6";
+DND_ARIMG7			=	"ARICO7";			DND_ARWIMG7			=	"ARWICO7";
+DND_ARIMG8			=	"ARICO8";			DND_ARWIMG8			=	"ARWICO8";
+DND_ARIMG9			=	"ARICO9";			DND_ARWIMG9			=	"ARWICO9";
+
+DND_ARIMG10			=	"ARICO10";			DND_ARWIMG10		=	"ARWICO10";
+DND_ARIMG11			=	"ARICO11";			DND_ARWIMG11		=	"ARWICO11";
+DND_ARIMG12			=	"ARICO12";			DND_ARWIMG12		=	"ARWICO12";
+DND_ARIMG13			=	"ARICO13";			DND_ARWIMG13		=	"ARWICO13";
+DND_ARIMG14			=	"ARICO14";			DND_ARWIMG14		=	"ARWICO14";
+DND_ARIMG15			=	"ARICO15";			DND_ARWIMG15		=	"ARWICO15";
+
+DND_ARIMG16			=	"ARICO16";			DND_ARWIMG16		=	"ARWICO16";
+DND_ARIMG17			=	"ARICO17";			DND_ARWIMG17		=	"ARWICO17";
+DND_ARIMG18			=	"ARICO18";			DND_ARWIMG18		=	"ARWICO18";
+
+// boot images
+DND_BOIMG1			=	"BOOICO1";
+DND_BOIMG2			=	"BOOICO2";
+DND_BOIMG3			=	"BOOICO3";
+DND_BOIMG4			=	"BOOICO4";
+DND_BOIMG5			=	"BOOICO5";
+DND_BOIMG6			=	"BOOICO6";
+DND_BOIMG7			=	"BOOICO7";
+DND_BOIMG8			=	"BOOICO8";
+DND_BOIMG9			=	"BOOICO9";
+DND_BOIMG10			=	"BOOICO10";
+DND_BOIMG11			=	"BOOICO11";
+
+// helm images
+DND_HLIMG1			=	"HLMICO1";
+DND_HLIMG2			=	"HLMICO2";
+DND_HLIMG3			=	"HLMICO3";
+DND_HLIMG4			=	"HLMICO4";
+DND_HLIMG5			=	"HLMICO5";
+DND_HLIMG6			=	"HLMICO6";
+DND_HLIMG7			=	"HLMICO7";
+DND_HLIMG8			=	"HLMICO8";
+
+// power core images
+DND_PCIMG1			=	"PCORE01";
+DND_PCIMG2			=	"PCORE02";
+DND_PCIMG3			=	"PCORE03";
+DND_PCIMG4			=	"PCORE04";
+	
+DND_KIMG1			=	"SBKGA0";
+DND_KIMG2			=	"SBKGB0";
+DND_KIMG3			=	"SBKGC0";
+	
+DND_TIMG1			=	"REPTOKN";
+DND_TIMG2			=	"SCRTOKN";
+
+///////////////////////////////////////////////////////
+DND_ARTI1			=	"Field Kit";
+DND_ARTI2			=	"Salvation Sphere";
+DND_ARTI3			=	"Portable Shield";
+DND_ARTI4			=	"Blood Rune";
+DND_ARTI5			=	"Triple Damage";
+DND_ARTI6			=	"Blade Vortex";
+DND_ARTI7			=	"Book of the Dead";
+DND_ARTI8			=	"Auto Map";
+DND_ARTI9			=	"Backpack";
+DND_ARTI10			=	"Stat Reset";
+DND_ARTI11			=	"Portable Radsuit";
+
+DND_ITEM_UNIQUE		=	"Unique";
+DND_ITEM_CHARM		=	"Charm";
+
+DND_CHARMTYPE1		=	"Small";
+DND_CHARMTYPE2		=	"Medium";
+DND_CHARMTYPE3		=	"Grand";
+
+DND_CHARMTIER1		=	"Whispering";
+DND_CHARMTIER2		=	"Muttering";
+DND_CHARMTIER3		=	"Wailing";
+DND_CHARMTIER4		=	"Blessed";
+DND_CHARMTIER5		=	"Enchanted";
+DND_CHARMTIER6		=	"Supreme";
+DND_CHARMTIER7		=	"Sublime";
+DND_CHARMTIER8		=	"Majestic";
+DND_CHARMTIER9		=	"Regal";
+DND_CHARMTIER10		=	"Perfect";
+
+DND_TIERLETTER		=	"T";		// stands for >T<ier
+DND_UNIQUELETTER	=	"U";		// stands for >U<nique
+
+// item names
+DND_CHESTKEY1		=	"Bronze Chest Key";
+DND_CHESTKEYTEXT1	=	"Opens a mysterious bronze chest.";
+DND_CHESTKEY2		=	"Silver Chest Key";
+DND_CHESTKEYTEXT2	=	"Opens a mysterious silver chest.";
+DND_CHESTKEY3		=	"Gold Chest Key";
+DND_CHESTKEYTEXT3	=	"Opens a mysterious gold chest.";
+
+DND_TOKEN1			=	"Armorer's Token";
+DND_TOKENTEXT1		=	"Allows to increase the quality of an armor by \cd1%\c-, capped at \cg25%\c-.";
+DND_TOKEN2			=	"Gunsmith's Token";
+DND_TOKENTEXT2		=	"Allows scouring of a selected weapon, taking away all its mods and removing its quality.";
+
+DND_PCORE1			=	"Copper Powercore";
+DND_PCORE2			=	"Gold Powercore";
+DND_PCORE3			=	"Unstable Powercore";
+DND_PCORE4			=	"Molybdenum Powercore";
+
+// unique item names -- charms
+DND_UNIQUE1				=	"Elemental Bulwark";
+DND_UNIQUE2				=	"Ironbark";
+DND_UNIQUE3				=	"Well of Power";
+DND_UNIQUE4				=	"Ancient Gemstone";
+DND_UNIQUE5				=	"Deathspark";
+DND_UNIQUE6				=	"Shellshock";
+DND_UNIQUE7				=	"Oakheart";
+DND_UNIQUE8				=	"Pellet Storm";
+DND_UNIQUE9				=	"Grave Caller";
+DND_UNIQUE10			=	"Essence Eater";
+DND_UNIQUE11			=	"Eye of the Beholder";
+DND_UNIQUE12			=	"Dead King's Banner";
+DND_UNIQUE13			=	"Pain Master";
+DND_UNIQUE14			=	"Void Emblem";
+DND_UNIQUE15			=	"Rekindled Sparks";
+DND_UNIQUE16			=	"Deadeye's Glare";
+DND_UNIQUE17			=	"Unity";
+DND_UNIQUE18			=	"Mindforge";
+DND_UNIQUE19			=	"Slayer Special";
+DND_UNIQUE20			=	"Deathwing's Fang";
+DND_UNIQUE21 			=	"Mirror of Eternity";
+
+DND_DROP_UNIQUE1		=	"Elemental Harmony";
+DND_DROP_UNIQUE2		=	"Steelbark";
+DND_DROP_UNIQUE3		=	"Dreaming God's Ire";
+DND_DROP_UNIQUE4		=	"Heatbreaker";
+DND_DROP_UNIQUE5		=	"Thornvein";
+
+// unique power cores
+DND_UCORE_NAME1			=	"The Tesseract";
+
+// unique body armors
+DND_UARM_NAME1			=	"Protoshell";
+DND_UARM_NAME2			=	"Prismguard";
+DND_UARM_NAME3			=	"Baron's Den";
+
+// inventory attribute table
+IATTR_T0 			= "Health";
+IATTR_T1 			= "Armor";
+IATTR_T2 			= "Health";
+IATTR_T3 			= "Armor";
+IATTR_T4 			= "more exp gain";
+IATTR_T5 			= "more credit gain";
+IATTR_T6 			= "increased chance to find loot";
+IATTR_T7 			= "luck";
+IATTR_T8 			= "increased ammo capacities";
+IATTR_T9 			= "movement speed";
+IATTR_T10 			= "magazine size";
+	
+IATTR_T11 			= "physical attack damage";
+IATTR_T12 			= "energy attack damage";
+IATTR_T13 			= "attack radius damage";
+IATTR_T14 			= "magic attack damage";
+IATTR_T15 			= "elemental attack damage";
+	
+IATTR_T16 			= "increased physical attack damage";
+IATTR_T17 			= "increased energy attack damage";
+IATTR_T18 			= "increased attack radius damage";
+IATTR_T19 			= "increased magic attack damage";
+IATTR_T20 			= "increased elemental attack damage";
+	
+IATTR_T21 			= "increased handgun damage";
+IATTR_T22 			= "increased shotgun damage";
+IATTR_T23 			= "increased automatic weapon damage";
+IATTR_T24 			= "increased artillery damage";
+IATTR_T25 			= "increased precision weapon damage";
+
+IATTR_T26 			= "handgun attack damage";
+IATTR_T27 			= "shotgun attack damage";
+IATTR_T28 			= "automatic weapon attack damage";
+IATTR_T29 			= "artillery attack damage";
+
+IATTR_T30 			= "more pellets";
+	
+IATTR_T31 			= "increased weapon attack radius";
+IATTR_T32 			= "reduced self damage";
+	
+IATTR_T33 			= "chance to recover ammo from basic weapon attacks";
+IATTR_T34 			= "more ammo from pickups";
+IATTR_T35 			= "increased shop stock";
+	
+IATTR_T36 			= "regeneration cap";
+	
+IATTR_T37 			= "crit chance";
+IATTR_T38 			= "increased crit chance";
+IATTR_T39 			= "additional crit multiplier";
+	
+IATTR_T40 			= "knockback resist";
+IATTR_T41 			= "more damage with attacks";									IATTR_T41NEG		= "less damage with attacks";	
+IATTR_T42 			= "accuracy rating";
+	
+IATTR_T43 			= "strength";
+IATTR_T44 			= "dexterity";
+IATTR_T45 			= "intellect";
+	
+IATTR_T46 			= "all elemental resists";
+IATTR_T47 			= "physical resist";
+IATTR_T48 			= "reflect resist";
+	
+IATTR_T49 			= "physical pierce";
+IATTR_T50 			= "energy pierce";
+IATTR_T51 			= "chance to ignore radius damage immunity";
+IATTR_T52 			= "magic pierce";
+IATTR_T53 			= "elemental pierce";
+	
+IATTR_T54 			= "fire damage";
+IATTR_T55 			= "ice damage";
+IATTR_T56 			= "lightning damage";
+IATTR_T57 			= "poison damage";
+	
+IATTR_T58 			= "lifesteal";
+	
+IATTR_T59 			= "faster poison ticrate";
+IATTR_T60 			= "increased poison stack duration";
+IATTR_T61 			= "increased damage per tic for poison";
+	
+IATTR_T62 			= "more damage against blocking enemies";
+	
+IATTR_T63 			= "increased chance to freeze for ice attacks";
+IATTR_T64 			= "increased chill effectiveness";
+IATTR_T65 			= "reduced enemy chill threshold";
+	
+IATTR_T66 			= "increased chance to ignite for fire attacks";
+IATTR_T67 			= "increased ignite damage";
+IATTR_T68 			= "increased ignite duration";
+	
+IATTR_T69 			= "increased chance to overload";
+IATTR_T70 			= "additional overload reflections";
+IATTR_T71 			= "more overload magnitude";
+	
+IATTR_T72 			= "CYBERNETIC";
+IATTR_T73 			= "increased melee range";
+IATTR_T74			= "increased melee weapon damage";
+IATTR_T75			= "damage over time multiplier";
+IATTR_T76			= "increased damage over time";
+
+IATTR_T77			= "projectile speed";
+IATTR_T78			= "energy resist";
+IATTR_T79			= "increased knockback resist";
+IATTR_T80			= "magic resist";
+IATTR_T81			= "fire resist";
+IATTR_T82			= "ice resist";
+IATTR_T83			= "lightning resist";
+IATTR_T84			= "poison resist";
+
+IATTR_T85			= "maximum damage resist cap";
+IATTR_T86			= "increased regeneration rate";
+
+IATTR_T87			= "increased lifesteal rate";
+IATTR_T88			= "increased life recovery from lifesteal";
+IATTR_T89			= "increased lifesteal cap";
+IATTR_T90			= "more damage while leeching";
+
+IATTR_T91			= "seconds to overload duration";
+
+IATTR_T92			= "increased ignite proliferation chance";
+IATTR_T93			= "max ignite proliferation";
+IATTR_T94			= "increased ignite proliferation range";
+
+IATTR_T95			= "chance to ignore ailment immunities";
+IATTR_T96			= "ignite chance";
+IATTR_T97			= "ignite proliferation chance";
+
+IATTR_T98			= "energy shield";
+IATTR_T99			= "increased energy shield";
+IATTR_T100			= "increased energy shield recovery rate";
+IATTR_T101			= "faster start of energy shield recharge";
+IATTR_T102			= "mitigation chance";
+IATTR_T103			= "mitigation effect";
+
+IATTR_T104			= "increased fire damage";
+IATTR_T105			= "increased ice damage";
+IATTR_T106			= "increased lightning damage";
+IATTR_T107			= "increased poison damage";
+
+IATTR_T108			= "fire pierce";
+IATTR_T109			= "ice pierce";
+IATTR_T110			= "lightning pierce";
+IATTR_T111			= "poison pierce";
+
+IATTR_T112			= "magic negation";
+
+IATTR_T113			= "tech weapon attack damage";
+IATTR_T114			= "precision weapon attack damage";
+IATTR_T115			= "increased tech weapon damage";
+IATTR_T116			= "magic weapon attack damage";
+IATTR_T117			= "increased magic weapon damage";
+
+IATTR_T118			= "reduced overheat gained";
+IATTR_T119			= "all resists";
+IATTR_T120			= "item rarity";
+
+IATTR_T121			= "increased ripcount";
+IATTR_T122			= "more damage per rip";
+IATTR_T123			= "increased lock-on area";
+IATTR_T124			= "increased lock-on range";
+IATTR_T125			= "increased killing spree duration";
+IATTR_T126			= "reduced effect of curses on you";
+IATTR_T127			= "reduced duration of curses on you";
+
+// corrupt implicits
+IATTR_TC1			= "Increased weapon damage to";
+IATTR_TC2			= "Increased crit chance to";
+IATTR_TC3			= "Increased crit damage to";
+IATTR_TC4			= "movement speed";
+IATTR_TC5			= "more chance to find loot";
+IATTR_TC6			= "increased stats";
+IATTR_TC7			= "enemy health as extra damage to";
+IATTR_TC8			= "of damage dealt as poison to";
+IATTR_TC9			= "chance to force pain";
+IATTR_TC10			= "CYBERNETIC";
+
+// regular implicits
+IATTR_TI1			= "armor";
+IATTR_TI2			= "energy shield";
+IATTR_TI3			= "armor and energy shield";
+IATTR_TI4			= "mitigation chance";
+IATTR_TI5			= "armor and";
+IATTR_TI6			= "energy shield and";
+IATTR_TI7			= "magic negation";
+IATTR_TI8			= "chance on hit for energy shield to explode for";		IATTR_TI8S = "of it in a 256 unit radius";
+IATTR_TI9			= "armor and energy shield,";
+
+IATTR_TI10			= " more damage and "; IATTR_TI10S = "damage reduction during killing sprees";
+IATTR_TI11			= "Double energy shield recovery rate";
+IATTR_TI12			= " of lightning damage taken absorbed as energy shield. "; IATTR_TI12S = "chance to release a lightning bolt towards an enemy on hit";
+IATTR_TI13			= " reduced damage from melee attacks. If a melee weapon is held, extra "; IATTR_TI13S = "protection is bestowed";
+IATTR_TI14			= "Handguns get "; IATTR_TI14S = " more crit chance when swapped to for the next \cd10\c- seconds";
+IATTR_TI15			= "chance on hit to fire a nova of spikes";
+IATTR_TI16			= "Can roll all \cdphysical\c- modifiers";
+IATTR_TI17			= "Can roll all \cdmagic\c- modifiers";
+IATTR_TI18			= "Can roll all \cdexplosive\c- modifiers";
+IATTR_TI19			= "Can roll all \cdenergy\c- modifiers";
+IATTR_TI20			= "Can roll all \cdelemental\c- modifiers";
+IATTR_TI21			= "Take \cd90%\c- less damage from reflect";
+IATTR_TI22			= "Energy shield blocks all damage";
+IATTR_TI23			= "less lightning damage taken";
+IATTR_TI24			= "faster overheat dissipation";
+IATTR_TI25			= "less poison damage taken";
+IATTR_TI26			= "less fire damage taken";
+IATTR_TI27			= "less self damage taken";
+IATTR_TI28			= "\cd+1\c- to pet cap";
+IATTR_TI29			= "reduced vision impairment";
+IATTR_TI30			= "Melee hits can ignore shields";
+IATTR_TI31			= "Deal "; IATTR_TI31S = " more damage to bosses";
+IATTR_TI32			= "Killing magical or undead enemies recover \cd1%\c- of energy shield";
+IATTR_TI33			= "Precision weapons have "; IATTR_TI33S = " to crit chance";
+IATTR_TI34			= "Quality cap is \cd50%\c-";
+
+// essences
+IATTR_TE1 			= "Enemy radius damage immunity is ignored";
+IATTR_TE2 			= "Soul weapons pierce ";
+IATTR_TE3 			= " accuracy rating";
+IATTR_TE4 			= " increased accuracy rating";
+IATTR_TE5 			= "Ignite damage increases for each tic by ";
+IATTR_TE6 			= " chance for attacks to ignore shields";
+IATTR_TE7 			= "Poison damage tics twice as fast";
+IATTR_TE8 			= " chance for Slot 5 explosions to trigger again";
+IATTR_TE9 			= "Homing projectiles can't be reflected";
+IATTR_TE10 			= "Magical attacks reduce enemy magic resistance by ";
+IATTR_TE11 			= "Frozen enemies take ";
+	
+// exotic ones
+IATTR_TX_CHANCE 	= "chance to ";
+IATTR_TX1 			= "chance to cast random elemental spell on attack";
+IATTR_TX2 			= "Knockback Immunity";
+IATTR_TX3 			= "Effects of small charms multiplied by ";
+IATTR_TX4 			= "to all attributes";
+IATTR_TX5 			= "to be healed for ";
+IATTR_TX6 			= "increased lightning damage";
+IATTR_TX7 			= "increased crit chance to lightning attacks";
+IATTR_TX8 			= "Explosives that trigger again have ";	IATTR_TX8B = "more damage and radius";		IATTR_TX8S = "Your initial explosions have \cg25%\c- less damage and radius";
+IATTR_TX9 			= "Double Health Cap";
+IATTR_TX10 			= "Gain 1% increased physical damage every ";
+IATTR_TX11 			= "Can't use body armor";
+IATTR_TX12 			= "Burst type attacks fire in a circle around you";
+IATTR_TX13 			= "Burst type attacks also benefit from pellet bonuses";
+IATTR_TX14 			= "chance to raise a zombie from slain enemies";
+IATTR_TX15 			= "Damage taken is divided per each pet (Max 90% reduction)";
+IATTR_TX16 			= "more damage taken";
+IATTR_TX17 			= "flat damage to all attacks";
+IATTR_TX18 			= "Killing enemies heal for ";
+IATTR_TX19 			= "Soul type weapons do irreducible damage";
+IATTR_TX20 			= "more ammo from soul pickups";
+IATTR_TX21 			= "Gain ability to cast level ";
+IATTR_TX22 			= "Spell damage is irreducible";
+IATTR_TX23 			= "Slain enemies rest in peace";
+IATTR_TX24 			= "to damage over time";
+IATTR_TX25 			= "increased damage over time duration";
+IATTR_TX26 			= "Critical strike chance is lucky";
+IATTR_TX27 			= "Critical strikes have ";
+IATTR_TX28 			= "Curse Immunity";
+IATTR_TX29			= "Can only use";					IATTR_TX29_2S		= "small charm";	IATTR_TX29_2		= "small charms";
+IATTR_TX30			= "damage to shotguns per shotgun owned";
+IATTR_TX31			= "less effect of healing";
+IATTR_TX32			= "Soul weapons pierce";
+IATTR_TX33			= "Gain \cd1%\c- increased damage per 20 accuracy rating"; IATTR_TX33A = "Gain \cd1%\c- increased crit chance per 20 accuracy rating"; IATTR_TX33B = "Lose \cg1%\c- crit damage per 45 accuracy rating";
+IATTR_TX34			= "Gain \cd2%\c- more damage per \cg1%\c- missing ammo on current weapon";
+IATTR_TX35			= "Weapons consume";				IATTR_TX35S = "increased ammo";
+IATTR_TX36			= "less ammo capacities";
+IATTR_TX37			= "Your main attributes are transformed to \cfUnity\c-";	IATTR_TX_UNITY = "Per 15 unity, gain";	UNITY = "Unity";
+IATTR_TX38			= "damage resistance to every damage type";
+IATTR_TX39			= "resist pierce to every damage type";
+IATTR_TX40			= "\c[D4]Your main attributes other than \cfUnity\c[D4] grant nothing";
+IATTR_TX41			= "Intellect provides damage bonus to all melee weapons at";	IATTR_TX41S = "the attunement of Strength"; IATTR_TX41B = "\cgStrength has no effect on you\c-";
+IATTR_TX42			= "chance to immediately start recovering energy shield on depletion";
+IATTR_TX43			= "Energy shield recharge is not interrupted by damage";
+IATTR_TX44			= "The energy shield explosion deals"; IATTR_TX44S = "of your health as added damage";	
+IATTR_TX45			= "Energy shield recovery also takes"; IATTR_TX45S = "of the amount from health";
+IATTR_TX46			= "Modifiers to health instead apply to energy shield at"; IATTR_TX46S = "of their value";
+IATTR_TX47			= "Energy shield is fully effective against all damage";
+IATTR_TX48			= "\c[D4]Your health cap is always 1";
+IATTR_TX49			= "For every"; IATTR_TX49S = "energy shield, gain \cd0.5%\c- to all resists";
+IATTR_TX50			= "\c[D4]Energy shield is only"; IATTR_TX50S = "\c[D4]effective against damage";
+IATTR_TX51			= "Melee kills refill other owned weapons' ammo by";
+IATTR_TX52			= "Swapping from a melee weapon grants"; IATTR_TX52S = "increased crit chance for 3 seconds";
+IATTR_TX53			= "of the damage you take from hits of your lowest resistance is dealt as \cuphysical damage\c- over \cd5\c- seconds instead";
+IATTR_TX54			= "Killing demons builds stacks of \cgDaemonic Barrier\c-, up to \cd10\c-. For each stack, completely negate a damage over time effect tic. Stacks last \cd15\c- seconds";
+IATTR_TX55			= "Soul ammo instead makes soul weapons not use ammo for"; IATTR_TX55S = "seconds";
+IATTR_TX56			= "The next"; IATTR_TX56S = "souls picked up only give ammo";
+IATTR_TX57			= "Strength has extra"; IATTR_TX57S = "attunement for melee weapons";
+IATTR_TX58			= "Your fire/ice/lightning/poison pierce is equal to the highest of the four";
+IATTR_TX59			= "Overheating weapons can fire while overheated";
+IATTR_TX60			= "Can't fire weapons that don't overheat while a weapon has overheated";
+IATTR_TX61			= "more damage to overheating weapons per overheat percent";
+IATTR_TX62			= "Take"; IATTR_TX62S = "less damage while on max overheat on a weapon";
+IATTR_TX63			= "Weapons use health instead of ammo";
+IATTR_TX64			= "Cannot pick up or buy ammo";
+IATTR_TX65			= "ammo cost multiplier";
+IATTR_TX66			= "rippers only rip a target once";
+IATTR_TX67			= "rippers can penetrate all targets";
+IATTR_TX68			= "Reflects your other medium charm";
+
+// exotic attribute strings
+IATTR_MAXHEALTH				= "maximum health";
+IATTR_RECOVERHPHURT			= "missing health when hurt";
+IATTR_PMISSHP				= "missing health";
+IATTR_RALLY					= "Rally";
+IATTR_CHANCEIGNORERES		= "chance to ignore enemy resistances";
+IATTR_MAGICRES				= "magic resistance";
+IATTR_MOREDMG				= "more damage";

@@ -1,0 +1,1402 @@
+base Doom;
+height 0;
+resolution 640, 400;
+
+// NC HUD
+statusbar normal, fullscreenoffsets {
+  drawimage "H_BGLEFT", 5, -85; // Left background
+  //drawmugshot "STF", 5, animatedgodmode, xdeathface, 6, -78; // Mugshot
+  
+	// KillSpree Meter
+	InInventory KillSpreeOn {
+		InInventory not ShowMapInfo {
+			InInventory DnD_SpreeTimer, 1 {
+				drawimage "SPREEBAK", 11, -205;
+				drawimage "SPREEBAR", 5, -209;
+				drawbar "SPREEREF", "sPREERED", DnD_SpreeTimer, vertical, 14, -202;
+			}
+			
+			InInventory AgamottoOffense {
+				DrawImage "AGAOFF", 28, -144;
+			}
+			InInventory AgamottoDefense {
+				DrawImage "AGADEF", 28, -144;
+			}
+			
+			InInventory ElementPower_Fire {
+				DrawImage "SIGILFIR", 28, -166;
+			}
+			InInventory ElementPower_Ice {
+				DrawImage "SIGILICE", 28, -166;
+			}
+			InInventory ElementPower_Lightning {
+				DrawImage "SIGILLIG", 28, -166;
+			}
+			InInventory ElementPower_Earth {
+				DrawImage "SIGILERT", 28, -166;
+			}
+			
+			InInventory VeilMarkTimer {
+				DrawImage "AC16D0", 68, -154;
+			}
+			
+			InInventory VeilCooldown {
+				DrawImage "AC16C0", 68, -154;
+			}
+			
+			InInventory HunterTalismanCheck {
+				DrawImage "AC17C0", 68, -174;
+			}
+			
+			InInventory HunterTalismanCooldown {
+				DrawImage "AC17D0", 68, -174;
+			}
+		}
+		InInventory ShowMapInfo {
+			InInventory DnD_SpreeTimer, 1 {
+				drawimage "SPREEBAK", 131, -181;
+				drawimage "SPREEBAR", 125, -185;
+				drawbar "SPREEREF", "sPREERED", DnD_SpreeTimer, vertical, 134, -178;
+			}
+			InInventory AgamottoOffense {
+				DrawImage "AGAOFF", 148, -118;
+			}
+			InInventory AgamottoDefense {
+				DrawImage "AGADEF", 148, -118;
+			}
+			
+			InInventory ElementPower_Fire {
+				DrawImage "SIGILFIR", 148, -140;
+			}
+			InInventory ElementPower_Ice {
+				DrawImage "SIGILICE", 148, -140;
+			}
+			InInventory ElementPower_Lightning {
+				DrawImage "SIGILLIG", 148, -140;
+			}
+			InInventory ElementPower_Earth {
+				DrawImage "SIGILERT", 148, -140;
+			}
+
+			InInventory VeilMarkTimer {
+				DrawImage "AC16D0", 188, -128;
+			}
+			
+			InInventory VeilCooldown {
+				DrawImage "AC16C0", 188, -128;
+			}
+			
+			InInventory HunterTalismanCheck {
+				DrawImage "AC17C0", 188, -148;
+			}
+			
+			InInventory HunterTalismanCooldown {
+				DrawImage "AC17D0", 188, -148;
+			}
+		}
+	}
+	
+	InInventory not KillSpreeOn {
+		InInventory not ShowMapInfo {
+			InInventory AgamottoOffense {
+				DrawImage "AGAOFF", 14, -144;
+			}
+			InInventory AgamottoDefense {
+				DrawImage "AGADEF", 14, -144;
+			}
+			
+			InInventory VeilMarkTimer {
+				DrawImage "AC16D0", 54, -154;
+			}
+			
+			InInventory VeilCooldown {
+				DrawImage "AC16C0", 54, -154;
+			}
+			
+			InInventory HunterTalismanCheck {
+				DrawImage "AC17C0", 54, -144;
+			}
+			
+			InInventory HunterTalismanCooldown {
+				DrawImage "AC17D0", 54, -144;
+			}
+		}
+		InInventory ShowMapInfo {
+			InInventory AgamottoOffense {
+				DrawImage "AGAOFF", 134, -118;
+			}
+			InInventory AgamottoDefense {
+				DrawImage "AGADEF", 134, -118;
+			}
+			
+			InInventory VeilMarkTimer {
+				DrawImage "AC16D0", 174, -128;
+			}
+			
+			InInventory VeilCooldown {
+				DrawImage "AC16C0", 174, -128;
+			}
+			
+			InInventory HunterTalismanCheck {
+				DrawImage "AC17C0", 174, -148;
+			}
+			
+			InInventory HunterTalismanCooldown {
+				DrawImage "AC17D0", 174, -148;
+			}
+		}
+	}
+  
+  // player level
+  drawimage "H_BGRAM1", 5, -108;
+  drawstring NCNormalFont, NCWhiteC, "LEVEL", 19, -101, 0, alignment(left);
+  drawnumber 3, NCNormalFont, NCWhiteC, ammo Level, alignment(right), 121, -101;
+  
+  // credits
+  drawimage "H_BGRAM4", -256, 0;
+  drawstring SHOPFONT, Untranslated, "h$", -214, 12, 0, alignment(right);
+  drawnumber 10, SHOPFONT, Untranslated, ammo Credit, alignment(right), fillzeros, -16, 16;
+
+	InInventory RavagerPower {
+		drawimage "ARICO15", 216, -84;
+	}
+
+  // Draw both health and armor displays if the player has at least one point of armor
+  InInventory EShieldAmount, 1
+  {
+    // Health -------------------------------------------------------------------------------------------
+
+    // Draw berserk icon instead of health icon if the berserk pack is in the inventory
+    InInventory PowerStrength { drawimage "H_ICNBSK", 12, -46; }
+
+    // Otherwise, draw the health icon instead
+    else { drawimage "H_ICNHP", 12, -46; }
+
+    InInventory HPOver100
+    {
+      drawimage "H_BRFRMX", 31, -48;
+      drawbar "H_BRFILG", "H_BRFBGG", health P_HealthCap, horizontal, 34, -45;
+      drawbar "H_BRFILB", "H_BRFBGB", HPOverAmount, horizontal, 34, -45;
+      drawnumber 5, HUDFONT2_DOOM, NCBlue, health, alignment(left), 127, -47;
+    }
+
+    InInventory HPNormal
+    {
+      drawimage "H_BRFRMX", 31, -48;
+      drawbar "H_BRFILG", "H_BRFBGG", health P_HealthCap, horizontal, 34, -45;
+      drawnumber 5, HUDFONT2_DOOM, NCGreen, health, alignment(left), 127, -47;
+    }
+
+    InInventory HPBelow50
+    {
+      drawimage "H_HPWG01", 31, -48;
+      drawbar "H_BRFILY", "H_BRFBGY", health P_HealthCap, horizontal, 34, -45;
+      drawnumber 5, HUDFONT2_DOOM, NCYellow, health, alignment(left), 127, -47;
+    }
+
+    InInventory HPBelow25
+    {
+      drawimage "H_HPFC01", 31, -48;
+      drawbar "H_BRFILR", "H_BRFBGR", health P_HealthCap, horizontal, 34, -45;
+      drawnumber 5, HUDFONT2_DOOM, NCRed, health, alignment(left), 127, -47;
+    }
+
+    // Armor --------------------------------------------------------------------------------------------
+    // Icon
+	drawimage "H_ICNARR", 18, -71, center, 18, 18;
+
+    // If armor is above 100, draw the bar overlay and counter in blue color,
+    // and the bar frame in "normal" color
+    InInventory ARMOver100
+    {
+      drawimage "H_BRFRMX", 31, -79; // Bar frame
+	  drawimage "H_BRFILG", 34, -76; // Bar green
+      drawbar "H_BRFILB", "H_BRFBGB", ARMOverAmount, horizontal, 34, -76; // Bar (over 100)
+      drawnumber 5, HUDFONT2_DOOM, NCBlue, ammo EShieldAmount, alignment(left), 127, -78; // Counter
+    }
+
+    // If armor is in "good" state, draw the bar and counter in green color
+    InInventory ARMNormal
+    {
+      drawimage "H_BRFRMX", 31, -79;
+      drawbar "H_BRFILG", "H_BRFBGG", ammo EShieldAmountVisual, horizontal, 34, -76;
+      drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo EShieldAmount, alignment(left), 127, -78;
+    }
+
+    // If armor is in "warning" state, draw the bar and counter in yellow color
+    InInventory ARMBelow50
+    {
+      drawimage "H_BRFRMX", 31, -79;
+      drawbar "H_BRFILY", "H_BRFBGY", ammo EShieldAmountVisual, horizontal, 34, -76;
+      drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo EShieldAmount, alignment(left), 127, -78;
+    }
+
+    // If armor is in "critical" state, draw the bar and counter in red color,
+    // and the bar frame in glowing "normal"
+    InInventory ARMBelow25
+    {
+      drawimage "H_ARFW01", 31, -79;
+      drawbar "H_BRFILR", "H_BRFBGR", ammo EShieldAmountVisual, horizontal, 34, -76;
+      drawnumber 5, HUDFONT2_DOOM, NCRed, ammo EShieldAmount, alignment(left), 127, -78;
+    }
+  }
+
+  // Otherwise, draw the health display alone in the middle of the background
+  else
+  {
+    InInventory PowerStrength { drawimage "H_ICNBSK", 12, -78; }
+    else { drawimage "H_ICNHP", 12, -78; }
+
+    InInventory HPOver100
+    {
+      drawimage "H_BRFRMX", 31, -79;
+      drawbar "H_BRFILG", "H_BRFBGG", health P_HealthCap, horizontal, 34, -76;
+      drawbar "H_BRFILB", "H_BRFBGB", HPOverAmount, horizontal, 34, -76;
+      drawnumber 5, HUDFONT2_DOOM, NCBlue, health, alignment(left), 127, -78;
+    }
+
+    InInventory HPNormal
+    {
+      drawimage "H_BRFRMX", 31, -79;
+      drawbar "H_BRFILG", "H_BRFBGG", health P_HealthCap, horizontal, 34, -76;
+      drawnumber 5, HUDFONT2_DOOM, NCGreen, health, alignment(left), 127, -78;
+    }
+
+    InInventory HPBelow50
+    {
+      drawimage "H_HPWG01", 31, -79;
+      drawbar "H_BRFILY", "H_BRFBGY", health P_HealthCap, horizontal, 34, -76;
+      drawnumber 5, HUDFONT2_DOOM, NCYellow, health, alignment(left), 127, -78;
+    }
+
+    InInventory HPBelow25
+    {
+      drawimage "H_HPFC01", 31, -79;
+      drawbar "H_BRFILR", "H_BRFBGR", health P_HealthCap, horizontal, 34, -76;
+      drawnumber 5, HUDFONT2_DOOM, NCRed, health, alignment(left), 127, -78;
+    }
+  }
+
+  // EXP BAR -----------------------------------------------------------------------------------------
+
+  InInventory ExpVisual
+  {
+    drawstring NCNormalFont, NCWhiteC, "EXP", 75, -19, 0, alignment(left);
+    drawimage "H_BRFRME", 98, -18;
+    drawbar "H_BRFILE", "H_BRFBGE", ammo ExpVisual, horizontal, 100, -16;
+  }
+
+  // Otherwise, dim the display.
+  else
+  {
+    Alpha 0.5
+    {
+      drawstring NCNormalFont, NCWhiteC, "EXP", 75, -19, 0, alignment(left);
+      drawimage "H_BRFRME", 98, -18;
+      drawbar "H_BRFILE", "H_BRFBGE", ammo ExpVisual, horizontal, 100, -16;
+    }
+  }
+
+  // Level-related stats --------------------------------------------------------------------------------
+
+  // Only draw the following if the "Tally toggle" option is set to on
+  InInventory ShowMapInfo
+  {
+    // Level time
+    drawimage "H_BGTLY1", 5, -199; // Background
+    drawstring NCNormalFont, NCWhiteC, "T", 22, -192; // Label
+    InInventory H_UnderPar { drawstring NCNormalFont, NCBlueC, time, 52, -192; } // Counter
+    Else { drawstring NCNormalFont, NCWhiteC, time, 52, -192; }
+    drawstring NCNormalFont, NCWhiteC, ":", 76, -192;
+    drawstring NCNormalFont, NCWhiteC, ":", 100, -192;
+
+    // Kills
+    drawimage "H_BGTLY2", 5, -176;
+    drawstring NCNormalFont, NCWhiteC, "K", 22, -169;
+    drawstring NCNormalFont, NCWhiteC, "/", 81, -169;
+
+    InInventory H_KillsAchieved
+    {
+      drawnumber 4, NCNormalFont, NCBlueC, kills, 70, -169;
+      drawnumber 4, NCNormalFont, NCBlueC, monsters, 116, -169;
+    }
+
+    Else
+    {
+      drawnumber 4, NCNormalFont, NCWhiteC, kills, 70, -169;
+      drawnumber 4, NCNormalFont, NCWhiteC, monsters, 116, -169;
+    }
+
+    // Items
+    drawimage "H_BGTLY2", 5, -153;
+    drawstring NCNormalFont, NCWhiteC, "I", 22, -146;
+    drawstring NCNormalFont, NCWhiteC, "/", 81, -146;
+
+    InInventory H_ItemsAchieved
+    {
+      drawnumber 4, NCNormalFont, NCBlueC, items, 70, -146;
+      drawnumber 4, NCNormalFont, NCBlueC, totalitems, 116, -146;
+    }
+
+    Else
+    {
+      drawnumber 4, NCNormalFont, NCWhiteC, items, 70, -146;
+      drawnumber 4, NCNormalFont, NCWhiteC, totalitems, 116, -146;
+    }
+
+    // Secrets
+    drawimage "H_BGTLY3", 5, -131;
+    drawstring NCNormalFont, NCWhiteC, "S", 22, -123;
+    drawstring NCNormalFont, NCWhiteC, "/", 81, -123;
+
+    InInventory H_SecretsAchieved
+    {
+      drawnumber 4, NCNormalFont, NCBlueC, secrets, 70, -123;
+      drawnumber 4, NCNormalFont, NCBlueC, totalsecrets, 116, -123;
+    }
+
+    Else
+    {
+      drawnumber 4, NCNormalFont, NCWhiteC, secrets, 70, -123;
+      drawnumber 4, NCNormalFont, NCWhiteC, totalsecrets, 116, -123;
+    }
+  }
+
+  // Current Ammo ---------------------------------------------------------------------------------------
+
+  // If the currently equipped weapon uses ammo, draw current ammo display
+  usesammo
+  {
+    drawimage "H_BGRIT", -244, -85; // 'Current' ammo and arms background
+
+    usessecondaryammo // Dual-ammo weapons
+    {
+        // Draw both primary and secondary ammo icons, if the equipped weapon uses two "distinct"
+        // ammo types
+        IsSelected "Ebony Cannon", "Magnum" {
+            drawimage ammoicon2, -80, -67, center, 18, 18;
+            drawimage ammoicon1, -80, -41, center, 18, 18;
+        }
+		
+		IsSelected "Upgraded Super Shotgun2", "Dusk Blade" {
+            drawimage ammoicon2, -80, -67, center, 18, 18;
+            drawimage ammoicon1, -80, -41, center, 18, 18;
+		}
+		
+		IsSelected "Upgraded Shotgun2", "ResMG4" {
+            drawimage ammoicon2, -80, -67, center, 18, 18;
+            drawimage ammoicon1, -80, -41, center, 18, 18;
+		}
+		
+		IsSelected "Basilisk" {
+			drawimage "BASIA01", -80, -41, center, 18, 18; // won't animate ammo icon for some reason
+			drawimage "BASIB01", -80, -67, center, 18, 18;
+		}
+		
+		IsSelected "ResRL1" {
+			drawimage "LAAM1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "ResPlasma2" {
+			drawimage "D98AB1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "ResSSG1" {
+			drawimage "PCNIC1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "Excalibat" {
+			drawimage ammoicon2, -80, -59, center, 18, 18;
+		}
+		
+		IsSelected "ResRL3" {
+			drawimage "EICEAM1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "ResShotgun3" {
+			drawimage "DBLUD1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		// Special Ammo Weapons
+		IsSelected " Shotgun ", "ResShotgun1" {
+			InInventory SpecialAmmoMode_3, 1 {
+				InInventory SpecialAmmoMode_3, 2 {
+					InInventory SpecialAmmoMode_3, 3 {
+						InInventory SpecialAmmoMode_3, 11 {
+							drawimage "SLUGICO", -80, -54, center, 18, 18;
+						}
+						else
+							drawimage "ELECICO", -80, -54, center, 18, 18;
+					}
+					else {
+						drawimage "MAGSICO", -80, -54, center, 18, 18;
+					}
+				}
+				else {
+					drawimage "FLECICO", -80, -54, center, 18, 18;
+				}
+			}
+			else {
+				drawimage ammoicon1, -80, -54, center, 18, 18;
+			}
+		}
+		
+		IsSelected "ResMG2" {
+			InInventory SpecialAmmoMode_4, 9 {
+				InInventory SpecialAmmoMode_4, 10 {
+					drawimage "ESHAA0", -80, -54, center, 18, 18;
+				}
+				else {
+					drawimage "SAM4A0", -80, -54, center, 18, 18;
+				}
+			}
+			else {
+				drawimage ammoicon1, -80, -54, center, 18, 18;
+			}
+		}
+		
+		IsSelected "Upgraded Shotgun" {
+			InInventory SpecialAmmoMode_3, 1 {
+				InInventory SpecialAmmoMode_3, 2 {
+					InInventory SpecialAmmoMode_3, 3 {
+						drawimage "ELECICO", -80, -41, center, 18, 18;
+					}
+					else {
+						drawimage "MAGSICO", -80, -41, center, 18, 18;
+					}
+				}
+				else {
+					drawimage "FLECICO", -80, -41, center, 18, 18;
+				}
+			}
+			else {
+				drawimage ammoicon1, -80, -41, center, 18, 18;
+			}
+		}
+		
+		IsSelected " Machine Gun ", "ResMG1" {
+			InInventory SpecialAmmoMode_4, 5 {
+				InInventory SpecialAmmoMode_4, 6 {
+					InInventory SpecialAmmoMode_4, 7 {
+						drawimage "GAM2A0", -80, -54, center, 18, 18;
+					}
+					else {
+						drawimage "GAM1A0", -80, -54, center, 18, 18;
+					}
+				}
+				else {
+					drawimage "GBUNA0", -80, -54, center, 18, 18;
+				}
+			}
+			else {
+				drawimage ammoicon1, -80, -54, center, 18, 18;
+			}
+		}
+		
+		IsSelected "RhinoRifle" {
+			InInventory SpecialAmmoMode_6, 7 {
+				drawimage "GAM2A0", -80, -54, center, 18, 18;
+			}
+			else {
+				drawimage ammoicon1, -80, -54, center, 18, 18;
+			}
+		}
+        
+		// exceptions begone!
+		IsSelected not "Ebony Cannon", "Magnum" {
+			IsSelected not "Upgraded Shotgun", "Upgraded Super Shotgun2" {
+				IsSelected not "Basilisk", "Upgraded Shotgun2" {
+					IsSelected not "Slayer", "Excalibat" {
+						isSelected not "ResSSG1", "ResRL1" {
+							IsSelected not " Shotgun ", "Upgraded Shotgun" {
+								IsSelected not "ResShotgun1", " Machine Gun " {
+									IsSelected not "ResMG1", "ResPlasma2" {
+										IsSelected not "ResShotgun2", "ResMG2" {
+											IsSelected not "Upgraded Plasma Rifle3", "Dusk Blade" {
+												IsSelected not "ResMG4", "RhinoRifle" {
+													IsSelected not "ResShotgun3", "Upgraded Super Shotgun3" {
+														IsSelected not "ResRL4" {
+															drawimage ammoicon1, -80, -54, center, 18, 18;
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+        InInventory not H_InfiniteAmmo
+        {
+          // Primary ammo ----------------------------------
+
+          // If ammo is 50% and above, draw the bar and counter in green color,
+          // and the bar frame in "normal" color
+          InInventory H_PrimaryGreen
+          {
+			/*IsSelected "Soul Render" {
+				drawimage "H_ARFW01", -185, -48;
+				drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -45;
+				drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -47;
+			}*/
+			
+			IsSelected " Shotgun ", "Upgraded Shotgun" {
+				drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_3, 1 {
+					InInventory SpecialAmmoMode_3, 2 {
+						InInventory SpecialAmmoMode_3, 3 {
+							drawbar "H_BRFILG", "H_BRFBGG", ammo ElectricShell, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo ElectricShell, -189, -47;
+						}
+						else {
+							drawbar "H_BRFILG", "H_BRFBGG", ammo PiercingShell, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo PiercingShell, -189, -47;
+						}
+					}
+					else {
+						drawbar "H_BRFILG", "H_BRFBGG", ammo FlechetteShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo FlechetteShell, -189, -47;
+					}
+				}
+				else {
+					drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected "ResShotgun1" {
+				drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_3, 1 {
+					InInventory SpecialAmmoMode_3, 2 {
+						InInventory SpecialAmmoMode_3, 3 {
+							InInventory SpecialAmmoMode_3, 11 {
+								drawbar "H_BRFILG", "H_BRFBGG", ammo SlugShell, horizontal, reverse, -182, -45;
+								drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo SlugShell, -189, -47;
+							}
+							else {
+								drawbar "H_BRFILG", "H_BRFBGG", ammo ElectricShell, horizontal, reverse, -182, -45;
+								drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo ElectricShell, -189, -47;
+							}
+						}
+						else {
+							drawbar "H_BRFILG", "H_BRFBGG", ammo PiercingShell, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo PiercingShell, -189, -47;
+						}
+					}
+					else {
+						drawbar "H_BRFILG", "H_BRFBGG", ammo FlechetteShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo FlechetteShell, -189, -47;
+					}
+				}
+				else {
+					drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected "ResMG2" {
+				drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_4, 9 {
+					InInventory SpecialAmmoMode_4, 10 {
+						drawbar "H_BRFILG", "H_BRFBGG", ammo ExplodingShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo ExplodingShell, -189, -47;
+					}
+					else {
+						drawbar "H_BRFILG", "H_BRFBGG", ammo NitroShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo NitroShell, -189, -47;
+					}
+				}
+				else {
+					drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected " Machine Gun ", "ResMG1" {
+				InInventory SpecialAmmoMode_4, 5 {
+					InInventory SpecialAmmoMode_4, 6 {
+						InInventory SpecialAmmoMode_4, 7 {
+							drawimage "H_BRFRMX", -185, -61;
+							drawbar "H_BRFILG", "H_BRFBGG", ammo A40mmHEGrenade, horizontal, reverse, -182, -58;
+							drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo A40mmHEGrenade, -189, -60;
+						}
+						else {
+							drawimage "H_BRFRMX", -185, -61;
+							drawbar "H_BRFILG", "H_BRFBGG", ammo A40mmSonicGrenade, horizontal, reverse, -182, -58;
+							drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo A40mmSonicGrenade, -189, -60;
+						}
+					}
+					else {
+						drawimage "H_BRFRMX", -185, -61;
+						drawbar "H_BRFILG", "H_BRFBGG", ammo Grenades, horizontal, reverse, -182, -58;
+						drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo Grenades, -189, -60;
+					}
+				}
+				else {
+					drawimage "H_BRFRMX", -185, -48;
+					drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected "RhinoRifle" {
+				drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_6, 7 {
+					drawbar "H_BRFILG", "H_BRFBGG", ammo A40mmHEGrenade, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo A40mmHEGrenade, -189, -47;
+				}
+				else {
+					drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected not " Shotgun " {
+				IsSelected not "Upgraded Shotgun", "ResShotgun1" {
+					IsSelected not " Machine Gun ", "ResMG1" {
+						IsSelected not "ResMG2", "RhinoRifle" {
+							drawimage "H_BRFRMX", -185, -48;
+							drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -47;
+						}
+					}
+				}
+			}
+          }
+
+          // If ammo is between 25% and 50%, draw the bar and counter in yellow color,
+          // and the bar frame in "normal" color
+          InInventory H_PrimaryYellow
+          {
+			IsSelected " Shotgun ", "Upgraded Shotgun" {
+				drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_3, 1 {
+					InInventory SpecialAmmoMode_3, 2 {
+						InInventory SpecialAmmoMode_3, 3 {
+							drawbar "H_BRFILY", "H_BRFBGY", ammo ElectricShell, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo ElectricShell, -189, -47;
+						}
+						InInventory not SpecialAmmoMode_3, 3 {
+							drawbar "H_BRFILY", "H_BRFBGY", ammo PiercingShell, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo PiercingShell, -189, -47;
+						}
+					}
+					InInventory not SpecialAmmoMode_3, 2 {
+						drawbar "H_BRFILY", "H_BRFBGY", ammo FlechetteShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo FlechetteShell, -189, -47;
+					}
+				}
+				InInventory not SpecialAmmoMode_3, 1 {
+					drawbar "H_BRFILY", "H_BRFBGY", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected "ResShotgun1" {
+				drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_3, 1 {
+					InInventory SpecialAmmoMode_3, 2 {
+						InInventory SpecialAmmoMode_3, 3 {
+							InInventory SpecialAmmoMode_3, 11 {
+								drawbar "H_BRFILY", "H_BRFBGY", ammo SlugShell, horizontal, reverse, -182, -45;
+								drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo SlugShell, -189, -47;
+							}
+							else {
+								drawbar "H_BRFILY", "H_BRFBGY", ammo ElectricShell, horizontal, reverse, -182, -45;
+								drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo ElectricShell, -189, -47;
+							}
+						}
+						InInventory not SpecialAmmoMode_3, 3 {
+							drawbar "H_BRFILY", "H_BRFBGY", ammo PiercingShell, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo PiercingShell, -189, -47;
+						}
+					}
+					InInventory not SpecialAmmoMode_3, 2 {
+						drawbar "H_BRFILY", "H_BRFBGY", ammo FlechetteShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo FlechetteShell, -189, -47;
+					}
+				}
+				InInventory not SpecialAmmoMode_3, 1 {
+					drawbar "H_BRFILY", "H_BRFBGY", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected "ResMG2" {
+				drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_4, 9 {
+					InInventory SpecialAmmoMode_4, 10 {
+						drawbar "H_BRFILY", "H_BRFBGY", ammo ExplodingShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo ExplodingShell, -189, -47;
+					}
+					else {
+						drawbar "H_BRFILY", "H_BRFBGY", ammo NitroShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo NitroShell, -189, -47;
+					}
+				}
+				else {
+					drawbar "H_BRFILY", "H_BRFBGY", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected " Machine Gun ", "ResMG1" {
+				InInventory SpecialAmmoMode_4, 5 {
+					InInventory SpecialAmmoMode_4, 6 {
+						InInventory SpecialAmmoMode_4, 7 {
+							drawimage "H_BRFRMX", -185, -61;
+							drawbar "H_BRFILY", "H_BRFBGY", ammo A40mmHEGrenade, horizontal, reverse, -182, -58;
+							drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo A40mmHEGrenade, -189, -60;
+						}
+						else {
+							drawimage "H_BRFRMX", -185, -61;
+							drawbar "H_BRFILY", "H_BRFBGY", ammo A40mmSonicGrenade, horizontal, reverse, -182, -58;
+							drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo A40mmSonicGrenade, -189, -60;
+						}
+					}
+					else {
+						drawimage "H_BRFRMX", -185, -61;
+						drawbar "H_BRFILY", "H_BRFBGY", ammo Grenades, horizontal, reverse, -182, -58;
+						drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo Grenades, -189, -60;
+					}
+				}
+				else {
+					drawimage "H_BRFRMX", -185, -48;
+					drawbar "H_BRFILY", "H_BRFBGY", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected "RhinoRifle" {
+				drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_6, 7 {
+					drawbar "H_BRFILY", "H_BRFBGY", ammo A40mmHEGrenade, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo A40mmHEGrenade, -189, -47;
+				}
+				else {
+					drawbar "H_BRFILY", "H_BRFBGY", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected not " Shotgun ", "Upgraded Shotgun" {
+				IsSelected not "ResShotgun1" {
+					IsSelected not " Machine Gun ", "ResMG1" {
+						IsSelected not "ResMG2", "RhinoRifle" {
+							drawimage "H_BRFRMX", -185, -48;
+							drawbar "H_BRFILY", "H_BRFBGY", ammo1, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo1, -189, -47;
+						}
+					}
+				}
+			}
+          }
+
+          // If ammo is below 25%, draw the bar and counter in red color,
+          // and the bar frame in glowing "normal"
+          InInventory H_PrimaryRed
+          {
+		    /*IsSelected "Soul Render" {
+			    drawimage "H_BRFRMX", -185, -48;
+			    drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -45;
+			    drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -47;
+			}*/
+			
+			IsSelected " Shotgun ", "Upgraded Shotgun" {
+			    drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_3, 1 {
+					InInventory SpecialAmmoMode_3, 2 {
+						InInventory SpecialAmmoMode_3, 3 {
+							drawbar "H_BRFILR", "H_BRFBGR", ammo ElectricShell, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCRed, ammo ElectricShell, -189, -47;
+						}
+						InInventory not SpecialAmmoMode_3, 3 {
+							drawbar "H_BRFILR", "H_BRFBGR", ammo PiercingShell, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCRed, ammo PiercingShell, -189, -47;
+						}
+					}
+					InInventory not SpecialAmmoMode_3, 2 {
+						drawbar "H_BRFILR", "H_BRFBGR", ammo FlechetteShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCRed, ammo FlechetteShell, -189, -47;
+					}
+				}
+				InInventory not SpecialAmmoMode_3, 1 {
+					drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected "ResShotgun1" {
+			    drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_3, 1 {
+					InInventory SpecialAmmoMode_3, 2 {
+						InInventory SpecialAmmoMode_3, 3 {
+							InInventory SpecialAmmoMode_3, 11 {
+								drawbar "H_BRFILR", "H_BRFBGR", ammo SlugShell, horizontal, reverse, -182, -45;
+								drawnumber 5, HUDFONT2_DOOM, NCRed, ammo SlugShell, -189, -47;
+							}
+							else {
+								drawbar "H_BRFILR", "H_BRFBGR", ammo ElectricShell, horizontal, reverse, -182, -45;
+								drawnumber 5, HUDFONT2_DOOM, NCRed, ammo ElectricShell, -189, -47;
+							}
+						}
+						else {
+							drawbar "H_BRFILR", "H_BRFBGR", ammo PiercingShell, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCRed, ammo PiercingShell, -189, -47;
+						}
+					}
+					else {
+						drawbar "H_BRFILR", "H_BRFBGR", ammo FlechetteShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCRed, ammo FlechetteShell, -189, -47;
+					}
+				}
+				else {
+					drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected "ResMG2" {
+			    drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_4, 9 {
+					InInventory SpecialAmmoMode_4, 10 {
+						drawbar "H_BRFILR", "H_BRFBGR", ammo ExplodingShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCRed, ammo ExplodingShell, -189, -47;
+					}
+					else {
+						drawbar "H_BRFILR", "H_BRFBGR", ammo NitroShell, horizontal, reverse, -182, -45;
+						drawnumber 5, HUDFONT2_DOOM, NCRed, ammo NitroShell, -189, -47;
+					}
+				}
+				else {
+					drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected " Machine Gun ", "ResMG1" {
+				InInventory SpecialAmmoMode_4, 5 {
+					InInventory SpecialAmmoMode_4, 6 {
+						InInventory SpecialAmmoMode_4, 7 {
+							drawimage "H_BRFRMX", -185, -61;
+							drawbar "H_BRFILR", "H_BRFBGR", ammo A40mmHEGrenade, horizontal, reverse, -182, -58;
+							drawnumber 5, HUDFONT2_DOOM, NCRed, ammo A40mmHEGrenade, -189, -60;
+						}
+						else {
+							drawimage "H_BRFRMX", -185, -61;
+							drawbar "H_BRFILR", "H_BRFBGR", ammo A40mmSonicGrenade, horizontal, reverse, -182, -58;
+							drawnumber 5, HUDFONT2_DOOM, NCRed, ammo A40mmSonicGrenade, -189, -60;
+						}
+					}
+					else {
+						drawimage "H_BRFRMX", -185, -61;
+						drawbar "H_BRFILR", "H_BRFBGR", ammo Grenades, horizontal, reverse, -182, -58;
+						drawnumber 5, HUDFONT2_DOOM, NCRed, ammo Grenades, -189, -60;
+					}
+				}
+				else {
+					drawimage "H_BRFRMX", -185, -48;
+					drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected "RhinoRifle" {
+				drawimage "H_BRFRMX", -185, -48;
+				InInventory SpecialAmmoMode_6, 7 {
+					drawbar "H_BRFILR", "H_BRFBGR", ammo A40mmHEGrenade, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCRed, ammo A40mmHEGrenade, -189, -47;
+				}
+				else {
+					drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -45;
+					drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -47;
+				}
+			}
+			
+			IsSelected not " Shotgun " {
+				IsSelected not "Upgraded Shotgun", "ResShotgun1" {
+					IsSelected not " Machine Gun ", "ResMG1" {
+						IsSelected not "ResMG2", "RhinoRifle" {
+							drawimage "H_BRFRMX", -185, -48;
+							drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -45;
+							drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -47;
+						}
+					}
+				}
+			}
+          }
+
+          // Secondary ammo --------------------------------
+
+          InInventory H_SecondaryGreen
+          {
+			IsSelected "Upgraded Plasma Rifle" {
+				drawimage "H_ARFW01", -185, -74;
+				drawbar "H_BRFILR", "H_BRFBGR", ammo2, horizontal, reverse, -182, -71;
+				drawnumber 5, HUDFONT2_DOOM, NCRed, ammo2, -189, -73;
+			}
+			
+			IsSelected "ResBfg1", "ResRL3" {
+				drawimage "H_ARFW01", -185, -74;
+				drawbar "H_BRFILR", "H_BRFBGR", ammo2, horizontal, reverse, -182, -71;
+				drawnumber 5, HUDFONT2_DOOM, NCRed, ammo2, -189, -73;
+			}
+			
+			IsSelected "ResPlasma3", "Upgraded BFG 9000" {
+				drawimage "H_ARFW01", -185, -74;
+				drawbar "H_BRFILR", "H_BRFBGR", ammo2, horizontal, reverse, -182, -71;
+				drawnumber 5, HUDFONT2_DOOM, NCRed, ammo2, -189, -73;
+			}
+			
+			IsSelected "Desolator" {
+				drawimage "H_ARFW01", -185, -74;
+				drawbar "H_BRFILR", "H_BRFBGR", ammo2, horizontal, reverse, -182, -71;
+				drawnumber 5, HUDFONT2_DOOM, NCRed, ammo2, -189, -73;
+			}
+
+			IsSelected " Machine Gun ", "ResMG1" {
+				InInventory not SpecialAmmoMode_4, 5 {
+					InInventory not SpecialAmmoMode_4, 6 {
+						InInventory not SpecialAmmoMode_4, 7 {
+							drawimage "H_BRFRMX", -185, -74;
+							drawbar "H_BRFILG", "H_BRFBGG", ammo2, horizontal, reverse, -182, -71;
+							drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo2, -189, -73;
+						}
+					}
+				}
+			}
+
+			IsSelected not "Upgraded Plasma Rifle" {
+				IsSelected not "ResBfg1", "Upgraded BFG 9000" {
+					IsSelected not "ResRL3", "ResPlasma3" {
+						IsSelected not "Desolator" {
+							IsSelected not " Machine Gun ", "ResMG1" {
+								drawimage "H_BRFRMX", -185, -74;
+								drawbar "H_BRFILG", "H_BRFBGG", ammo2, horizontal, reverse, -182, -71;
+								drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo2, -189, -73;
+							}
+						}
+					}
+				}
+			}
+          }
+
+          InInventory H_SecondaryYellow
+          {
+            drawimage "H_BRFRMX", -185, -74;
+            drawbar "H_BRFILY", "H_BRFBGY", ammo2, horizontal, reverse, -182, -71;
+            drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo2, -189, -73;
+          }
+
+          InInventory H_SecondaryRed
+          {
+			IsSelected "Upgraded Plasma Rifle" {
+				drawimage "H_BRFRMX", -185, -74;
+				drawbar "H_BRFILG", "H_BRFBGG", ammo2, horizontal, reverse, -182, -71;
+				drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo2, -189, -73;
+			}
+			
+			IsSelected "ResBfg1", "ResRL3" {
+				drawimage "H_BRFRMX", -185, -74;
+				drawbar "H_BRFILG", "H_BRFBGG", ammo2, horizontal, reverse, -182, -71;
+				drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo2, -189, -73;
+			}
+			
+			IsSelected "ResPlasma3", "Upgraded BFG 9000" {
+				drawimage "H_BRFRMX", -185, -74;
+				drawbar "H_BRFILG", "H_BRFBGG", ammo2, horizontal, reverse, -182, -71;
+				drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo2, -189, -73;
+			}
+			
+			IsSelected "Desolator" {
+				drawimage "H_BRFRMX", -185, -74;
+				drawbar "H_BRFILG", "H_BRFBGG", ammo2, horizontal, reverse, -182, -71;
+				drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo2, -189, -73;
+			}
+			
+			// not inverse bar
+			IsSelected not "Upgraded Plasma Rifle" {
+				IsSelected not "ResBfg1", "Upgraded BFG 9000" {
+					IsSelected not "ResRL3", "ResPlasma3" {
+						IsSelected not "Desolator", "Sickle" {
+							drawimage "H_ARFW01", -185, -74;
+							drawbar "H_BRFILR", "H_BRFBGR", ammo2, horizontal, reverse, -182, -71;
+							drawnumber 5, HUDFONT2_DOOM, NCRed, ammo2, -189, -73;
+						}
+					}
+				}
+			}
+          }
+        }
+
+        else
+        {
+          drawimage "H_BRFRMX", -185, -48;
+          drawimage "H_BRFILI", -182, -45;
+          drawimage "H_INFNTY", -211, -47;
+
+          // -----------------------------------------------
+
+          drawimage "H_BRFRMX", -185, -74;
+          drawimage "H_BRFILI", -182, -71;
+          drawimage "H_INFNTY", -211, -73;
+        }
+    }
+
+    // Weapons that use one type of ammunition
+    usessecondaryammo not
+    {
+		IsSelected " Akimbo Pistols " {
+            drawimage "ACLIPICO", -80, -67, center, 18, 18;
+            drawimage ammoicon1, -80, -41, center, 18, 18;
+			drawnumber 2, HUDFONT2_DOOM, NCWhiteC, ammo AkimboClipLeft, alignment(right), -144, -74;
+			drawnumber 2, HUDFONT2_DOOM, NCWhiteC, ammo AkimboClipRight, alignment(right), -96, -74;
+			drawstring HUDFONT2_DOOM, NCWhiteC, "/", -120, -74;
+		}
+		
+		IsSelected "Slayer" {
+			drawimage "SLAYAM01", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "ResShotgun2" {
+			drawimage "D97A1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "ResSSG1" {
+			drawimage "PCNIC1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "ResRL1" {
+			drawimage "LAAM1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "Upgraded Plasma Rifle3" {
+			drawimage "EICEAM1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "ResRL4" {
+			drawimage "GRAVD0", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "ResPlasma2" {
+			drawimage "D98AB1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		IsSelected "ResShotgun3" {
+			drawimage "DBLUD1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "Upgraded Super Shotgun3" {
+			drawimage "HMAWA1", -80, -55, center, 18, 18; // won't animate ammo icon for some reason
+		}
+		
+		IsSelected "Grenade Launcher" {
+			InInventory SpecialAmmoMode_5X, 6 {
+				InInventory SpecialAmmoMode_5X, 7 {
+					drawimage "GAM2A0", -80, -54, center, 18, 18;
+				}
+				else {
+					drawimage "GAM1A0", -80, -54, center, 18, 18;
+				}
+			}
+			else {
+				drawimage ammoicon1, -80, -54, center, 18, 18;
+			}
+		}
+		
+		IsSelected not " Akimbo Pistols ", "Basilisk" {
+			IsSelected not "Slayer", Excalibat {
+				IsSelected not "ResSSG1", "ResRL1" {
+					IsSelected not "Grenade Launcher", "ResPlasma2" {
+						IsSelected not "ResShotgun2", "Upgraded Plasma Rifle3" {
+							IsSelected not "ResShotgun3", "Upgraded Super Shotgun3" {
+								IsSelected not "ResRL4" {
+									drawimage ammoicon1, -80, -54, center, 18, 18;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+      InInventory not H_InfiniteAmmo
+      {
+        InInventory H_PrimaryGreen
+        {
+			IsSelected " Akimbo Pistols " {
+				drawimage "H_BRFRMX", -185, -48;
+				drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -45;
+				drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -47;
+			}
+			
+			IsSelected "Grenade Launcher" {
+				drawimage "H_BRFRMX", -185, -61;
+				InInventory SpecialAmmoMode_5X, 6 {
+					InInventory SpecialAmmoMode_5X, 7 {
+						drawbar "H_BRFILG", "H_BRFBGG", ammo A40MMHEGrenade, horizontal, reverse, -182, -58;
+						drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo A40MMHEGrenade, -189, -60;
+					}
+					else {
+						drawbar "H_BRFILG", "H_BRFBGG", ammo A40MMSonicGrenade, horizontal, reverse, -182, -58;
+						drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo A40MMSonicGrenade, -189, -60;
+					}
+				}
+				else {
+					drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -58;
+					drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -60;
+				}
+			}
+			
+			// this one has only this ammo so its in center
+			IsSelected "Sickle" {
+				drawimage "H_BRFRMX", -185, -61;
+				drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -58;
+				drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -60;
+			}
+			
+			IsSelected not " Akimbo Pistols ", "Grenade Launcher" {
+				IsSelected not "Sickle" {
+					drawimage "H_BRFRMX", -185, -61;
+					drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -58;
+					drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -60;
+				}
+			}
+        }
+
+        InInventory H_PrimaryYellow
+        {
+			IsSelected " Akimbo Pistols " {
+				drawimage "H_BRFRMX", -185, -48;
+				drawbar "H_BRFILY", "H_BRFBGY", ammo1, horizontal, reverse, -182, -45;
+				drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo1, -189, -47;
+			}
+			
+			IsSelected "Grenade Launcher" {
+				drawimage "H_BRFRMX", -185, -61;
+				InInventory SpecialAmmoMode_5X, 6 {
+					InInventory SpecialAmmoMode_5X, 7 {
+						drawbar "H_BRFILY", "H_BRFBGY", ammo A40MMHEGrenade, horizontal, reverse, -182, -58;
+						drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo A40MMHEGrenade, -189, -60;
+					}
+					else {
+						drawbar "H_BRFILY", "H_BRFBGY", ammo A40MMSonicGrenade, horizontal, reverse, -182, -58;
+						drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo A40MMSonicGrenade, -189, -60;
+					}
+				}
+				else {
+					drawbar "H_BRFILY", "H_BRFBGY", ammo1, horizontal, reverse, -182, -58;
+					drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo1, -189, -60;
+				}
+			}
+			
+			IsSelected not " Akimbo Pistols ", "Grenade Launcher" {
+				drawimage "H_BRFRMX", -185, -61;
+				drawbar "H_BRFILY", "H_BRFBGY", ammo1, horizontal, reverse, -182, -58;
+				drawnumber 5, HUDFONT2_DOOM, NCYellow, ammo1, -189, -60;
+			}
+        }
+
+        InInventory H_PrimaryRed
+        {
+			IsSelected " Akimbo Pistols " {
+				drawimage "H_ARFW01", -185, -48;
+				drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -45;
+				drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -47;
+			}
+			
+			IsSelected "Grenade Launcher" {
+				drawimage "H_ARFW01", -185, -61;
+				InInventory SpecialAmmoMode_5X, 6 {
+					InInventory SpecialAmmoMode_5X, 7 {
+						drawbar "H_BRFILR", "H_BRFBGR", ammo A40MMHEGrenade, horizontal, reverse, -182, -58;
+						drawnumber 5, HUDFONT2_DOOM, NCRed, ammo A40MMHEGrenade, -189, -60;
+					}
+					else {
+						drawbar "H_BRFILR", "H_BRFBGR", ammo A40MMSonicGrenade, horizontal, reverse, -182, -58;
+						drawnumber 5, HUDFONT2_DOOM, NCRed, ammo A40MMSonicGrenade, -189, -60;
+					}
+				}
+				else {
+					drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -58;
+					drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -60;
+				}
+			}
+			
+			// this one has only this ammo so its in center
+			IsSelected "Sickle" {
+				drawimage "H_BRFRMX", -185, -61;
+				drawbar "H_BRFILG", "H_BRFBGG", ammo1, horizontal, reverse, -182, -58;
+				drawnumber 5, HUDFONT2_DOOM, NCGreen, ammo1, -189, -60;
+			}
+			
+			IsSelected not " Akimbo Pistols ", "Grenade Launcher" {
+				IsSelected not "Sickle" { 
+					drawimage "H_ARFW01", -185, -61;
+					drawbar "H_BRFILR", "H_BRFBGR", ammo1, horizontal, reverse, -182, -58;
+					drawnumber 5, HUDFONT2_DOOM, NCRed, ammo1, -189, -60;
+				}
+			}
+        }
+      }
+
+      else
+      {
+        drawimage "H_BRFRMX", -185, -61;
+        drawimage "H_BRFILI", -182, -58;
+        drawimage "H_INFNTY", -211, -60;
+      }
+    }
+  }
+
+  // Otherwise (weapon doesn't use ammo), draw only the arms background
+  usesammo not { drawimage "H_BGWP", -244, -85; }
+
+  // Keys -----------------------------------------------------------------------------------------------
+
+  drawswitchableimage keyslot 2, "H_NOKCRD", "STKEYS0", -52, -73; // Blue card
+  drawswitchableimage keyslot 3, "H_NOKCRD", "STKEYS1", -52, -52; // Yellow card
+  drawswitchableimage keyslot 1, "H_NOKCRD", "STKEYS2", -52, -31; // Red card
+
+  drawswitchableimage keyslot 5, "H_NOSKLK", "STKEYS3", -31, -73; // Blue skull
+  drawswitchableimage keyslot 6, "H_NOSKLK", "STKEYS4", -31, -52; // Yellow skull
+  drawswitchableimage keyslot 4, "H_NOSKLK", "STKEYS5", -31, -31; // Red skull
+
+  // Arms -----------------------------------------------------------------------------------------------
+
+  // Depending on the presence of a weapon in the inventory,
+  // the corresponding slot number will be displayed
+  Alpha 0.5
+  {
+    drawswitchableimage weaponslot 1, "", "NCNFT049", -238, -19;
+    drawswitchableimage weaponslot 2, "", "NCNFT050", -220, -19;
+    drawswitchableimage weaponslot 3, "", "NCNFT051", -202, -19;
+    drawswitchableimage weaponslot 4, "", "NCNFT052", -185, -19;
+    drawswitchableimage weaponslot 5, "", "NCNFT053", -166, -19;
+    drawswitchableimage weaponslot 6, "", "NCNFT054", -148, -19;
+    drawswitchableimage weaponslot 7, "", "NCNFT055", -130, -19;
+    drawswitchableimage weaponslot 8, "", "NCNFT056", -112, -19;
+	drawswitchableimage weaponslot 9, "", "NCNFT057", -94, -19;
+  }
+  // survival lives
+  GameMode Survival {
+	drawnumber 1, HUDFONT2_DOOM, NCRed, ammo CurrentLives, -66, -20; 
+  }
+  // ----------------------------------------
+
+  // Depending on the selected weapon's slot, the corresponding slot number will light up
+
+  // Slot 1
+  InInventory H_WeaponSlot1 { drawstring NCNormalFont, NCBlueC, "1", -238, -19, 0, alignment(left); }
+
+  // Slot 2
+  InInventory H_WeaponSlot2 { drawstring NCNormalFont, NCBlueC, "2", -220, -19, 0, alignment(left); }
+
+  // Slot 3
+  InInventory H_WeaponSlot3 { drawstring NCNormalFont, NCBlueC, "3", -202, -19, 0, alignment(left); }
+  InInventory H_WeaponSlot3X { drawstring NCNormalFont, NCBlueC, "3", -202, -19, 0, alignment(left); }
+
+  // Slot 4
+  InInventory H_WeaponSlot4 { drawstring NCNormalFont, NCBlueC, "4", -185, -19, 0, alignment(left); }
+
+  // Slot 5
+  InInventory H_WeaponSlot5 { drawstring NCNormalFont, NCBlueC, "5", -166, -19, 0, alignment(left); }
+
+  // Slot 6
+  InInventory H_WeaponSlot6 { drawstring NCNormalFont, NCBlueC, "6", -148, -19, 0, alignment(left); }
+
+  // Slot 7
+  InInventory H_WeaponSlot7 { drawstring NCNormalFont, NCBlueC, "7", -130, -19, 0, alignment(left); }
+
+  // Slot 8
+  InInventory H_WeaponSlot8 { drawstring NCNormalFont, NCBlueC, "8", -112, -19, 0, alignment(left); }
+
+  // Slot 9
+  InInventory H_WeaponSlot9 { drawstring NCNormalFont, NCBlueC, "9", -94, -19, 0, alignment(left); }
+
+  // Inventory Box --------------------------------------------------------------------------------------
+
+  drawselectedinventory alternateonempty, center, NCNormalFont, -23, -106, -8, -100, NCWhiteC {}
+  else { drawimage "ARTIBOX", -42, -125; }
+  
+	// marine display
+	InInventory Marine_DamageReduction_Timer {
+		drawbar "MRESICO", "MRESICOB", Marine_DamageReduction_Timer, vertical, -152, -200;
+	}
+	
+	InInventory Marine_Perk50_Cooldown {
+		drawbar "MRCDICO", "MRESICOB", Marine_Perk50_Cooldown, vertical, -152, -200;
+	}
+	
+	// hobo display
+	InInventory Hobo_ShotgunFrenzyTimer {
+		drawbar "SGFRNZ", "SGFRNZB", Hobo_ShotgunFrenzyTimer, vertical, -152, -200;
+	}
+  
+	// cyborg display
+	InInventory Cyborg_InstabilityStack {
+		drawbar "INSTICO", "INSTICOB", Cyborg_Instability_Timer, vertical, -152, -200;
+		drawnumber 2, NCNormalFont, NCWhiteC, Cyborg_InstabilityStack, alignment(center), -122, -144;
+	}
+
+	// berserker display
+	InInventory Berserker_DamageTimer, 1 {
+		drawbar "BERSICO1", "BERSICB1", Berserker_DamageTimer, vertical, -152, -200;
+		drawnumber 2, NCNormalFont, NCWhiteC, Berserker_DamageTracker, alignment(center), -122, -144;
+	}
+
+	InInventory Berserker_HitTracker {
+		drawbar "BERSICO2", "BERSICB2", Berserker_HitTimer, vertical, -88, -200;
+		drawnumber 2, NCNormalFont, NCWhiteC, Berserker_HitTracker, alignment(center), -58, -144;
+	}
+	
+	// trickster display
+	InInventory Trickster_ShadowCooldown {
+		drawbar "TCCDICO", "TCSPICO", Trickster_ShadowCooldown, vertical, -152, -200;
+	}
+  
+	InInventory RuinationStacks, 1 {
+		InInventory RuinationStacks, 2 {
+			InInventory RuinationStacks, 3 {
+				InInventory RuinationStacks, 4 {
+					InInventory RuinationStacks, 5 {
+						InInventory RuinationStacks, 6 {
+							drawimage "RUIN_6", -88, -264;
+						}
+						else
+							drawimage "RUIN_5", -88, -264;
+					}
+					else
+						drawimage "RUIN_4", -88, -264;
+				}
+				else
+					drawimage "RUIN_3", -88, -264;
+			}
+			else
+				drawimage "RUIN_2", -88, -264;
+		}
+		else
+			drawimage "RUIN_1", -88, -264;
+	}
+	
+	InInventory DaemonicBarrier, 1 {
+		drawimage "DBARRIER", -64, -152;
+		drawnumber 2, NCNormalFont, NCWhiteC, DaemonicBarrier, alignment(center), -8, -100;
+	}
+}
+
+statusbar automap { }
+
+statusbar inventory // Standard bar overlay (ZDoom Addition)
+{
+    drawinventorybar Doom, 7, INDEXFONT, 50, 170;
+}
+
+statusbar inventoryfullscreen // ZDoom HUD overlay.
+{
+    drawinventorybar Doom, translucent, 7, INDEXFONT, 50, 170;
+}

@@ -1,0 +1,200 @@
+object BFGBallUpgraded
+{
+    frame BFS1A { light BFGBALL }
+    frame BFS1B { light BFGBALL }
+
+    frame BFE1A { light BFGBALL_X1 }
+    frame BFE1B { light BFGBALL_X2 }
+    frame BFE1C { light BFGBALL_X3 }
+    frame BFE1D { light BFGBALL_X1 }
+    frame BFE1E { light BFGBALL_X4 }
+    frame BFE1F { light BFGBALL_X5 }
+}
+
+object BFGExtraUpgraded
+{
+    frame BFOGA { light BFGBALL    }
+	frame BFOGB { light BFGBALL    }
+    frame BFOGC { light BFGBALL_X1 }
+	frame BFOGD { light BFGBALL_X1 }
+    frame BFOGE { light BFGBALL_X4 }
+	frame BFOGF { light BFGBALL_X4 }
+    frame BFOGG { light BFGBALL_X5 }
+}
+
+object BFGExtra2
+{
+    frame BFE2A { light BFGBALL    }
+    frame BFE2B { light BFGBALL_X1 }
+    frame BFE2C { light BFGBALL_X4 }
+    frame BFE2D { light BFGBALL_X5 }
+}
+
+pointlight Devastator {
+	color 0.9 0.6 0.0
+	size 24
+}
+
+object DevastatorRocket {
+	frame DEVM { light Devastator }
+}
+
+object DevastatorRocket_GhostHitter {
+	frame DEVM { light Devastator }
+}
+
+object DevastatorRocket_LessRange {
+	frame DEVM { light Devastator }
+}
+
+object DevastatorRocket_LessRange_GhostHitter {
+	frame DEVM { light Devastator }
+}
+
+object DevastatorExplosion {
+	frame EXP6A { light EXPSHELL1 }
+	frame EXP6B { light EXPSHELL1 }
+	frame EXP6C { light EXPSHELL2 }
+	frame EXP6D { light EXPSHELL2 }
+	frame EXP6E { light EXPSHELL3 }
+	frame EXP6F { light EXPSHELL3 }
+	frame EXP6G { light EXPSHELL4 }
+	frame EXP6H { light EXPSHELL4 }
+	
+	frame EXP7A { light EXPSHELL1 }
+	frame EXP7B { light EXPSHELL1 }
+	frame EXP7C { light EXPSHELL2 }
+	frame EXP7D { light EXPSHELL2 }
+	frame EXP7E { light EXPSHELL3 }
+	frame EXP7F { light EXPSHELL3 }
+	frame EXP7G { light EXPSHELL4 }
+	frame EXP7H { light EXPSHELL4 }
+	
+	frame EXP8A { light EXPSHELL1 }
+	frame EXP8B { light EXPSHELL1 }
+	frame EXP8C { light EXPSHELL2 }
+	frame EXP8D { light EXPSHELL2 }
+	frame EXP8E { light EXPSHELL3 }
+	frame EXP8F { light EXPSHELL3 }
+	frame EXP8G { light EXPSHELL4 }
+	frame EXP8H { light EXPSHELL4 }
+	
+	frame EXP9A { light EXPSHELL1 }
+	frame EXP9B { light EXPSHELL1 }
+	frame EXP9C { light EXPSHELL2 }
+	frame EXP9D { light EXPSHELL2 }
+	frame EXP9E { light EXPSHELL3 }
+	frame EXP9F { light EXPSHELL3 }
+	frame EXP9G { light EXPSHELL4 }
+	frame EXP9H { light EXPSHELL4 }
+	
+	frame EXP0A { light EXPSHELL1 }
+	frame EXP0B { light EXPSHELL1 }
+	frame EXP0C { light EXPSHELL2 }
+	frame EXP0D { light EXPSHELL2 }
+	frame EXP0E { light EXPSHELL3 }
+	frame EXP0F { light EXPSHELL3 }
+	frame EXP0G { light EXPSHELL4 }
+	frame EXP0H { light EXPSHELL4 }
+}
+
+object BFGBall2
+{
+    frame BFS1A { light BFGBALL }
+    frame BFS1B { light BFGBALL }
+
+    frame BFE1A { light BFGBALL_X1 }
+    frame BFE1B { light BFGBALL_X2 }
+    frame BFE1C { light BFGBALL_X3 }
+    frame BFE1D { light BFGBALL_X1 }
+    frame BFE1E { light BFGBALL_X4 }
+    frame BFE1F { light BFGBALL_X5 }
+}
+
+pulselight DRayLight {
+	color 1.0 0.25 0.25
+	size 18
+	secondarysize 36
+	interval 1
+}
+
+flickerlight DRayLight2 {
+	color 1.0 0.25 0.25
+	size 36
+	secondarysize 52
+	chance 0.75
+}
+
+pulselight DNBFGFLASH
+{
+    color 0.2 1.0 0.2
+    size 256
+    secondarySize 0
+    interval 1.25
+}
+
+Object DNBFGGLDEFThingy
+{
+    frame TNT1A { light DNBFGFLASH }
+}
+
+pointlight DNBFGFLIGHT
+{
+    color 0.1 1.0 0.1
+    size 128
+}
+
+Object DNBFGBall
+{
+    frame NBFP { light DNBFGFLIGHT }
+}
+
+pointlight DNBFGFLIGHT2
+{
+    color 0.1 1.0 0.1
+    size 72
+}
+
+Object DNBFGBallSmall
+{
+    frame NBFP { light DNBFGFLIGHT2 }
+}
+
+Object DNBFGBallSmall_Crit
+{
+    frame NBFP { light DNBFGFLIGHT2 }
+}
+
+pointlight IonPuffLight1 {
+	color 1.0 0.7 0.1
+	size 48
+}
+
+pointlight IonPuffLight2 {
+	color 0.9 0.6 0.05
+	size 36
+}
+
+pointlight IonPuffLight3 {
+	color 0.8 0.5 0.0
+	size 20
+}
+
+pointlight IonPuffLight4 {
+	color 0.6 0.3 0.0
+	size 8
+}
+
+object IonPuff {
+	frame IOPFA { light IonPuffLight1 }
+	frame IOPFB { light IonPuffLight2 }
+	frame IOPFC { light IonPuffLight3 }
+	frame IOPFD { light IonPuffLight4 }
+}
+
+object IonPuff_GhostHitter {
+	frame IOPFA { light IonPuffLight1 }
+	frame IOPFB { light IonPuffLight2 }
+	frame IOPFC { light IonPuffLight3 }
+	frame IOPFD { light IonPuffLight4 }
+}

@@ -1,0 +1,213 @@
+Gant/Fire			GANTFIR
+Gant/Hit1			GANTHIT1
+Gant/Hit2			GANTHIT2
+Gant/Hit3			GANTHIT3
+$random Gant/Hit { Gant/Hit1 Gant/Hit2 Gant/Hit3 }
+
+Gant/See1			GANTSIT1
+Gant/See2			GANTSIT2
+Gant/See3			GANTSIT3
+Gant/See4			GANTSIT4
+$random Gant/See { Gant/See1 Gant/See2 Gant/See3 Gant/See4 }
+Gant/Die1			GANTDIE1
+Gant/Die2			GANTDIE2
+Gant/Die3			GANTDIE3
+Gant/Die4			GANTDIE4
+$random Gant/Die { Gant/Die1 Gant/Die2 Gant/Die3 Gant/Die4 }
+Gant/Pain1			GANTPN1
+Gant/Pain2			GANTPN2
+Gant/Pain3			GANTPN3
+Gant/Pain4			GANTPN4
+$random Gant/Pain { Gant/Pain1 Gant/Pain2 Gant/Pain3 Gant/Pain4 }
+Gant/Idle1			GANTI1
+Gant/Idle2			GANTI2
+Gant/Idle3			GANTI3
+Gant/Idle4			GANTI4
+$random Gant/Idle { Gant/Idle1 Gant/Idle2 Gant/Idle3 Gant/Idle4 }
+
+Bronn/See1			BRONNSE1
+Bronn/See2			BRONNSE2
+Bronn/See3			BRONNSE3
+Bronn/See4			BRONNSE4
+$random Bronn/See { Bronn/See1 Bronn/See2 Bronn/See3 Bronn/See4 }
+Bronn/Pain1			BRONNPN1
+Bronn/Pain2			BRONNPN2
+Bronn/Pain3			BRONNPN3
+Bronn/Pain4			BRONNPN4
+$random Bronn/Pain { Bronn/Pain1 Bronn/Pain2 Bronn/Pain3 Bronn/Pain4 }
+Bronn/Die1			BRONNDI1
+Bronn/Die2			BRONNDI2
+Bronn/Die3			BRONNDI3
+$random Bronn/Die { Bronn/Die1 Bronn/Die2 Bronn/Die3 }
+
+Vaaj/See			DSUCIT1
+Vaaj/Pain1			DSUCPN1
+Vaaj/Pain2			DSUCPN2
+Vaaj/Pain3			DSUCPN3
+Vaaj/Pain4			DSUCPN4
+Vaaj/Pain5			DSUCPN5
+Vaaj/Pain6			DSUCPN6
+$random Vaaj/Pain { Vaaj/Pain1 Vaaj/Pain2 Vaaj/Pain3 Vaaj/Pain4 Vaaj/Pain5 Vaaj/Pain6 }
+Vaaj/Die1			DSUCDTH1
+Vaaj/Die2			DSUCDTH2
+$random Vaaj/Die { Vaaj/Die1 Vaaj/Die2 }
+Vaaj/Attack			DSUCATK
+
+Remus/see         	REMUSITE
+Remus/Die			REMUDTH
+Remus/tele1			REMUTEL1
+Remus/tele2			REMUTEL2
+Remus/pain			REMUPAIN
+$random Remus/tele { Remus/tele1  Remus/tele2 }
+
+SSrath/See			SSRASEE
+SSrath/Active		SSRAACT
+SSrath/Die			SSRADIE
+SSrath/ScreamerGo	SSRASCRM
+SSrath/Attack		SSRAATK
+SSrath/Pain1		SSRAPAI1
+SSrath/Pain2		SSRAPAI2
+$random SSrath/Pain { SSrath/Pain1 SSrath/Pain2 }
+
+Hollowshell/See		HLLWSEE
+Hollowshell/Act		HLLWACT
+Hollowshell/Die		HLLWDIE
+
+Omnisight/Shock		OMNISHCK
+Omnisight/Chaos		OMNICHAO
+Omnisight/See		OMNISEE
+Omnisight/Pain		OMNIPAIN
+Omnisight/Act		OMNIACT
+Omnisight/Die		OMNIDIE
+Omnisight/BigZap1	OMNIZAP1
+Omnisight/BigZap2	OMNIZAP2
+Omnisight/BigZap3	OMNIZAP3
+Omnisight/BigZap4	OMNIZAP4
+Omnisight/BigZap5	OMNIZAP5
+Omnisight/BigZap6	OMNIZAP6
+$random Omnisight/BigZap { Omnisight/BigZap1 Omnisight/BigZap2 Omnisight/BigZap3 Omnisight/BigZap4 Omnisight/BigZap5 Omnisight/BigZap6 }
+Omnisight/ZapLoop	OMNIZAPL
+
+Harkimonde/See		HARKSEE
+Harkimonde/Pain		HARKPAIN
+Harkimonde/Act		HARKACT
+Harkimonde/Die		HARKDIE
+Harkimonde/Leap		HARKLEAP
+
+Leshrac/See			LESHSEE
+Leshrac/Pain		LESHPAIN
+Leshrac/Act			LESHACT
+Leshrac/Die			LESHDIE
+Leshrac/BigMineExp	LESHMINX
+Leshrac/Mine1		LESHMIN1
+Leshrac/Mine2		LESHMIN2
+Leshrac/Mine3		LESHMIN3
+$random Leshrac/Mine { Leshrac/Mine1 Leshrac/Mine2 Leshrac/Mine3 }
+
+Krull/See			KRULSEE
+Krull/Pain			KRULPAIN
+Krull/Act			KRULACT
+Krull/Die			KRULDIE
+Krull/Attack		KRULATK
+
+Thorax/See			THRXSEE
+Thorax/Act1			THRXACT1
+Thorax/Act2			THRXACT2
+$random Thorax/Act { Thorax/Act1 Thorax/Act2 }
+Thorax/Pain1		THRXPAI1
+Thorax/Pain2		THRXPAI2
+Thorax/Pain3		THRXPAI3
+$random Thorax/Pain { Thorax/Pain1 Thorax/Pain2 Thorax/Pain3 }
+Thorax/Die			THRXDIE
+
+Zravog/See			ZRAVSEE
+Zravog/Pain			ZRAVPAIN
+Zravog/Act			ZRAVACT
+Zravog/Die			ZRAVDIE
+Zravog/SpellBegin	ZRAVSPLS
+Zravog/SpellHit		ZRAVSPLH
+
+Eryxia/See			ERYXSEE
+Eryxia/Pain			ERYXPAIN
+Eryxia/Die			ERYXDIE
+Eryxia/Walk			ERYXWALK
+Eryxia/Act			ERYXACT
+Eryxia/Retaliate	ERYXRETA
+
+Abaxoth/See			ABAXSEE
+Abaxoth/Pain1		ABAXPAI1
+Abaxoth/Pain2		ABAXPAI2
+Abaxoth/Pain3		ABAXPAI3
+Abaxoth/Pain4		ABAXPAI4
+Abaxoth/Pain5		ABAXPAI5
+Abaxoth/Pain6		ABAXPAI6
+$random Abaxoth/Pain { Abaxoth/Pain1 Abaxoth/Pain2 Abaxoth/Pain3 Abaxoth/Pain4 Abaxoth/Pain5 Abaxoth/Pain6 }
+$rolloff Abaxoth/Pain1 320 1576
+$rolloff Abaxoth/Pain2 320 1576
+$rolloff Abaxoth/Pain3 320 1576
+$rolloff Abaxoth/Pain4 320 1576
+$rolloff Abaxoth/Pain5 320 1576
+$rolloff Abaxoth/Pain6 320 1576
+Abaxoth/Act1		ABAXACT1
+Abaxoth/Act2		ABAXACT2
+Abaxoth/Act3		ABAXACT3
+$random Abaxoth/Act { Abaxoth/Act1 Abaxoth/Act2 Abaxoth/Act3 }
+$rolloff Abaxoth/Act1 320 1576
+$rolloff Abaxoth/Act2 320 1576
+$rolloff Abaxoth/Act3 320 1576
+Abaxoth/Die			ABAXDIE
+$rolloff Abaxoth/Die 320 2048
+Abaxoth/Walk		ABAXWALK
+Abaxoth/DeathBody	ABAXDBOD
+
+Abaxoth/ThunderProc1	ABAXTHP1
+Abaxoth/ThunderProc2	ABAXTHP2
+Abaxoth/ThunderProc3	ABAXTHP3
+Abaxoth/ThunderProc4	ABAXTHP4
+$random Abaxoth/ThunderProc { Abaxoth/ThunderProc1 Abaxoth/ThunderProc2 Abaxoth/ThunderProc3 Abaxoth/ThunderProc4 }
+
+Abaxoth/Bullrush	ABAXBULL
+Abaxoth/MeleeEffort	ABAXMELE
+Abaxoth/LaserLoop	ABAXLAZL
+$rolloff Abaxoth/LaserLoop 400 2048
+Abaxoth/LaserBegin	ABAXLAZR
+$rolloff Abaxoth/LaserBegin 400 2048
+Abaxoth/LaserEnd	ABAXLAZE
+$rolloff Abaxoth/LaserEnd 400 2048
+Abaxoth/TectonicExp1		ABAXEXP2
+$limit Abaxoth/TectonicExp1 16
+Abaxoth/TectonicExp2		ABAXEXP1
+$limit Abaxoth/TectonicExp2 16
+Abaxoth/HammerSwing1		ABAXSWN1
+Abaxoth/HammerSwing2		ABAXSWN2
+Abaxoth/HammerSwing3		ABAXSWN3
+$random Abaxoth/HammerSwing { Abaxoth/HammerSwing1 Abaxoth/HammerSwing2 Abaxoth/HammerSwing3 }
+Abaxoth/MeleeHit1	ABAXHIT1
+Abaxoth/MeleeHit2	ABAXHIT2
+$random Abaxoth/MeleeHit { Abaxoth/MeleeHit1 Abaxoth/MeleeHit2 }
+Abaxoth/ThunderGo		ABAXTHNG
+Abaxoth/Slam1			ABAXSLM1
+$limit Abaxoth/Slam1 0
+Abaxoth/Slam2			ABAXSLM2
+$limit Abaxoth/Slam2 0
+
+Abaxoth/Thunder1	LGSPBNCE
+Abaxoth/Thunder2	LGSPCST1
+Abaxoth/Thunder3	LGSPCST2
+Abaxoth/Thunder4	LGSPCST3
+Abaxoth/Thunder5	ABAXTHNG
+Abaxoth/Thunder6	DREAMTHN
+$random Abaxoth/Thunder	{ Abaxoth/Thunder1 Abaxoth/Thunder2 Abaxoth/Thunder3 Abaxoth/Thunder4 Abaxoth/Thunder5 Abaxoth/Thunder6 }
+
+$limit Abaxoth/Thunder1 0
+$limit Abaxoth/Thunder2 0
+$limit Abaxoth/Thunder3 0
+$limit Abaxoth/Thunder4 0
+$limit Abaxoth/Thunder5 0
+$limit Abaxoth/Thunder6 0
+$rolloff Abaxoth/Thunder1 384 2048
+$rolloff Abaxoth/Thunder2 384 2048
+$rolloff Abaxoth/Thunder3 384 2048
+$rolloff Abaxoth/Thunder4 384 2048
+$rolloff Abaxoth/Thunder5 384 2048
+$rolloff Abaxoth/Thunder6 384 2048

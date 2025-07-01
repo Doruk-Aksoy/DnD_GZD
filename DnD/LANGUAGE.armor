@@ -1,0 +1,47 @@
+[enu default]
+
+// body armors
+DND_ARMOR1		=		"Light Armor";
+DND_ARMOR2		=		"Security Armor";
+DND_ARMOR3		=		"Combat Armor";
+DND_ARMOR4		=		"Heavy Armor";
+
+DND_ARMOR5		=		"Gunslinger Armor";
+DND_ARMOR6		=		"Occult Armor";
+DND_ARMOR7		=		"Demo Armor";
+DND_ARMOR8		=		"Energy Armor";
+DND_ARMOR9		=		"Elemental Armor";
+
+DND_ARMOR10		=		"Monolith Armor";
+DND_ARMOR11		=		"Cybernetic Armor";
+DND_ARMOR12		=		"Duelist Armor";
+DND_ARMOR13		=		"Necro Armor";
+DND_ARMOR14		=		"Knight Armor";
+DND_ARMOR15		=		"Ravager Armor";
+DND_ARMOR16		=		"Tangled Ribcage";
+
+DND_ARMOR17		=		"Synth-metal Armor";
+DND_ARMOR18		=		"Lightning Coil Armor";
+
+// boots
+DND_BOOT1		=		"Silver Boots";
+DND_BOOT2		=		"Engineer's Boots";
+DND_BOOT3		=		"Insulated Boots";
+DND_BOOT4		=		"Plated Boots";
+DND_BOOT5		=		"Power Boots";
+DND_BOOT6		=		"Charged Boots";
+DND_BOOT7		=		"Tactical Boots";
+DND_BOOT8		=		"Fusion Boots";
+DND_BOOT9		=		"Leather Boots";
+DND_BOOT10		=		"Snakeskin Boots";
+DND_BOOT11		=		"Drakeskin Boots";
+
+// helms
+DND_HELM1		=		"Lich Skull";
+DND_HELM2		=		"Warrior's Helm";
+DND_HELM3		=		"Synth-metal Mask";
+DND_HELM4		=		"Knight's Helm";
+DND_HELM5		=		"Predator Helm";
+DND_HELM6		=		"Crusader Helm";
+DND_HELM7		=		"Tactical Helm";
+DND_HELM8		=		"Sage's Hood";

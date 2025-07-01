@@ -1,0 +1,90 @@
+user bool dnd_weapontips = true;
+user bool dnd_showmapinfo = false;
+user bool dnd_nofx = false;
+user bool dnd_dashstatus = false;
+user bool dnd_expcreditnumbers = true;
+user bool dnd_hitbeeps = true;
+user bool dnd_dmgnum = true;
+user bool dnd_detailedmods = false;
+user bool dnd_ignoretempweps = false;
+user int dnd_pickup_filter = 0;
+
+user noarchive int dnd_playerclass = 0;
+user noarchive int dnd_classmenu_button = 0;
+user noarchive bool dnd_onclassmenu = false;
+
+// scoreboard settings
+server noarchive int dnd_exit_democratic = 0; // if this is non-zero, this will dictate how many people must reach an exit before map exits truly
+server noarchive int dnd_exit_monsterpercent = 0; // if this is non-zero, exiting requires killed monster percentage to be at least this
+server noarchive int dnd_exit_timer = 20; // 20 seconds of scoreboard showing or all players clicked
+
+server noarchive int dnd_loadtime = 30; // 30 seconds base loadtime for soft/hardcore modes
+
+server noarchive int dnd_budget_reward = 3; // base budget reward for beating a map
+
+server noarchive bool dnd_test = false;
+server noarchive bool dnd_monsterbars = true;
+server noarchive bool dnd_monsterscale = true;
+server noarchive bool dnd_randomize_levels = true;
+server noarchive bool dnd_sharexp = true;
+server noarchive bool dnd_sharecredit = true;
+server noarchive bool dnd_healonlevelup = false;
+server noarchive bool dnd_killspree = true;
+server noarchive bool dnd_firstbackpackold = false;
+server noarchive bool dnd_playercount_scales_monsters = true;
+server noarchive bool dnd_fullshare = true;
+server noarchive bool dnd_monsterlevel_behind = false;
+server noarchive bool dnd_gainonlyinrange = false;
+server noarchive bool dnd_allresearchesfound = false;
+server noarchive bool dnd_disablelevelbonus = false;
+server noarchive bool dnd_usesmartmonsterspawner = false;
+server noarchive bool dnd_enable_quests = true;
+server noarchive bool dnd_enable_elites = true;
+server noarchive bool dnd_enable_limiteditems = true;
+server noarchive bool dnd_no_immunity = false;
+server noarchive bool dnd_no_reflect = false;
+server noarchive bool dnd_ignore_dropweights = false;
+server noarchive bool dnd_ignorelootpenalty = false;
+
+server noarchive int dnd_mode = 0;
+
+server noarchive int dnd_shop_scale = 1;
+server noarchive int dnd_shop_wep_scale = 1;
+server noarchive int dnd_shop_ammo_scale = 1;
+server noarchive int dnd_shop_artifact_scale = 1;
+server noarchive int dnd_shop_ability_scale = 1;
+server noarchive int dnd_shop_talent_scale = 1;
+server noarchive int dnd_shop_account_scale = 1;
+
+server noarchive int dnd_maxmonsterlevel = 100;
+
+server noarchive int dnd_trade_timer = 5;
+server noarchive int dnd_trade_window = 10;
+
+server noarchive int dnd_monsterlevel_low = 1;
+server noarchive noarchive int dnd_monsterlevel_high = 2;
+server noarchive int dnd_respawn_count = 3;
+server noarchive int dnd_accessory_droprate = 5;
+server noarchive int dnd_gainrange = 768;
+
+server noarchive int dnd_quest_chance = 20;
+server noarchive int dnd_quest_avglevel = 1;
+server noarchive int dnd_elite_spawnchance = 10;
+server noarchive int dnd_elite_spawnlevel = 20;
+server noarchive int dnd_legendary_chance = 1;
+server noarchive int dnd_limitedrespawn_amount = 2;
+
+server noarchive int dnd_npc_appear_level = 30;
+
+server noarchive int dnd_exp_scale = 1;
+server noarchive int dnd_credit_scale = 1;
+server noarchive int dnd_budget_scale = 2;
+server noarchive int dnd_accessorylevel = 8;
+server noarchive int dnd_accessorymonsterlevel = 10;
+server noarchive int dnd_monster_rewardscalepercent = 5;
+server noarchive float dnd_uniquemonster_spawnchance = 0.01; // 0 - 1.0 is 0 to 100% percent
+
+server noarchive float dnd_monster_variation_factor = 1.5;
+server noarchive float dnd_researchdroprate = 0.005;
+
+server noarchive float dnd_lingertime = 180;

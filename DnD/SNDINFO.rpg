@@ -1,0 +1,111 @@
+Intermission1		INTER1
+Intermission2		INTER2
+Intermission3		INTER3
+Intermission4		INTER4
+
+Bleed/End1			BLEDEND1
+Bleed/End2			BLEDEND2
+Bleed/End3			BLEDEND3
+Bleed/End4			BLEDEND4
+$random Bleed/End { Bleed/End1 Bleed/End2 Bleed/End3 Bleed/End4 }
+
+Bleed/Loop1			BLEDLOP1
+Bleed/Loop2			BLEDLOP2
+Bleed/Loop3			BLEDLOP3
+Bleed/Loop4			BLEDLOP4
+$random Bleed/Loop { Bleed/Loop1 Bleed/Loop2 Bleed/Loop3 Bleed/Loop4 }
+
+Items/PowercoreEquip		PCOREPIC
+Items/PowercoreDrop			PCOREDRO
+
+Items/SuccessDisassemble	DISASWIN
+Items/FailDisassemble		DISASLOS
+
+RPG/LevelUp			RPGLVLUP
+RPG/KillBonus		RPGKILLS
+RPG/ItemBonus		RPGITEMS
+RPG/SecretBonus		RPGSCRTS
+RPG/BonusBonus		RPGBNBNS
+
+RPG/MenuOpen		RPGMOPN
+RPG/MenuClose		RPGMCLS
+RPG/MenuMove		RPGMOVE
+RPG/MenuChoose		RPGMSEL
+RPG/MenuError		RPGMERR
+RPG/MenuBuy			RPGMBUY
+RPG/MenuSell		RPGMSELL
+RPG/MenuSellConfirm	RPGMCNFR
+
+Bonus/Received		BONRECEI
+Weapon/Popup		WEPPOPUP
+
+Killstreak1			KILLSTR1
+Killstreak2			KILLSTR2
+Killstreak3			KILLSTR3
+$random Killstreak/Show { Killstreak1 Killstreak2 Killstreak3 }
+
+Agamotto/Defense	HOLYFX1
+Agamotto/Offense	HOLYFX2
+
+Quest/View			QSTVIEW
+Quest/Close			QSTCLOSE
+Quest/Announce		QSTANNCE
+Quest/Done			QSTDONE
+Quest/Fail			QSTFAIL
+
+LegendaryHere		LEGNHERE
+
+Items/OrbUse		ORBUSE
+Items/OrbDrop		ORBDROP
+Items/OrbPick		ORBPICK
+Items/ChestKey		CHESTKEY
+
+Items/Drop			ITEMDROP
+
+Items/TokenDrop		TOKNDROP
+Items/TokenPick		TOKNPICK
+
+Items/ElixirDrop	ELXPICK
+Items/ElixirPick	ELXUSE
+
+Items/CharmDrop		CHRMDROP
+Items/CharmPick		CHRMPICK
+
+Chest/Open			CHSTOPEN
+Chest/Locked		CHSTLOCK
+
+TradeRequest		TRADEREQ
+
+/*
+*********************
+******* BUFFS *******
+*********************
+*/
+
+Buff/Phasing		BFPHSNG
+
+/*
+********************
+****** SPELLS ******
+********************
+*/
+
+Spell/RallyCast				CST_RLLY
+
+Spell/IceShieldCast			ISHLCAST
+Spell/IceShieldBreak		ISHLBRK
+
+Spell/PoisonNovaCast		PSNNOVA
+
+Spell/MoltenBoulderRoll   	MLTNROLL
+Spell/MoltenBoulderFall		MLTNFALL
+Spell/MoltenBoulderCast		MLTNCAST
+Spell/MoltenBoulderBump		MLTNBUMP
+Spell/MoltenBoulderShatter	MLTNSHTR
+
+Spell/LightningSpearBounce	LGSPBNCE
+$limit Spell/LightningSpearBounce 0
+Spell/LightningSpearCast1	LGSPCST1
+Spell/LightningSpearCast2	LGSPCST2
+Spell/LightningSpearCast3	LGSPCST3
+$random Spell/LightningSpearCast { Spell/LightningSpearCast1 Spell/LightningSpearCast2 Spell/LightningSpearCast3 }

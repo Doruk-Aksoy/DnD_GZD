@@ -1,0 +1,636 @@
+[enu default]
+
+DND_MENU_NOTINGAME		=	"You have to be in the game to use the menu";
+
+DND_MENU_WELCOME		=	"Welcome to the DnD Menu";
+
+DND_MENU_BOBBY1			= 	"This is Doom's first interactive super cool UAC Menu, ran by none other than \c[Y5]Bobby\c- \cj\"\c-\cmCombine\cqb\cjo\crb\cmnt\c-\" \c[Y5]Sanchez\c-! "
+							"Through this interface, you're directly connected to the UAC Database! You can make your purchases of various goodies here.";
+
+DND_MENU_BOBBY2			=	"Use your mouse cursor and left click to do your selections. There are various pages with various items in them, so be sure "
+							"to explore all of it! If you wish to sell a weapon, use altfire key to do so.";
+							
+DND_MENU_BOBBY3			=	"I don't have all day, I have yet to finish my important projects such as \cdM\ctS\cfP\crD\c- so don't bother me for long! Buy your shit and leave!";
+
+DND_MENU_AVGMONLEVEL	=	"Average Monster Level";
+
+DND_MENU_MAPINFO		=	"Show Map Info: ";
+DND_MENU_MODTIERS		=	"Show Item Mod Tiers: ";
+DND_MENU_IGNORETEMPS	=	"Ignore Temp Weapons: ";
+
+DND_MENU_DONATE			=	"Donate Budget";
+DND_MENU_CONVRATE		=	"Conversion Rate";
+
+// crafting
+DND_DISASS				=	"Disassemble";
+DND_DISASS_WIN			=	"Successfully gained orbs from the item!";
+DND_DISASS_LOSS			=	"Failed to extract any orbs from the item!";
+DND_DISASS_CHANCE		=	"Chance";
+
+// basic words
+DND_MENU_ENABLED		=	"\cdEnabled";
+DND_MENU_DISABLED		=	"\cgDisabled";
+DND_MENU_ERROR			=	"Error";
+DND_MENU_CONFIRM		=	"Confirm";
+DND_MENU_DASH			=	"Dash";
+
+DND_MENU_AUTOPICK_FILTER	=	"Autopick: ";
+DND_MENU_FILTER_0			=	"\cjNothing";
+DND_MENU_FILTER_1			=	"\cjStackables";
+DND_MENU_FILTER_2			=	"\cjCharms";
+DND_MENU_FILTER_3			=	"\cjStackables / Charms";
+DND_MENU_FILTER_4			=	"\cjArmors";
+DND_MENU_FILTER_5			=	"\cjStackables / Armors";
+DND_MENU_FILTER_6			=	"\cjCharms / Armors";
+DND_MENU_FILTER_7			=	"\cjAll inventory";
+
+DND_MENU_CANCEL			=	"Cancel";
+DND_MENU_YOUROFFERING	=	"Your Offering";
+DND_MENU_YOURINV		=	"Your Inventory";
+DND_MENU_THEIROFFER		=	"'s Offering";	// this is "X's offering" basically
+
+DND_MENU_SIDE_STATS		=	"Stats";
+DND_MENU_SIDE_PERKS		=	"Perks";
+DND_MENU_SIDE_LOADOUT	=	"Loadout";
+
+DND_MENU_GAIN_OFFENSE	=	"Offensive Stats";
+DND_MENU_GAIN_ELEMENT	=	"Elemental Stats";
+DND_MENU_GAIN_DEFENSE	=	"Defensive Stats";
+DND_MENU_GAIN_UTILITY	=	"Utility Stats";
+DND_MENU_GAIN_QUEST		=	"Quest Bonuses";
+
+DND_MENU_HEAD_STATS		=	"Player Stats";
+DND_MENU_HEAD_GAINS		=	"Current Gains";
+DND_MENU_HEAD_QUESTBON	=	"Quest Bonuses";
+DND_MENU_HEAD_PERKS		=	"Player Perks";
+DND_MENU_HEAD_LOADOUT	=	"Loadout Selection";
+DND_MENU_HEAD_DISCARD	=	"Weapon Discard Setup";
+DND_MENU_HEAD_ITEMS		=	"Items Acquired";
+DND_MENU_HEAD_STASH		=	"Stash";
+DND_MENU_HEAD_TRADE		=	"Arrange a Trade";
+DND_MENU_HEAD_ACCESSORY	=	"Current Accessories";
+DND_MENU_HEAD_SHOP		=	"Shop";
+DND_MENU_HEAD_WEAPONS	=	"Weapons";
+DND_MENU_HEAD_AMMO		=	"Ammunitions";
+DND_MENU_HEAD_ABILITIES =	"Abilities";
+DND_MENU_HEAD_ARTIFACTS	=	"Artifacts";
+DND_MENU_HEAD_ARMORS	=	"Armors";
+DND_MENU_HEAD_ACCOUNT 	=	"Account";
+DND_MENU_HEAD_RESCAT	=	"Research Categories";
+DND_MENU_HEAD_RESPAN	=	"Research Panel";
+DND_MENU_HEAD_ABILEARNED = 	"Abilities Learned";
+DND_MENU_HEAD_HELP		=	"DnD Help";
+DND_MENU_HEAD_RESGUNS	=	"Research: Guns";
+DND_MENU_HEAD_NFT		=	"NFTs";
+
+DND_MENU_SLOT			=	"Slot";
+DND_MENU_MATERIALS		=	"Materials";
+DND_MENU_MAX			=	"(MAX)";
+
+DND_MENU_NA				=	"N/A";
+DND_MENU_PERKSAVAIL		=	"Perks Available";
+DND_MENU_RESEARCH		=	"Research";
+DND_MENU_CREDITS		=	"Credits";
+DND_MENU_BUDGET			=	"Budget";
+DND_MENU_ENTRY			=	"Entry";
+DND_MENU_COST			=	"Cost";
+DND_MENU_LEGEND			=	"LEGEND";
+DND_MENU_REPLACESWEP	=	"Replaces slot weapon";
+DND_MENU_LUXURYWEP		=	"Luxury weapon";
+DND_MENU_CARRYLIMIT		=	"Can carry at most 1";
+DND_MENU_FILLPRICE		=	"Fill Price";
+DND_MENU_LEARNED		=	"Learned";
+DND_MENU_HELP			=	"Help";
+DND_MENU_LASTED			=	"Beat";
+DND_MENU_STOCK			=	"Stock";
+DND_MENU_SELLSFOR		=	"Sells for";
+DND_MENU_INBULK			=	"In bulk";
+
+DND_MENU_ITEMS			=	"Items";
+DND_MENU_INVENTORY		=	"Inventory";
+DND_MENU_STASH			=	"Stash";
+DND_MENU_EQUIPMENTS		=	"Equipments";				DND_MENU_EQUIPLEFT = "Charms";			DND_MENU_EQUIPRIGHT = "Armors";
+DND_MENU_WEAPONDISCARD	=	"Weapon Discard";
+DND_MENU_CRAFTING		=	"Crafting";
+DND_MENU_ACCESSORIES	=	"Accessories";
+DND_MENU_TRADING		=	"Trading";
+DND_MENU_VIEWINV		=	"View Inventory";
+
+DND_MENU_MAPDIFF		=	"Map Difficulty";
+DND_MENU_LIVESLEFT		=	"Lives left";
+DND_MENU_TOTALKILLS		=	"Total kills";
+
+DND_MENU_WEAPONS		=	"Weapons Menu";
+DND_MENU_AMMO			=	"Ammunition Menu";
+DND_MENU_ABILITIES		=	"Abilities Menu";
+DND_MENU_ARTIFACTS		=	"Artifacts Menu";
+DND_MENU_ARMORS			=	"Armors Menu";
+DND_MENU_ACCOUNT		=	"Account Menu";
+DND_MENU_NFT			=	"NFT Menu";
+
+DND_MENU_AMMOCATEGORY	=	"Ammo Category";
+DND_MENU_SPECIALAMMO	=	"Special Ammo";
+
+DND_MENU_WEPCRAFT		=	"Weapons Crafting";
+DND_MENU_INVCRAFT		=	"Inventory Crafting";
+DND_MENU_TRANSMUTE		=	"Transmute Station";
+DND_TRANSMUTE			=	"Transmute!";
+
+DND_RESMENU_BODY		=	"Research Category: Body";
+DND_RESMENU_AMMO		=	"Research Category: Ammo";
+DND_RESMENU_GUNS		=	"Research Category: Guns";
+DND_RESMENU_UTILITY		=	"Research Category: Utility";
+
+DND_RESMENU_SUBSLOT		=	"Sub Category: Slot Guns";
+DND_RESMENU_SUBLUX		=	"Sub Category: Luxury Bundles";
+
+DND_MENU_HELPTEXT1		=	"Character Loading Help";
+DND_MENU_HELPTEXT2		=	"Class Perk Help";
+DND_MENU_HELPTEXT3		=	"Weapon Property Help";
+DND_MENU_HELPTEXT4		=	"Research Help";
+DND_MENU_HELPTEXT5		=	"Damage Types Help";
+DND_MENU_HELPTEXT6		=	"Ailment Types Help";
+DND_MENU_HELPTEXT7		=	"Orbs Help";
+DND_MENU_HELPTEXT8		=	"Monster Modifiers Help";
+DND_MENU_HELPTEXT9		=	"Legendary Monster Codex";
+
+DND_MENU_AILMENT1		=	"Chill";
+DND_MENU_AILMENT1_EXP	=	"Monsters are slowed by 10% for every 10% of health they lose, up to a maximum of 50% health lost. This stacks and enables \cvfreezing.";
+DND_MENU_AILMENT2		=	"Freeze";
+DND_MENU_AILMENT2_EXP	=	"Monsters become completely encased in ice. It must first be \cvchilled\c-, and each stack of \cvchill\c- increases odds of freezing a monster by 2% up to a maximum of 10%.";
+DND_MENU_AILMENT3		=	"Ignite";
+DND_MENU_AILMENT3_EXP	=	"Fire damage from hits has 15% chance to ignite an enemy, dealing flat damage over 4 seconds. It can proliferate to nearby enemies if the monster dies with time remaining.";
+DND_MENU_AILMENT4		=	"Overload";
+DND_MENU_AILMENT4_EXP	=	"Lightning damage has 5% chance to cause the monster to take 20% more damage from all elemental damage except lightning for 3 seconds.";
+DND_MENU_AILMENT5		=	"Poison";
+DND_MENU_AILMENT5_EXP	=	"Hits from poison damage inflict a stack of poison for 3 seconds dealing 2% of the damage, up to 5 maximum stacks, each with their own instances.";
+
+DND_MENU_MMOD_WEAK		=	"Weakness Modifiers";
+DND_MENU_MMOD_RESIST	=	"Resistance Modifiers";
+DND_MENU_MMOD_IMMUNE	=	"Immunity Modifiers";
+DND_MENU_MMOD_AGGRESS	=	"Agressive Modifiers";
+DND_MENU_MMOD_DEFENSE	=	"Defensive Modifiers";
+DND_MENU_MMOD_UTILITY	=	"Utility Modifiers";
+DND_MENU_MMOD_SPECIAL	=	"Special Modifiers";
+
+DND_MENU_BULLETTEXT		=	"\c[Y5]Physical\n\nThe simplest of all types. You'll find this in hitscan or melee weapons.";
+DND_MENU_MELEETEXT		=	"\c[Y5]Melee\n\nFound specifically in \c[Y5]Slot 1\c- weapons, with some exceptions. Magical weapons deal \cvmagic\c- damage with their melee, but otherwise counts as \cuphysical\c- damage.";
+DND_MENU_OCCULTTEXT		=	"\c[Y5]Occult\n\nDemonic or holy weapons utilize this damage type. The most dominant weapons of this type are \c[Y5]Slot 8\c- weapons. Magical and undead monsters take extra damage from this type.";
+DND_MENU_EXPLOTEXT		=	"\c[Y5]Explosive\n\nMany weapons that feature explosions use this damage type. Mostly found in \c[Y5]Slot 5\c- weapons.";
+DND_MENU_ENERGYTEXT		=	"\c[Y5]Energy\n\nGeneral category of the plasma type weapons. Mostly found in \c[Y5]Slot 6\c- and \c[Y5]7\c- weapons. Mechanical enemies take extra damage from this type.";
+DND_MENU_FIRETEXT		=	"\c[Y5]Fire\n\nWeapon deals fire damage. These weapons can ignite enemies.";
+DND_MENU_ICETEXT		=	"\c[Y5]Ice\n\nWeapon deals ice damage. These weapons can chill and freeze enemies.";
+DND_MENU_POISONTEXT		=	"\c[Y5]Poison\n\nWeapon deals poison damage. These weapons can poison enemies.";
+DND_MENU_LIGHTNINGTEXT	=	"\c[Y5]Lightning\n\nWeapon deals lightning damage. These weapons can overload enemies.";
+
+DND_MENU_WEPHELPTEXT1	=	"Can't hit enemies with the \cughost\c- modifier.";
+DND_MENU_WEPHELPTEXT2	=	"Weapon can inflict \ciself damage\c-.";
+DND_MENU_WEPHELPTEXT3	=	"Weapon will \cgoverheat\c- on continuous use.";
+DND_MENU_WEPHELPTEXT4	=	"Weapon can \cfignore shields\c- or any kind of \cfinvulnerability\c- on monsters.";
+DND_MENU_WEPHELPTEXT5	=	"Weapon supports usage of \cvalternate ammo\c- through altfire.";
+DND_MENU_WEPHELPTEXT6	=	"Weapon has attacks that rip through enemies unless they have the \"Hardened Skin\" modifier.";
+DND_MENU_WEPHELPTEXT7	=	"Weapon has attacks that can't be mitigated by any resistance.";
+DND_MENU_WEPHELPTEXT8	=	"Projectiles fired from this weapon can't be \cureflected\c-.";
+DND_MENU_WEPHELPTEXT9	=	"Damage from the weapon can \cqinflict poison\c- on enemies.";
+DND_MENU_WEPHELPTEXT10	=	"Weapon is a \cktech\c- weapon.";
+DND_MENU_WEPHELPTEXT11	=	"Weapon is a \cishotgun\c-.";
+DND_MENU_WEPHELPTEXT12	=	"Weapon is a \cqprecision\c- weapon.";
+DND_MENU_WEPHELPTEXT13	=	"Weapon is a \cshandgun\c-.";
+DND_MENU_WEPHELPTEXT14	=	"Weapon is an \crautomatic\c- weapon.";
+DND_MENU_WEPHELPTEXT15	=	"Weapon is a \cfartillery\c- weapon.";
+DND_MENU_WEPHELPTEXT16	=	"Weapon is a \ctmagical\c- weapon.";
+DND_MENU_WEPHELPTEXT17	=	"Weapon is a \cumelee\c- weapon.";
+
+DND_MENU_DISCARD_WEP1	=	"Discard: \cjSlot 1";
+DND_MENU_DISCARD_WEP2	=	"Discard: \cjSlot 2";
+DND_MENU_DISCARD_WEP3	=	"Discard: \cjSlot 3";
+DND_MENU_DISCARD_WEP4	=	"Discard: \cjSlot 3 - Super Shotguns";
+DND_MENU_DISCARD_WEP5	=	"Discard: \cjSlot 4";
+DND_MENU_DISCARD_WEP6	=	"Discard: \cjSlot 5";
+DND_MENU_DISCARD_WEP7	=	"Discard: \cjSlot 6";
+DND_MENU_DISCARD_WEP8	=	"Discard: \cjSlot 7";
+DND_MENU_DISCARD_WEP9	=	"Discard: \cjTemporary weapons";
+
+DND_MENU_ENABLE_WEP1	=	"Enable: \cjSlot 1";
+DND_MENU_ENABLE_WEP2	=	"Enable: \cjSlot 2";
+DND_MENU_ENABLE_WEP3	=	"Enable: \cjSlot 3";
+DND_MENU_ENABLE_WEP4	=	"Enable: \cjSlot 3 - Super Shotguns";
+DND_MENU_ENABLE_WEP5	=	"Enable: \cjSlot 4";
+DND_MENU_ENABLE_WEP6	=	"Enable: \cjSlot 5";
+DND_MENU_ENABLE_WEP7	=	"Enable: \cjSlot 6";
+DND_MENU_ENABLE_WEP8	=	"Enable: \cjSlot 7";
+DND_MENU_ENABLE_WEP9	=	"Enable: \cjTemporary weapons";
+
+DND_MENU_DISCARD_EXPLANATION = "You can discard or enable weapon slots here. Discarded weapons on the slot won't be picked up, and the vanilla equivalent weapon will also be removed if you own it.";
+
+// yeah numbers here aren't the smartest because hypothetically if a balance change were to happen then all languages would need a change but it's too cumbersome to add numbers in between text \_(*__*)_/
+DND_MENU_ATTR1 			=	"\c[INT]Strength\c-";
+DND_MENU_ATTR2 			=	"\c[INT]Dexterity\c-";
+DND_MENU_ATTR3 			=	"\c[INT]Intellect\c-";
+
+DND_MENU_ATTR_SHORT1 	=	"\c[INT]STR\c-";
+DND_MENU_ATTR_SHORT2 	=	"\c[INT]DEX\c-";
+DND_MENU_ATTR_SHORT3 	=	"\c[INT]INT\c-";
+
+DND_MENU_ATTUNED		=	"Attuned";
+
+DND_MENU_ATTRTEXT1		=	"Increases \cqKnockback Resist\c- by 50 and \cgmaximum life\c- by 2.";
+DND_MENU_ATTRTEXT2		=	"Increases \cdMitigation Chance\c- by 0.2%.";
+DND_MENU_ATTRTEXT3		=	"Increases \cvEnergy Shield\c- by 1% per 2 points and improves spells.";
+
+DND_MENU_PERKTEXT1		=	"more ranged damage.";
+DND_MENU_PERKTEXT2		=	"more melee damage";			DND_MENU_PERKTEXT2_CONT 	=	"increased melee range.";
+DND_MENU_PERKTEXT3		=	"DOES NOTHING DO NOT USE!";//"reduced damage taken.";
+DND_MENU_PERKTEXT4		=	"increased exp gain.";
+DND_MENU_PERKTEXT5		=	"increased credit gain.";
+DND_MENU_PERKTEXT6		=	"increased effect of healing.";
+DND_MENU_PERKTEXT7		=	"increased ammo gain.";
+DND_MENU_PERKTEXT8		=	"to critical strike chance.";
+DND_MENU_PERKTEXT9		=	"to critical strike multiplier.";
+DND_MENU_PERKTEXT10		=	"more drop chance and 5% chance to have better outcomes.";
+
+DND_MENU_MASTERY		=	"Mastery";
+DND_MENU_MASTERY_COND	=	"Requires 10 points";
+DND_MENU_PERKMASTERY1	=	"Dexterity has an additional 1% scaling for attunement.";
+DND_MENU_PERKMASTERY2	=	"Melee damage and range increase also applies to projectiles fired from melee weapons.";
+DND_MENU_PERKMASTERY3	=	"DOES NOTHING DO NOT USE!";//"Armor rating effect increases by 20%.";
+DND_MENU_PERKMASTERY4	=	"Gain experience from kills regardless of the killer or the range limit.";
+DND_MENU_PERKMASTERY5	=	"Gain credit from kills regardless of the killer or the range limit.";
+DND_MENU_PERKMASTERY6	=	"Convert 2% of healing pickups to energy shield.";
+DND_MENU_PERKMASTERY7	=	"Enemies have 2% chance to drop ammo tokens, giving 10% ammo to a random weapon you own.";
+DND_MENU_PERKMASTERY8	=	"Every 7th hit you land within four seconds is a guaranteed critical strike.";
+DND_MENU_PERKMASTERY9	=	"100% to crit multiplier if you haven't dealt a critical strike in 5 seconds.";
+DND_MENU_PERKMASTERY10	=	"When an item drops there's a 25% chance to get an additional item drop of its type.";
+
+// resists for defense tab
+DND_MENU_RES_ELE		=	"Elemental Resist";
+DND_MENU_RES_PHYS		=	"Physical Resist";
+DND_MENU_RES_ENRG		=	"Energy Resist";
+DND_MENU_RES_MAGC		=	"Magic Resist";
+DND_MENU_RES_EXPL		=	"Explosive Resist";
+DND_MENU_RES_HTSC		=	"Hitscan Resist";
+DND_MENU_RES_FIRE		=	"Fire Resist";
+DND_MENU_RES_ICE		=	"Ice Resist";
+DND_MENU_RES_LGHT		=	"Lightning Resist";
+DND_MENU_RES_POIS		=	"Poison Resist";
+DND_MENU_RES_REFL		=	"Reflection Resist";
+DND_MENU_PENETRATION	=	"Pierce";
+
+// accessories
+ACCTX_T0				=	"Wisdom Talisman";
+ACCTX_P0				=	"Increases exp gain by 50%.";
+ACCTX_C0				=	"Reduces credit gain by 50%.";
+
+ACCTX_T1				=	"Greed Talisman";
+ACCTX_P1				=	"Increases credit gain by 50%.";
+ACCTX_C1				=	"Reduces experience gain by 50%.";
+
+ACCTX_T2				=	"Demon Bane";
+ACCTX_P2				=	"Increases damage of occult weapons by 50%.";
+ACCTX_C2				=	"Reduces other damage by 75%.";
+
+ACCTX_T3				=	"Amulet of Hellfire";
+ACCTX_P3				=	"Protects from all fire damage and hazards by 75%. Deal 50% more fire damage.";
+ACCTX_C3				=	"Increases ice damage taken by 75%. Deal 50% less ice damage.";
+
+ACCTX_T4				=	"Angelic Ankh";
+ACCTX_P4				=	"When about to die, the ankh will intervene, making you invulnerable for 8 seconds. Works once every map.";
+ACCTX_C4				=	"Your health cap is halved. (Never below 100)";
+
+ACCTX_T5				=	"Reflection Pendant";
+ACCTX_P5				=	"When hit, 20% chance to go invulnerable and reflective for 5 seconds. Can happen only 5 times every map.";
+ACCTX_C5				=	"While active, move 25% slower.";
+
+ACCTX_T6				=	"Nether Mask";
+ACCTX_P6				=	"All your weapons can hit ghosts. Ghosts take 25% more damage";
+ACCTX_C6				=	"Take 50% more damage from non-ghost enemies.";
+
+ACCTX_T7				=	"Taltos Ring";
+ACCTX_P7				=	"+25% lifesteal for melee attacks and become a ghost. All effects last until map ends.";
+ACCTX_C7				=	"No energy shield. Health items are unpickable. Only Megasphere, Ubersphere or Berserk can be picked that give health.";
+
+ACCTX_T8				=	"Hate Shard";
+ACCTX_P8				=	"Reflect damage back to enemies. Attackers take 50% more damage for 5 seconds.";
+ACCTX_C8				=	"80% less non-melee damage.";
+
+ACCTX_T9				=	"Hand of Artemis";
+ACCTX_P9				=	"Your weapons do not require any ammo.";
+ACCTX_C9				=	"Regular weapons do 66% less damage. Super weapons do 90% less damage instead. Slot 8 weapons can't fire.";
+
+ACCTX_T10				=	"Scroll of Agamotto";
+ACCTX_P10				=	"Do 100% more damage while standing still.";
+ACCTX_C10				=	"Take 40% more damage while moving.";
+
+ACCTX_T11				=	"Gryphon Boots";
+ACCTX_P11				=	"25% increased movement speed, immunity to curses and fall damage, and knockback immunity.";
+ACCTX_C11				=	"Can't regenerate.";
+
+ACCTX_T12				=	"Lich Arm";
+ACCTX_P12				=	"Soul capacity becomes 150 and attacks that use souls do 25% more damage.";
+ACCTX_C12				=	"Any other attack does 90% less damage.";
+
+ACCTX_T13				=	"Sigil of Elements";
+ACCTX_P13				=	"Gives 100% more elemental damage to a single element for 20 seconds. This works in a rotation.";
+ACCTX_C13				=	"Other elements do no damage.";
+
+ACCTX_T14				=	"Celestial Relic";
+ACCTX_P14				=	"Gives 25% increased health and armor capacity.";
+ACCTX_C14				=	"20% reduced movement speed.";
+
+ACCTX_T15				=	"Veil of the Assassin";
+ACCTX_P15				=	"After a crit, your next crit's damage is doubled. Expend this crit to heal for 15% of missing health. Lasts for 5 seconds or until you expend the crit.";
+ACCTX_C15				=	"On expending your doubled crit, never crit for 5 seconds.";
+
+ACCTX_T16				=	"Hunter's Talisman";
+ACCTX_P16				=	"Your critical hits mark nearby monsters once every 10 seconds, making them deal 33% less damage and they replenish 3% of your max health on kill.";
+ACCTX_C16				=	"Your overall crit damage is halved.";
+
+// ammo text
+DND_MENU_FOR			=	"for ";
+DND_MENU_AND			=	" and ";
+DND_MENU_GIVES			=	"Gives";
+
+DND_MENU_AMMOTEXT1		=	"clips.";
+DND_MENU_AMMOTEXT2		=	"shells.";
+DND_MENU_AMMOTEXT3		=	"rockets.";
+DND_MENU_AMMOTEXT4		=	"cells.";
+
+DND_MENU_AMMOTEXT5		=	"explosive shells";
+DND_MENU_AMMOTEXT6		=	"cannon balls";
+DND_MENU_AMMOTEXT7		=	"shrapnel balls";
+DND_MENU_AMMOTEXT8		=	"heavy missiles";
+DND_MENU_AMMOTEXT9		=	"grenades";
+DND_MENU_AMMOTEXT10		=	"nails";
+	
+DND_MENU_AMMOTEXT11		=	"lava ammo";
+DND_MENU_AMMOTEXT12		=	"gauss rounds";
+DND_MENU_AMMOTEXT13		=	"slayer essences";
+DND_MENU_AMMOTEXT14		=	"ruby crystals";
+DND_MENU_AMMOTEXT15		=	"plasma charge";
+DND_MENU_AMMOTEXT16		=	"riot shells";
+DND_MENU_AMMOTEXT17		=	"meteors";
+DND_MENU_AMMOTEXT18		=	"fuel";
+DND_MENU_AMMOTEXT19		=	"lightning cells";
+DND_MENU_AMMOTEXT20		=	"nitrogen canisters";
+	
+DND_MENU_AMMOTEXT21		=	"ion cells";
+DND_MENU_AMMOTEXT22		=	"acid clips";
+DND_MENU_AMMOTEXT23		=	"ever ice";
+DND_MENU_AMMOTEXT24		=	"viper essence";
+DND_MENU_AMMOTEXT25		=	"thunder mana";
+DND_MENU_AMMOTEXT26		=	"dark seals";
+DND_MENU_AMMOTEXT27		=	"fusion cells";
+DND_MENU_AMMOTEXT28		=	"flak shells";
+DND_MENU_AMMOTEXT29		=	"desolator rounds";
+DND_MENU_AMMOTEXT30		=	"hades shells";
+	
+DND_MENU_AMMOTEXT31		=	"vials of demon blood";
+DND_MENU_AMMOTEXT32		=	"emerald mana";
+DND_MENU_AMMOTEXT33		=	"hell fire canisters";
+DND_MENU_AMMOTEXT34		=	"rockets";
+DND_MENU_AMMOTEXT35		=	"heavy grenades";
+DND_MENU_AMMOTEXT36		=	"silver bolts";
+DND_MENU_AMMOTEXT37		=	"anti-gravity modules";
+DND_MENU_AMMOTEXT38		=	"Sedrin crystals";
+DND_MENU_AMMOTEXT39		=	"batteries";
+DND_MENU_AMMOTEXT40		=	"incinerator shells";
+DND_MENU_AMMOTEXT41		=	"mana";
+DND_MENU_AMMOTEXT42		=	"hammer";
+DND_MENU_AMMOTEXT43		=	"sniper rounds";
+	
+DND_MENU_AMMOTEXT44		=	"flechette shells. 18 direct hit damage, each pellet splits into 3-6 damage flechettes that ignore shields. \cuPhysical damage.";
+DND_MENU_AMMOTEXT45		=	"magnum shells. 30 direct hit damage and goes through enemies. \cuPhysical damage.";
+DND_MENU_AMMOTEXT46		=	"electric shells. 20 direct hit damage with 12 damage zaps in a 48 unit radius 5 times. \cvLightning damage.";
+DND_MENU_AMMOTEXT47		=	"nitrogen shells. 15 direct hit damage with 2 constant damage as it travels. \cnIce damage.";
+DND_MENU_AMMOTEXT48		=	"slug shells. 300 direct hit damage. Ignores shields. \cuPhysical damage.";
+
+DND_MENU_AMMOTEXT49		=	"sonic grenades. 144 direct hit damage, 72 area damage in 160 unit radius, repeating 12 times. Ignores shields. \ciExplosion\c- and \chEnergy damage.";
+DND_MENU_AMMOTEXT50		=	"high-ex grenades. 288 direct hit damage, 288 area damage in 256 unit radius. Explodes to shrapnels dealing 16-128 damage. Can't hit ghosts. \ciExplosion damage.";
+
+// artifacts
+DND_MENU_ARTHELPTEXT1	=	"Portable medikits, can carry 3.";
+DND_MENU_ARTHELPTEXT2	=	"Teleports you to start, heals for 100 health.";
+DND_MENU_ARTHELPTEXT3	=	"Invulnerability on use for 5 seconds. Duration stacks.";
+DND_MENU_ARTHELPTEXT4	=	"Steal life from damage done for 30 seconds.";
+DND_MENU_ARTHELPTEXT5	=	"Triples damage dealt for 15 seconds.";
+DND_MENU_ARTHELPTEXT6	=	"Creates a ring of blades for 20 seconds, damaging enemies on collision.";
+DND_MENU_ARTHELPTEXT7	=	"Unleashes power of the dead, deals extreme damage to enemies in view, extracting their souls.";
+DND_MENU_ARTHELPTEXT8	=	"Reveals the current map to you.";
+DND_MENU_ARTHELPTEXT9	=	"Increases ammo capacity.";
+DND_MENU_ARTHELPTEXT10	=	"Resets your stats back to zero. You can reassign.";
+DND_MENU_ARTHELPTEXT11	=	"Gives a portable radsuit.";
+
+// abilities
+DND_MENU_ABLTAG1		=	"Melee Expertise";
+DND_MENU_ABLHELPTEXT1	=	"Melee weapons gain altfires.";
+
+DND_MENU_ABLTAG2		=	"Fast Reloading";
+DND_MENU_ABLHELPTEXT2	=	"You reload twice as fast.";
+
+DND_MENU_ABLTAG3		=	"Mobility";
+DND_MENU_ABLHELPTEXT3	=	"You can dash to dodge attacks (bind a button under controls).";
+
+DND_MENU_ABLTAG4		=	"Arcanery";
+DND_MENU_ABLHELPTEXT4	=	"Artifact power increases by \cd50%\c-.";
+
+DND_MENU_ABLTAG5		=	"Toxicology";
+DND_MENU_ABLHELPTEXT5	=	"\c[R5]CYBERNETIC \cj- You take \cd33%\c- less poison damage.";
+
+DND_MENU_ABLTAG6		=	"Demolitions";
+DND_MENU_ABLHELPTEXT6	=	"\c[R5]CYBERNETIC \cj- Your explosives hurt you \cd50%\c- less.";
+
+DND_MENU_ABLTAG7		=	"Heart Seeking";
+DND_MENU_ABLHELPTEXT7	=	"Demons drop their hearts on death \cd5%\c- of the time. Can use as a temporary weapon.";
+
+DND_MENU_ABLTAG8		=	"Regeneration";
+DND_MENU_ABLHELPTEXT8	=	"\c[R5]CYBERNETIC \cj- Heal over time until \cd25%\c- of your health cap. Getting hurt pauses this.";
+
+DND_MENU_ABLTAG9		=	"Temporal Mastery";
+DND_MENU_ABLHELPTEXT9	=	"Temporary weapons give \cd50%\c- more ammo, and at the beginning of each map gain a fully loaded random temporary weapon.";
+
+DND_MENU_ABLTAG10		=	"Soul Stealing";
+DND_MENU_ABLHELPTEXT10	=	"Demons have an extra \cd2%\c- chance to drop their souls on death.";
+
+DND_MENU_ABLHELPTEXT11	=	"Toggles dashing.";
+
+// Orb generic help
+
+DND_MENU_ORBHELPTEXT	=	"Orbs can be found as drops from monsters or chests. They can also be obtained as the result of disassembling them in crafting menu. They allow players to craft and improve various aspects of their gameplay. Interact with them in the \cd\"Loadout\"\c- section under \cd\"Crafting\"\c-.";
+
+// account things
+DND_MENU_ACCITEMTAG1	=	"Extra Stash Tab";
+DND_MENU_ACCITEMTEXT1	=	"Adds an extra stash tab to your account.";
+
+// other help stuff
+DND_MENU_RESHELPTEXT1	=	"Researches help you unlock parts of the menu or certain abilities of your character. These can be weapons, abilities, artifacts, accessories and more!";
+DND_MENU_RESHELPTEXT2	=	"All researches require a research document. These documents contain top secret information that was discovered by UAC from the remains of your enemies.";
+DND_MENU_RESHELPTEXT3	=	"Through the information found in the research documents, you can have researches conducted and discover new features. The features use their own resource called \cv\"Budget\"\c-.";
+DND_MENU_RESHELPTEXT4	=	"\cvBudget\c- can only be gained by finishing maps. Upon completion of a map, you get \cvbudget\c- depending on the difficulty of the map. The harder the map the more budget you get.";
+DND_MENU_RESHELPTEXT5	=	"Once you obtain the required amount of \cvbudget\c-, you can go ahead and finish your research. When the research is concluded, you can use the feature the research enables.";
+
+DND_MENU_CHARHELPTEXT1	=	"Character loading is a feature only available in servers with \cvSoftcore\c- or \cgHardcore\c- modes enabled. You can do this using \c[Y5]\"setsoftcore\"\c- or \c[Y5]\"sethardcore\"\c- command or setting appropriate flags.";
+DND_MENU_CHARHELPTEXT2	=	"There are numerous flags that require to be set in order for the above modes to work properly. A full list of them can be found on our discord at: https://discord.gg/dFnejF4hzm";
+DND_MENU_CHARHELPTEXT3	=	"You need to have made an account in auth.zandronum.com in order to be able to use the persistent character features. After you've done so, make sure you remember your username and password for later.";
+DND_MENU_CHARHELPTEXT4	=	"You can skip the loading phase using \cf\"skipload\"\c- command in case you are starting a fresh character, or simply don't want to load.";
+DND_MENU_CHARHELPTEXT5	=	"You should in general use the \cf\"setchar X\"\c- command to set your character slot if you are starting fresh.";
+DND_MENU_CHARHELPTEXT6	=	"Avoid slot 0 as it's the default one, it can cause overwrites. Try to prefer slots 1 to 4 as much as possible.";
+DND_MENU_CHARHELPTEXT7	=	"You can have a maximum of 5 characters total from slots 0 to 4. However, your selected character will be wiped out on death should you die in \cgHardcore\c- mode, so caution is advised!";
+DND_MENU_CHARHELPTEXT8	=	"You'll be given a set amount of time before the game starts so that you can load your character safely. There are no monsters during this period.";
+DND_MENU_CHARHELPTEXT9	=	"Loading procedure is as follows:\n1. Open Console\n2.Login using \"login username password\".\n3. Type \cf\"loadme X\"\c- where 'X' is your character slot number.\n3. Wait for others to load.";
+
+DND_MENU_LEGHELPTEXT1	=	"\c[Y5]The Dreaming God\nThe evil entity known only as the \"Dreaming God\" wanders realms unknown to many for as long as the universe, or at least that's what we think. Research shows this creature is immune to any magical or elemental attack.";
+DND_MENU_LEGHELPTEXT2	=	"\c[Y5]Torrasque\nThis unwavering creature appears to be magically created by an immensely powerful wizard, long ago. Now it chose this realm to feast upon. We found that the creature is highly resistant to physical, energy and explosive attacks.";
+DND_MENU_LEGHELPTEXT3	=	"\c[Y5]Mordecqai\nOnce the great ruler of the \"Realm of Suffering\", now a wanderer to consume and gain powers of whatever creature comes its way. It seems to be completely immune to fire and explosive attacks.";
+DND_MENU_LEGHELPTEXT4	=	"\c[Y5]God Slayer\nA fearsome mech built by UAC to destroy the demonic menace, gone rogue by the evil powers of Hell. The robot will target only humans and has some interesting AI... Seems to be impervious to bullets. Explosives seem to do little, too.";
+DND_MENU_LEGHELPTEXT5	=	"\c[Y5]Golgoth\nAncient as time, this malignant being seeks only to torture the living to empower its domain. Seems to have manifested itself on Earth this time... Research shows it's explosive immune and magic resistant.";
+
+// text that require certain conditions to be met
+DND_MENU_ASSIMORB1		=	"Select the victim item";
+DND_MENU_ASSIMORB2		=	"Select the host item";
+
+DND_RANDOM_TAGGED_ORB	=	"Random reforge orb";
+
+DND_MENU_SELLCONFIRM						=	"Are you sure you\nwant to sell your";
+
+// specific wording of this in player stat draw
+
+DND_MENU_ARMOREFF		=	"armor efficiency";
+DND_MENU_NONMAGICDMG	=	"non-magic damage";
+DND_MENU_MAGICDMG		=	"magic damage";
+DND_MENU_DISCOUNT		=	"discount";
+DND_MENU_GLOBALCRIT		=	"global critical strike chance";
+DND_MENU_GLOBALCRITMULT	=	"global critical strike multiplier";
+DND_MENU_DROPCHANCE		=	"increased drop chance";
+DND_MENU_RARITY			=	"increased item rarity";
+DND_MENU_AMMOCAPS		=	"increased ammo caps";
+DND_MENU_SLOTDMG		=	"damage bonus to slot";
+DND_MENU_SELFEXPDMG		=	"less self damage";
+
+DND_MENU_STATUS				=	"Status";
+DND_MENU_RESEARCH_NA		=	"\cgBlueprint Required";
+DND_MENU_RESEARCH_FOUND		=	"\cuPending Research";
+DND_MENU_RESEARCH_DONE		=	"\cdDiscovered";
+DND_MENU_INVEST				=	"Invest";
+DND_MENU_DISCOVERYCHANCE	=	"Chance";
+DND_INVESTMENT_EXPLANATION	=	"Investing increases odds of discovering that research by 1% per investment. Cost to invest increases the more you invest based on the initial budget requirement of the research.";
+
+// monster mod explanations
+// weakness group
+DND_MENU_MMOD_WEAK1		=	"Monster takes 25% more damage from energy attacks.";
+DND_MENU_MMOD_WEAK2		=	"Monster takes 300% more damage from silver bullets.";
+DND_MENU_MMOD_WEAK3		=	"Monster takes 50% more damage from fire attacks.";
+DND_MENU_MMOD_WEAK4		=	"Monster takes 50% more damage from ice attacks.";
+DND_MENU_MMOD_WEAK5		=	"Monster takes 25% more damage from occult attacks.";
+DND_MENU_MMOD_WEAK6		=	"Monster takes 50% more damage from elemental attacks.";
+
+// resistance group
+DND_MENU_MMOD_RES1		=	"Monster takes 50% reduced damage from melee and ballistic attacks.";
+DND_MENU_MMOD_RES2		=	"Monster takes 50% reduced damage from energy attacks.";
+DND_MENU_MMOD_RES3		=	"Monster takes 50% reduced damage from occult attacks.";
+DND_MENU_MMOD_RES4		=	"Monster takes 50% reduced damage from elemental attacks.";
+DND_MENU_MMOD_RES5		=	"Monster is a being of ice, takes 50% more damage from fire attacks but immune to ice attacks.";
+DND_MENU_MMOD_RES6		=	"Monster is a being of fire, takes 50% more damage from ice attacks but immune to fire attacks.";
+DND_MENU_MMOD_RES7		=	"Monster is a being of stone, has ice weakness, fire resist, immunity to poison and lightning, and Hardened Skin.";
+DND_MENU_MMOD_RES8		=	"Monster is a being of earth, takes 50% more damage from lightning, but immune to poison attacks.";
+
+// immunity group
+DND_MENU_MMOD_IMM1		=	"Monster is immune to radius damage.";
+DND_MENU_MMOD_IMM2		=	"Monster is immune to any kind of melee or ballistic attack.";
+DND_MENU_MMOD_IMM3		=	"Monster is immune to energy attacks.";
+DND_MENU_MMOD_IMM4		=	"Monster is immune to occult attacks.";
+DND_MENU_MMOD_IMM5		=	"Monster is immune to elemental attacks.";
+DND_MENU_MMOD_IMM6		=	"Monster is immune to poison effects.";
+DND_MENU_MMOD_IMM7		=	"Monster is immune to chill and freeze.";
+DND_MENU_MMOD_IMM8		=	"Monster is immune to ignite.";
+DND_MENU_MMOD_IMM9		=	"Monster is immune to overloading.";
+DND_MENU_MMOD_IMM10		=	"Monster is resistant to all except occult damage.";
+
+// agressive group
+DND_MENU_MMOD_AGG1		=	"Monster can enter rage mode under certain conditions.";
+DND_MENU_MMOD_AGG2		=	"Monster has attacks treat armor at 40% of its value.";
+DND_MENU_MMOD_AGG3		=	"Monster uses ranged attacks more often and is fearless.";
+DND_MENU_MMOD_AGG4		=	"Monster is twice as fast.";
+DND_MENU_MMOD_AGG5		=	"Monster reacts to whoever hits it immediately.";
+DND_MENU_MMOD_AGG6		=	"Monster deals 35% increased damage.";
+DND_MENU_MMOD_AGG7		=	"Monster has homing attacks.";
+DND_MENU_MMOD_AGG8		=	"Monster treats armor as 40% its original value with every attack.";
+DND_MENU_MMOD_AGG9		=	"Monster has 50% chance to throw explosive projectiles when hurt.";
+DND_MENU_MMOD_AGG10		=	"Never infights with any other monster, and monsters do not target it for infights.";
+DND_MENU_MMOD_AGG11		=	"Monster heals for 10% of the damage it deals to you.";
+DND_MENU_MMOD_AGG12		=	"Monster hits build ruination stacks. Each stack reduces armor by 5%, whereas at 7 stacks (max) your armor is reduced by 75%. Stacks each last 3 seconds.";
+DND_MENU_MMOD_AGG13		=	"Monster has a chance to summon slowing hands underneath players on attacking, slowing them by 66% and dealing 2% of their health as magic damage.";
+DND_MENU_MMOD_AGG14		=	"Upon hurting the monster, thunder strikes at your location after a certain delay, dealing massive damage.";
+
+// defensive group
+DND_MENU_MMOD_DEF1		=	"Monster is ghostly, most of the non-magical projectiles will go through the monster.";
+DND_MENU_MMOD_DEF2		=	"Monster is impervious to ripping attacks.";
+DND_MENU_MMOD_DEF3		=	"Monster reflects certain projectiles on hit.";
+DND_MENU_MMOD_DEF4		=	"Monster can summon minions.";
+DND_MENU_MMOD_DEF5		=	"Monster can heal nearby monsters.";
+DND_MENU_MMOD_DEF6		=	"Monster has means to block attacks from players. Weapons that \cfignore shields\c- are effective.";
+DND_MENU_MMOD_DEF7		=	"Monster can split into other monsters.";
+DND_MENU_MMOD_DEF8		=	"Monster has a death activated ability.";
+DND_MENU_MMOD_DEF9		=	"Monster has 75% increased health.";
+DND_MENU_MMOD_DEF10		=	"Monster is currently blocking attacks. Receives no damage unless attacks \cfignore shields\c-.";
+DND_MENU_MMOD_DEF11		=	"You can't leech life from this the monster.";
+DND_MENU_MMOD_DEF12		=	"Monster spawns 5 wraiths on death.";
+DND_MENU_MMOD_DEF13		=	"Monster recovers 5% of it's health every second.";
+DND_MENU_MMOD_DEF14		=	"Monster has a third of its maximum health as a shield. The shield absorbs all damage until it depletes. Shield ignore effects bypass this.";
+DND_MENU_MMOD_DEF15		=	"Upon death, a monster of the same class with the highest rarity will spawn.";
+DND_MENU_MMOD_DEF16		=	"Monster pushes players away from it when they come close, once every 3 seconds.";
+DND_MENU_MMOD_DEF17		=	"Monster summons an invulnerable phantasm on death that slowly chases you for 20 seconds.";
+DND_MENU_MMOD_DEF18		=	"Monster explodes into a catastrophic explosion on death for 10% of its maximum health or 100 damage, whichever is higher, after a considerable delay.";
+DND_MENU_MMOD_DEF19		=	"Monster takes 150% reduced damage from critical strikes.";
+DND_MENU_MMOD_DEF20		=	"Monster phases in and out of reality, becoming ghostly randomly.";
+DND_MENU_MMOD_DEF21		=	"Monster has a bubble that negates damage from the first hit once every 20 seconds.";
+
+// utility group
+DND_MENU_MMOD_UTI1		=	"Monster can curse the player.";
+DND_MENU_MMOD_UTI2		=	"Monster has a chance to raise from the dead.";
+DND_MENU_MMOD_UTI3		=	"Monster has means to teleport around.";
+DND_MENU_MMOD_UTI4		=	"Monster can resurrect other dead monsters.";
+DND_MENU_MMOD_UTI5		=	"Monster is capable of covering distances fast.";
+DND_MENU_MMOD_UTI6		=	"Monster poisons player with certain attacks.";
+DND_MENU_MMOD_UTI7		=	"Monster feels no pain.";
+DND_MENU_MMOD_UTI8		=	"Monster belongs to a player and is friendly.";
+DND_MENU_MMOD_UTI9		=	"Monster is summoned by another and gives nothing on kill.";
+DND_MENU_MMOD_UTI10		=	"Monster is resurrected and doesn't give anything on kill.";
+DND_MENU_MMOD_UTI11		=	"Monster has 33% chance to steal 25% of current weapon's ammo from you with attacks.";
+DND_MENU_MMOD_UTI12		=	"Monster attacks have 33% chance to inflict a random curse.";
+DND_MENU_MMOD_UTI13		=	"Monster attacks will briefly stop your movement.";
+DND_MENU_MMOD_UTI14		=	"Monster has an aura that slows nearby players by 50%.";
+DND_MENU_MMOD_UTI15		=	"Monster makes no alert or active sound.";
+DND_MENU_MMOD_UTI16		=	"Monster's attacks cause blackouts, only letting players see a small area around for four seconds, fading out in two seconds.";
+DND_MENU_MMOD_UTI17		=	"Monster is shrouded in smoke and is harder to see.";
+DND_MENU_MMOD_UTI18		=	"Monster's attacks can inflict poison.";
+DND_MENU_MMOD_UTI19		=	"Monster's attacks can inflict chill and freeze.";
+DND_MENU_MMOD_UTI20		=	"Monster's attacks can inflict ignite.";
+DND_MENU_MMOD_UTI21		=	"Monster's attacks can inflict overload.";
+
+DND_MENU_MMOD_CHAOS		=	"Monster has double health, 50% more damage, 50% more speed, extra aggressive and chaos imbued attacks.";
+DND_MENU_MMOD_LEG		=	"Monster is unique.";
+
+
+
+// meme nfts
+DND_NFT_INTRO			=	"Welcome to emporium of NFTs, the best place to obtain the top NFTs in Doom! All NFTs cost a million dollars. Please, do enjoy yourself!";
+DND_NFT_TAG0			=	"Cybape";
+DND_NFT_EXP0			=	"This beautiful monkey here was manifactured to be the ruler of cyborgs in an abandoned UAC facility. "
+							"Do not be fooled by his metallic appearance, he's very fashionable and will rain down his wrath upon those who do not appreciate his masterful form.";
+DND_NFT_TAG1			=	"The prison escapee";
+DND_NFT_EXP1			=	"The classic striped design. Chill and very relaxed, only giving out the good vibes.";
+DND_NFT_TAG2			=	"Weeping King";
+DND_NFT_EXP2			=	"The weeping king of the planet of the apes. His sorrow began shortly after his brother did nasty things to his girlfriend. "
+							"After the incident, his girlfriend only had one thing to say: \"His banana wasn't big enough for me.\"";
+DND_NFT_TAG3			=	"Mon-Key Missing";
+DND_NFT_EXP3			=	"Someone forgot to charge the batteries on this one, it's dead Jim...";
+DND_NFT_TAG4			=	"Captain Banana-Slip";
+DND_NFT_EXP4			=	"Welcome to his boat. The untold truth about the boat however is that... It is the Catholic Boat. The best place to find the hottest Christian action anywhere in the world.";
+DND_NFT_TAG5			=	"Sgt. Treehugger";
+DND_NFT_EXP5			=	"Sgt. Treehugger here! What you looking at!? Aren't you supposed to fetch me a cigar? What, monkey got your tongue, huh!?! WHAT YOU LOOKIN AT!!!???";
+DND_NFT_TAG6			=	"Evel Armstrong";
+DND_NFT_EXP6			=	"Hey there buddy! I see you have a knack for space and daring stunts! Let me introduce you to Evel Armstrong here. He loves taking big leaps of faith "
+							"and launching himself to space, completely out of nowhere. He is a nervous chap though.";
+DND_NFT_TAG7			=	"Banana County Chopper";
+DND_NFT_EXP7			=	"Yo man, I love my bike. You ever seen such a beauty anywhere? I had to sell my house and my wife and two kids but it was worth it. "
+							"Now there ain't no yappin' ape around ma head tellin' me to pick up my banana peels.";

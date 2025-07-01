@@ -1,0 +1,255 @@
+[enu default]
+
+DND_HAS									= "has";
+
+DND_HEALTH								= "Health";
+DND_FREE_SLOT							= "FREE SLOT";
+
+DND_PICKUP_HEALTH						= "Health pickup";
+DND_PICKUP_DEMONESSENCE					= "Demon Essence.";
+DND_PICKUP_WEAPON						= "Weapon pickup";
+DND_PICKUP_RESEARCH						= "Research pickup";
+DND_PICKUP_DISCOVERED					= "Discovered";
+DND_PICKUP_ORB							= "Orb pickup";
+DND_PICKUP_ELIXIR						= "Elixir pickup";
+DND_PICKUP_TOKEN						= "Token pickup";
+DND_PICKUP_CHARM						= "Charm pickup";
+DND_PICKUP_ARMOR						= "Armor pickup";
+DND_PICKUP_BONUS						= "Bonus pickup";
+DND_PICKUP_POWERCORE					= "Powercore pickup";
+
+DND_KILLS								= "Kills";
+DND_PLAYER								= "Player";
+DND_DMGDEALT							= "Damage Dealt";
+DND_DMGTAKEN							= "Damage Taken";
+DND_COMPLETED							= "COMPLETED";
+
+DND_OR									= "or";
+DND_KILL								= "Kill";
+DND_FORBUFF								= "for buff";
+DND_CURRTIER							= "Current Tier";
+DND_OBTAIN								= "Obtain";
+DND_PLAYER								= "Player";
+DND_POINTS								= "points";
+
+DND_ANNOUNCE							= "Announcement";
+DND_GOTPERK								= "has gained a \cjperk point\c-!";
+DND_HASLEVELEDUP						= "has leveled up to";
+
+DND_TEXT_MAXKILLS 						= "All monsters have been killed! ";
+DND_TEXT_MAXKILLREWARD 					= "% Exp bonus!";
+
+DND_TEXT_MAXITEMS						= "All items have been taken! ";
+DND_TEXT_MAXITEMREWARD					= "% Credit Bonus!";
+
+DND_TEXT_MAXSECRETS						= "All secrets have been found! ";
+DND_TEXT_MAXSECRETREWARD				= "K Budget!";
+
+DND_TEXT_GAINEDEXTRA					= "Gained extra";
+DND_TEXT_BONUS							= "bonus";
+
+DND_TEXT_UNSPENTPOINT					= "You have unspent attribute points!";
+DND_TEXT_SPENDINMENU					= "Spend them in \cvDnD Menu!";
+DND_TEXT_NEWPERK						= "New class perk unlocked! Go to \cvDnD Menu\c- help section for info!";
+DND_TEXT_LEGENDARYWALKS					= "A legendary monster now walks this land... Be wary.\c-";
+DND_TEXT_DISCOVEREDRES					= "You have discovered the following research";
+DND_TEXT_TRADEREQUEST					= "You have a trade request from";
+
+DND_TEXT_NOACTIVEQUEST					= "No active quest found!";
+
+DND_TEXT_NOTIFICATION					= "NOTIFICATION";
+DND_TEXT_INVENTORYFULL					= "INVENTORY IS FULL";
+
+DND_TEXT_LOADINGMONS					= "Loading monsters...";
+DND_TEXT_WAITINGFOR						= "Waiting for";
+DND_TEXT_PLAYERTOLOAD					= "player to load character...";
+DND_TEXT_PLAYERSTOLOAD					= "players to load character...";
+
+DND_TEXT_YOUHAVE						= "You have";
+DND_TEXT_LOADCHARWARNING				= "seconds to load your character!\n\crIgnore or skip with \"\cjskipload\c-\cr\" command to load or create new auto-saved char (slot \cd0\c-\cr).\c-";
+DND_TEXT_LOADLOGINWARNING				= "seconds to login to load your character!\n\crIgnore or skip with \"\cjskipload\c-\cr\" command to use none.\c-\n\n\csAn auto-saved char will not be created until login!\c-";
+
+DND_TEXT_TIPBOXON						= "Weapon tip boxes on";
+DND_TEXT_TIPBOXOFF						= "Weapon tip boxes off";
+DND_TEXT_SFXON							= "Special Effects On";
+DND_TEXT_SFXOFF							= "Special Effects Off";
+
+DND_TEXT_NOWUSING						= "Now using";
+
+DND_TEXT_MAPTOAST						= "The entire map is toast! You're awarded lootboxes!";
+
+DND_ATTRIBUTEPTS						= "Attribute Points";
+
+DND_INVENTORY							= "Inventory";
+
+DND_TALENT1								= "Melee";
+DND_TALENT2								= "Ballistic";
+DND_TALENT3								= "Energy";
+DND_TALENT4								= "Explosive";
+DND_TALENT5								= "Occult";
+
+DND_TALENT6								= "Fire";
+DND_TALENT7								= "Ice";
+DND_TALENT8								= "Lightning";
+DND_TALENT9								= "Poison";
+
+DND_DAMAGEBONUS							= "damage bonus";
+DND_DAMAGE								= "damage";
+DND_FROM								= "from";
+DND_CLASS								= "Class";
+
+DND_STAT1								= "Strength";
+DND_STAT2								= "Dexterity";
+DND_STAT3								= "Intellect";
+	
+DND_PERK1								= "Sharpshooting";
+DND_PERK2								= "Brutality";
+DND_PERK3								= "Endurance";
+DND_PERK4								= "Wisdom";
+DND_PERK5								= "Greed";
+DND_PERK6								= "Medic";
+DND_PERK7								= "Munitionist";
+DND_PERK8								= "Deadliness";
+DND_PERK9								= "Savagery";
+DND_PERK10								= "Luck";
+	
+DND_STAT16								= "Experience";
+DND_STAT17								= "Level Experience";
+DND_STAT18								= "Level";							DND_STAT18_SHORT = "Lvl";
+DND_STAT19								= "Credit";
+DND_STAT20								= "Level Credit";
+DND_LEVEL_HEADER						= "L";
+
+DND_TOREADY								= "to Ready Up!";
+DND_SAFETOSAVE							= "Player Data Saved!";
+
+DND_MADE_BY								= "Made by";
+
+DND_SPREETEXT1							= "Cruel";
+DND_SPREETEXT2							= "Merciless";
+DND_SPREETEXT3							= "Crushing";
+DND_SPREETEXT4							= "Sadistic";
+DND_SPREETEXT5							= "Vicious";
+DND_SPREETEXT6							= "Destructive";
+DND_SPREETEXT7							= "Terrifying";
+DND_SPREETEXT8							= "Terrorizing";
+DND_SPREETEXT9							= "Rampage";
+DND_SPREETEXT10							= "Unstoppable";
+DND_SPREETEXT11							= "Massacre";
+DND_SPREETEXT12							= "Bloodthirsty";
+DND_SPREETEXT13							= "Monstrous";
+DND_SPREETEXT14							= "Genocide";
+DND_SPREETEXT15							= "Holocaust";
+DND_SPREETEXT16							= "Diabolical";
+DND_SPREETEXT17							= "Epic";
+DND_SPREETEXT18							= "Legendary";
+DND_SPREETEXT19							= "Godlike";
+DND_SPREETEXT20							= "HOLY SHIT";
+
+DND_NOTYOURCHEST						= "INFO:\c- \c[Y5]This chest doesn't belong to you!";
+DND_IT_BELONGS_TO						= "\c[Y5]It belongs to: ";
+
+DND_WARN_COMPATBUTTONS					= "\cgWARNING:\c- Please activate '\cdcompat_clientssendfullbuttoninfo\c-' in order to use the menu properly.";
+DND_WARN_WEAPONDROP						= "\cgWARNING:\c- Please deactivate '\cdsv_weapondrop\c-'. It breaks mod rules!";
+
+DND_ACCESSORY							= "Accessory";
+
+DND_PLAYERLOOKUP						= "DnD Player Lookup";
+DND_STATALLOCATION						= "Stat Allocation";
+DND_PERKALLOCATION						= "Perk Allocation";
+DND_WEPSOWNED							= "Weapons Owned";
+DND_PLAYERNOTPLAYING					= "Player isn't currently playing";
+
+DND_MAPDIFF		=	"Tier";	
+
+// database messages
+DND_DBERR1A		= "LOAD CHAR ERROR: Loading failed due to non-existent character! Character slot number should be between";
+DND_DBERR1B		= "and must've been declared previously using \"setchar\" command.";
+
+DND_DBERR2		= "CREATE CHAR: Character successfully created on slot";
+DND_DBERR3		= "CHAR ERROR: Can't do this while a character is already loaded!";
+DND_DBERR4		= "CHAR ERROR: Can't do this if no characters are loaded!";
+DND_DBERR5		= "CHAR ERROR: You have to be in game to use this!";
+DND_DBERR6		= "CHAR ERROR: Gamemode is either not set to hardcore or softcore, or server tried to set both!";
+DND_DBERR7		= "CHAR ERROR: Can't do this during countdown!";
+DND_DBERR8		= "CHAR ERROR: You have to be logged in for this to work!";
+DND_DBERR9		= "CHAR ERROR: The load time for this map is over!";
+DND_DBERR10		= "CHAR ERROR: Character slot number needs to be between";
+DND_DBERR11A	= "TRANSFER CHAR: Character will remain at the current slot";
+DND_DBERR11B	= "on character save.";
+DND_DBERR12		= "has loaded a character";
+DND_DBERR13A	= "TRANSFER CHAR: Character will be transferred to slot";
+DND_DBERR13B	= "on character save. Previous character on that slot will be deleted!";
+
+DND_DB_CHARLIST = "Character list";
+DND_DB_NOCHARS_MAKEONE = "You have no characters. Make one using \"createchar X\"";
+
+DND_BOSS_LEVELENDSIN = "Level ends in";
+
+// popup text
+DND_POPUP_NOFUNDS							=	"Insufficient funds.";
+DND_POPUP_CANTBUY							=	"You can't buy this item.";
+DND_POPUP_ALREADYOWN						=	"You already own this item!";
+DND_POPUP_DONTOWN							=	"You don't own this item.";
+DND_POPUP_NEEDRESEARCH						=	"You need to research this item!";
+DND_POPUP_NOBUDGET							=	"Insufficient budget!";
+DND_POPUP_NEEDDISCOVER						=	"You need to discover this research!";
+DND_POPUP_ALREADYRESEARCHED					=	"You already did this research!";
+DND_POPUP_MAXACCESSORYEQUIPPED				=	"Unequip some accessories first!";
+DND_POPUP_NOTALENTPOINT						=	"You need to acquire talent points!";
+DND_POPUP_ACCESSORYNOTFOUND					=	"You don't have this accessory yet!";
+DND_POPUP_CHARMMISMATCH						=	"Mismatching charm type!";
+DND_POPUP_NOITEMTHERE						=	"No item selected!";
+DND_POPUP_TARGETISTRADING					=	"Selected player is trading with someone else!";
+DND_POPUP_YOUARETRADING						=	"You can't trade while already in a trade!";
+DND_POPUP_NOSPACEFORTRADE					=	"Not enough space for trade offerings!";
+DND_POPUP_YOUAREMUTED						=	"Targeted player has muted you from trading!";
+DND_POPUP_ITEMNEEDSTARGET					=	"Material requires another item to be used on!";
+DND_POPUP_MATERIALCANTUSE					=	"Conditions for the material not met!";
+DND_POPUP_ITEMTYPEMISMATCH					=	"Mismatching item type!";
+DND_POPUP_NOSPOTFORITEM						=	"No free spot to place the item!";
+DND_POPUP_POINTLESSARMOR					=	"Can't replace armor with same type! Try fill instead.";
+DND_POPUP_OUTOFSTOCK						=	"Out of stock! Wait next map to restock.";
+DND_POPUP_NOARMORWORN						=	"You don't have an armor equipped!";
+DND_POPUP_ARMORISFULL						=	"Armor isn't damaged!";
+DND_POPUP_NOREPAIRTOKENS					=	"You don't have any repair tokens!";
+DND_POPUP_YOUARENTALLOWED					=	"You aren't allowed to buy this item!";
+DND_POPUP_PLAYERCONDNOTMET					=   "More players need to exit!";
+DND_POPUP_MONKILLCONDNOTMET					=	"More monsters need to be killed!";
+DND_POPUP_ITEMLVLTOOHIGH					=	"Item level is too high for use!";
+DND_POPUP_NOMORESMALLCHARMS					=	"You have reached your small charm limit!";
+DND_POPUP_ONLYONEUNIQUE						=	"You can't use another of the same unique!";
+DND_POPUP_ALREADYFOUND						=	"You already found this research!";
+DND_POPUP_MAXINVESTMENT						=	"You've invested enough!";
+DND_POPUP_NARESEARCH						=	"We know nothing about this so far.";
+DND_POPUP_CANTUSEBODYARMOR					=	"Can't use body armor with this item!";
+DND_POPUP_CANTPUTONBODYARMOR				=	"You can't use a body armor, it's forbidden!";
+DND_POPUP_NOTENOUGHSPACE					=	"You don't have enough space!";
+DND_POPUP_SCAVENGECONFIRM					=	"Disassemble the item for ";
+DND_POPUP_OWNNFT							=	"You already own this NFT... idiot.";
+DND_POPUP_NOTENOUGHMATERIALS				=	"Not enough materials to combine!";
+DND_POPUP_CANTUSEPOWERCORE					=	"You can't use a power core!";
+
+// exceptions for some character sheet text
+DND_IGNITEDAMAGE							=	"ignite damage";
+DND_IGNITECHANCE							=	"chance to ignite";
+DND_IGNITEPROLIFCHANCE						=	"ignite proliferation chance";
+DND_IGNITEPROLIFRANGE						=	"ignite proliferation range";
+DND_IGNITEPROLIFCOUNT						=	"ignite proliferation count";
+DND_POISONTICRATE							=	"Poison tics once every ";
+DND_TICS									=	"tics";
+DND_CHILLSLOWS								=	"Chill stacks slow for";
+DND_FREEZECHANCE							=	"chance to freeze per chill";
+DND_CHILLTHRESHOLD							=	"chill threshold per chill";
+DND_HEALTHCAPIS								=	"Health cap";
+DND_ARMORCAPIS								=	"Armor rating";
+DND_ESTREDUCTION							=	"estimated attack damage reduction";
+DND_ESHIELDIS								=	"Energy shield";
+DND_ESHIELDDELAY							=	"s energy shield recharge delay";
+DND_ESHIELDRECOVERY							=	"energy shield recovery rate";
+DND_ESHIELDABSORB							=	"magic negation";
+DND_KNOCKBACKIMMUNE							=	"Knockback Immune";
+DND_CHANCETOEXPREPEAT						=	"chance for explosives to repeat";
+DND_EXPERIENCEGAIN							=	"experience gain";
+DND_CREDITGAIN								=	"credit gain";
+DND_MELEERANGE								=	"melee range";

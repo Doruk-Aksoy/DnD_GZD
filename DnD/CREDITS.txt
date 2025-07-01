@@ -1,0 +1,104 @@
+==================================================================================
+SPECIAL THANKS TO THE FOLLOWING AWESOME PEOPLE FOR SUPPORTING ME ON PATREON:
+
+- Initiate Supporters
+
+	* Ancalagon
+	* Trenton
+	
+- Scholar Supporters
+
+	* magicmancer
+
+==================================================================================
+
+Detailed Credits:
+
+Renegade's sprites - SoloSpaghetti
+Former Overwatch's sprites (AVSG) from DRLA - Marty Kirra 
+jawless shotgunner sprite. - yholl
+Elite Former Sergeant [Assault Shotgun] (EASS) - SoloSpaghetti.
+Nightmare Mastermind (NMAS) sprites from DRLA - Seryder, Yuraofthehairfan
+Boot sprites - Yholl
+Flesh Wizard 64 - Craneo
+Orb of Turmoil - Kapzduke
+Inverted Shell - Typical
+
+The above is incomplete and will be updated.
+
+- Weapon sprite credits are (mostly) in the decorate files.
+
+Thanks to:
+
+- AgentSpork (Code)
+- Enjay (Sprites)
+- Infirnex (Sprites)
+- Blue Shadow (Sprites)
+- Popsoap (Code help)
+- TheUltimateDoomer (Sprites and GLDefs)
+- ETTINGRINDER (Sprites)
+- Eriance (Many sprites for monsters and weapons)
+- Kappes Buur (Sprites?)
+- TerminusEst13 (Mugshot for Berserker)
+- Nash (Codebase for gore)
+- Tiberium Soul / TheRailgunner (Heavy MG Sprites)
+- TheRailgunner (Sprites)
+- Vegeta (Sprites)
+- thehadnot (Sounds)
+- s3ntey (Sprites)
+- Eradrop (Sprites)
+- deguix (Code, Github Documentation)
+- DavidN (Sprites)
+- ijonTichy (Codebase for railgun particle draw)
+- Daedalus (Sprites and code for various special effects)
+- Noozearts (Sprites)
+- TODM (Sprites)
+- Pandut (Sprites)
+- jdagenet (sounds)
+- Sky Driver (Graphics)
+- Gifty (Sprites)
+- MagicWazard (Sprites)
+- Bloax (Sprites, Graphics)
+- hnsolo77 (Sprites)
+- Finalizer (Sprites)
+- KeksDose (Code?)
+- MajorCooke (Code of D4Doom stuff)
+- DBThanatos (sprites -- effects)
+- PillowBlaster (some code and sprites)
+- Thetis (Wrath of Cronos -- some code, sprites, sounds, graphics)
+- Jimmy (Font and some sprites)
+- wildweasel (Sprites for various weapons and their effects, Decorate)
+- Virtue (Sprites)
+- Captain Toenail (Sprites)
+- DoomNukem (Sprites and codebase for minigun)
+- NMN (Sprites)
+- Megaherz (Sprites)
+- Jaeden (Sprites)
+- Captain Ventris (ZDWars Effects)
+- Ghastly Dragon (Sprites, GLDefs for various enemies, some decorate)
+- Woolie Wool (Sprites)
+- LoganMTM (Sprites)
+- Tormentor667 (Realm667)
+- TheMightyHeracross (Sprites)
+- Cage (Sprites)
+- Rachael (Fluids.wad)
+- Alterworldruler (Acid Rifle sprites)
+- Scroton (Projectile interception code)
+- Catastrophe (Animations)
+- Mor'Ladim (Scattergun)
+- HorrorMovieGuy (Sprites)
+- Sgt. Shivers (Katana + Demon Sealer sprites / parts of code)
+- OSJLatchford (Sprites)
+- Yholl (Code for player movement, sprites)
+- Ryan_Cordell (Nuclear Plasma Rifle Sprites)
+- icytux (Sprites)
+- Ichor (Sprites, Decorate)
+- Jaeden (Sprites)
+- Sandypaper (Sprites)
+- Necronixis (Sprites)
+- Vader (Sprites)
+- Xaser (Effects, graphics)
+- Mark Knight (some sound effects)
+- James Stanfield (Duke4.net, AMC TC) for various sprites.
+- 3D Realms, Bethesda Software, Blizzard, Monolith, ID Software, Relic, THQ, Raven Software for various graphics and sounds.
+- Grinding Gear Games for Path of Exile. (Sounds, Graphics)

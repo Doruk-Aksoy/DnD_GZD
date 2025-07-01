@@ -1,0 +1,21 @@
+include "xlat/doom.txt"
+
+11 = USE|REP,		ACS_ExecuteAlways (255)
+51 = USE|REP,		ACS_ExecuteAlways (255, 0, 1)
+52 = WALK|REP,		ACS_ExecuteAlways (255)
+124 = WALK|REP,		ACS_ExecuteAlways (255, 0, 1)
+197 = SHOOT|REP,		ACS_ExecuteAlways (255)
+198 = SHOOT|REP,		ACS_ExecuteAlways (255, 0, 1)
+
+39 = WALK|MONST,					ACS_ExecuteAlways(1691, 0, tag)
+97 = WALK | REP | MONST,			ACS_ExecuteAlways(1691, 0, tag)
+174 = USE|MONST,					ACS_ExecuteAlways(1691, 0, tag)
+195 = USE|REP|MONST,				ACS_ExecuteAlways(1691, 0, tag)
+207 = WALK|MONST,					ACS_ExecuteAlways(1691, 0, tag, 1)
+208 = WALK|REP|MONST,				ACS_ExecuteAlways(1691, 0, tag, 1)
+209 = USE|MONST,					ACS_ExecuteAlways(1691, 0, tag, 1)
+210 = USE|REP|MONST,				ACS_ExecuteAlways(1691, 0, tag, 1)
+243 = WALK|MONST,					ACS_ExecuteAlways(1691, 0, tag, 2)
+244 = WALK|REP|MONST,				ACS_ExecuteAlways(1691, 0, tag, 2)
+262 = WALK|MONST,					ACS_ExecuteAlways(1691, 0, tag, 3)
+263 = WALK|REP|MONST,				ACS_ExecuteAlways(1691, 0, tag, 3)

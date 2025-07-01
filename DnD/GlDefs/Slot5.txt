@@ -1,0 +1,477 @@
+object RocketX
+{
+    frame MISLA { light ROCKET }
+
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+object RocketX_GhostHitter
+{
+    frame MISLA { light ROCKET }
+
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+object NewRocket
+{
+    frame MICM { light ROCKET }
+
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+object NewRocket_GhostHitter
+{
+    frame MICM { light ROCKET }
+
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+object CyberdemonRocket
+{
+    frame MISLA { light ROCKET }
+
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+object NormalGrenade
+{
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+object NormalGrenade_GhostHitter
+{
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+object NormalGrenade_Special
+{
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+object NewGrenadeExplosion
+{
+    frame GRXPD { light ROCKET_X1 }
+	frame GRXPE { light ROCKET_X1 }
+	frame GRXPF { light ROCKET_X1 }
+	frame GRXPG { light ROCKET_X1 }
+	frame GRXPH { light ROCKET_X1 }
+	frame GRXPI { light ROCKET_X1 }
+	frame GRXPJ { light ROCKET_X1 }
+	frame GRXPK { light ROCKET_X1 }
+    frame GRXPL { light ROCKET_X2 }
+	frame GRXPM { light ROCKET_X2 }
+	frame GRXPN { light ROCKET_X2 }
+	frame GRXPO { light ROCKET_X2 }
+	frame GRXPP { light ROCKET_X2 }
+	frame GRXPQ { light ROCKET_X2 }
+    frame GRXPR { light ROCKET_X3 }
+	frame GRXPS { light ROCKET_X3 }
+	frame GRXPT { light ROCKET_X3 }
+	frame GRXPU { light ROCKET_X3 }
+	frame GRXPV { light ROCKET_X3 }
+}
+
+Object HomRocket1
+{
+	frame HMISA { light ROCKET }
+	frame MACXA { light ROCKET_X1 }
+	frame MACXB { light ROCKET_X1 }
+	frame MACXC { light ROCKET_X1 }
+	frame MACXD { light ROCKET_X2 }
+	frame MACXE { light ROCKET_X2 }
+	frame MACXF { light ROCKET_X2 }
+	frame MACXG { light ROCKET_X2 }
+	frame MACXH { light ROCKET_X3 }
+	frame MACXI { light ROCKET_X3 }
+	frame MACXJ { light ROCKET_X3 }
+}
+
+object HomRocket1NH
+{
+	frame HMISA { light ROCKET }
+	frame MACXA { light ROCKET_X1 }
+	frame MACXB { light ROCKET_X1 }
+	frame MACXC { light ROCKET_X1 }
+	frame MACXD { light ROCKET_X2 }
+	frame MACXE { light ROCKET_X2 }
+	frame MACXF { light ROCKET_X2 }
+	frame MACXG { light ROCKET_X2 }
+	frame MACXH { light ROCKET_X3 }
+	frame MACXI { light ROCKET_X3 }
+	frame MACXJ { light ROCKET_X3 }
+}
+
+Object HomRocket1_GhostHitter
+{
+	frame HMISA { light ROCKET }
+	frame MACXA { light ROCKET_X1 }
+	frame MACXB { light ROCKET_X1 }
+	frame MACXC { light ROCKET_X1 }
+	frame MACXD { light ROCKET_X2 }
+	frame MACXE { light ROCKET_X2 }
+	frame MACXF { light ROCKET_X2 }
+	frame MACXG { light ROCKET_X2 }
+	frame MACXH { light ROCKET_X3 }
+	frame MACXI { light ROCKET_X3 }
+	frame MACXJ { light ROCKET_X3 }
+}
+
+object HomRocket1NH_GhostHitter
+{
+	frame HMISA { light ROCKET }
+	frame MACXA { light ROCKET_X1 }
+	frame MACXB { light ROCKET_X1 }
+	frame MACXC { light ROCKET_X1 }
+	frame MACXD { light ROCKET_X2 }
+	frame MACXE { light ROCKET_X2 }
+	frame MACXF { light ROCKET_X2 }
+	frame MACXG { light ROCKET_X2 }
+	frame MACXH { light ROCKET_X3 }
+	frame MACXI { light ROCKET_X3 }
+	frame MACXJ { light ROCKET_X3 }
+}
+
+flickerlight INQSHOT_X1
+{
+    color 1.0 0.8 0.0
+    size 56
+    secondarySize 64
+    chance 0.3
+}
+
+flickerlight INQSHOT_X2
+{
+    color 1.0 0.7 0.0
+    size 64
+    secondarySize 72
+    chance 0.3
+}
+
+flickerlight INQSHOT_X3
+{
+    color 0.8 0.45 0.0
+    size 72
+    secondarySize 80
+    chance 0.3
+}
+
+flickerlight INQSHOT_X4
+{
+    color 0.5 0.3 0.0
+    size 80
+    secondarySize 84
+    chance 0.3
+}
+
+flickerlight INQSHOT_X5
+{
+    color 1.0 0.6 0.0
+    size 56
+    secondarySize 60
+    chance 0.3
+}
+
+flickerlight INQSHOT_X6
+{
+    color 1.0 0.7 0.0
+    size 60
+    secondarySize 64
+    chance 0.3
+}
+
+flickerlight INQSHOT_X7
+{
+    color 1.0 0.7 0.0
+    size 64
+    secondarySize 68
+    chance 0.3
+}
+
+flickerlight INQSHOT_X8
+{
+    color 1.0 0.6 0.0
+    size 40
+    secondarySize 48
+    chance 0.3
+}
+
+flickerlight INQSHOT_X9
+{
+    color 1.0 0.4 0.0
+    size 24
+    secondarySize 32
+    chance 0.3
+}
+
+object InquisitorShot
+{
+    frame FP97A { light INQSHOT_X1 }
+    frame FP97B { light INQSHOT_X2 }
+    frame FP97C { light INQSHOT_X3 }
+    frame FP97D { light INQSHOT_X4 }
+    frame FP97E { light INQSHOT_X5 }
+    frame FP97F { light INQSHOT_X6 }
+    frame FP97G { light INQSHOT_X7 }
+    frame FP97H { light INQSHOT_X8 }
+    frame FP97I { light INQSHOT_X9 }
+}
+
+object FlakProjectileExplosion1 {
+	frame DEXP { light INQSHOT_X8 }
+}
+
+object FlakProjectileExplosion2 {
+	frame DXP2 { light INQSHOT_X8 }
+}
+
+object FlakProjectileExplosion3 {
+	frame DXP3 { light INQSHOT_X8 }
+}
+
+object FlakProjectileExplosion4 {
+	frame DXP4 { light INQSHOT_X8 }
+}
+
+object FlakProjectileExplosion1_Crit {
+	frame DEXP { light INQSHOT_X8 }
+}
+
+object FlakProjectileExplosion2_Crit {
+	frame DXP2 { light INQSHOT_X8 }
+}
+
+object FlakProjectileExplosion3_Crit {
+	frame DXP3 { light INQSHOT_X8 }
+}
+
+object FlakProjectileExplosion4_Crit {
+	frame DXP4 { light INQSHOT_X8 }
+}
+
+flickerlight SedrinLight1
+{
+    color 0.125 1.0 0.125
+    size 40
+    secondarySize 56
+    chance 0.375
+}
+
+flickerlight SedrinLight1S
+{
+    color 0.125 1.0 0.125
+    size 30
+    secondarySize 40
+    chance 0.375
+}
+
+pointlight SedrinLight2
+{
+    color 0.125 1.0 0.125
+    size 64
+}
+
+pointlight SedrinLight3
+{
+    color 0.125 1.0 0.125
+    size 80
+}
+
+pointlight SedrinLight4
+{
+    color 0.125 1.0 0.125
+    size 48
+}
+
+pointlight SedrinLight5
+{
+    color 0.125 1.0 0.125
+    size 32
+}
+
+pointlight SedrinLight6
+{
+    color 0.125 1.0 0.125
+    size 18
+}
+
+pointlight SedrinLight7
+{
+    color 0.125 1.0 0.125
+    size 48
+}
+
+pointlight SedrinLight8
+{
+    color 0.125 1.0 0.125
+    size 40
+}
+
+object SedrinProjectile {
+	frame ACID { light SedrinLight1 }
+	
+	frame BPLOA { light SedrinLight2 }
+	frame BPLOB { light SedrinLight2 }
+	frame BPLOC { light SedrinLight3 }
+	frame BPLOD { light SedrinLight3 }
+	frame BPLOE { light SedrinLight4 }
+	frame BPLOF { light SedrinLight4 }
+	frame BPLOG { light SedrinLight5 }
+	frame BPLOH { light SedrinLight6 }
+}
+
+object SedrinSplitProjectile {
+	frame ACID { light SedrinLight1S }
+	
+	frame BPLOA { light SedrinLight7 }
+	frame BPLOB { light SedrinLight7 }
+	frame BPLOC { light SedrinLight2 }
+	frame BPLOD { light SedrinLight2 }
+	frame BPLOE { light SedrinLight8 }
+	frame BPLOF { light SedrinLight8 }
+	frame BPLOG { light SedrinLight5 }
+	frame BPLOH { light SedrinLight6 }
+}
+
+object SedrinSplitProjectile_Crit {
+	frame ACID { light SedrinLight1S }
+	
+	frame BPLOA { light SedrinLight7 }
+	frame BPLOB { light SedrinLight7 }
+	frame BPLOC { light SedrinLight2 }
+	frame BPLOD { light SedrinLight2 }
+	frame BPLOE { light SedrinLight8 }
+	frame BPLOF { light SedrinLight8 }
+	frame BPLOG { light SedrinLight5 }
+	frame BPLOH { light SedrinLight6 }
+}
+
+pointlight VoidMissileLight1 {
+	color 1.0 1.0 1.0
+	size 80
+}
+
+pointlight VoidMissileLight2 {
+	color 0.8 0.8 0.8
+	size 70
+}
+
+pointlight VoidMissileLight3 {
+	color 0.5 0.5 0.5
+	size 50
+}
+
+pointlight VoidMissileLight4 {
+	color 0.25 0.25 0.25
+	size 32
+}
+
+pointlight VoidMissileLight5 {
+	color 1.0 1.0 1.0
+	size 80
+	subtractive 1
+}
+
+pointlight VoidMissileLight6 {
+	color 0.25 0.25 0.25
+	size 70
+	subtractive 1
+}
+
+pointlight VoidMissileLight7 {
+	color 0.5 0.5 0.5
+	size 50
+	subtractive 1
+}
+
+pointlight VoidMissileLight8 {
+	color 0.8 0.8 0.8
+	size 32
+	subtractive 1
+}
+
+flickerlight VoidMissileLight9 {
+	color 0.875 0.875 0.875
+	size 48
+	secondarySize 64
+	chance 0.33
+}
+
+object VoidMissile {
+	frame R044J { light VoidMissileLight3 }
+	frame R044K { light VoidMissileLight4 }
+	frame R044L { light VoidMissileLight5 }
+	frame R044M { light VoidMissileLight6 }
+	frame R044N { light VoidMissileLight7 }
+	frame R044O { light VoidMissileLight8 }
+	frame R044P { light VoidMissileLight1 }
+	frame R044Q { light VoidMissileLight2 }
+	
+	frame R045 { light VoidMissileLight9 }
+}
+
+flickerlight THROWHAMMER {
+	color 1.0 0.2 0.0
+    size 72
+    secondarysize 78
+    chance 0.4
+}
+
+object HammerThrown {
+    frame BHMRA { light THROWHAMMER }
+    frame BHMRB { light THROWHAMMER }
+    frame BHMRC { light THROWHAMMER }
+    frame BHMRD { light THROWHAMMER }
+    frame BHMRE { light THROWHAMMER }
+    frame BHMRF { light THROWHAMMER }
+    frame BHMRG { light THROWHAMMER }
+    frame BHMRH { light THROWHAMMER }
+}
+
+object HammerReturn {
+    frame BHMRA { light THROWHAMMER }
+    frame BHMRB { light THROWHAMMER }
+    frame BHMRC { light THROWHAMMER }
+    frame BHMRD { light THROWHAMMER }
+    frame BHMRE { light THROWHAMMER }
+    frame BHMRF { light THROWHAMMER }
+    frame BHMRG { light THROWHAMMER }
+    frame BHMRH { light THROWHAMMER }
+}
+
+object HammerExplosion {
+	frame MACXD { light ROCKET_X2 }
+	frame MACXE { light ROCKET_X2 }
+	frame MACXF { light ROCKET_X2 }
+	frame MACXG { light ROCKET_X2 }
+	frame MACXH { light ROCKET_X3 }
+	frame MACXI { light ROCKET_X3 }
+	frame MACXJ { light ROCKET_X3 }
+}
+
+object HammerExplosion_Crit {
+	Frame MSP1H { Light SatyrLordRedMissile3 }
+	Frame MSP1I { Light SatyrLordRedMissile4 }
+	Frame MSP1J { Light SatyrLordRedMissile5 }
+	Frame MSP1K { Light SatyrLordRedMissile6 }
+	Frame MSP1L { Light SatyrLordRedMissile7 }
+	Frame MSP1M { Light SatyrLordRedMissile8 }
+	Frame MSP1N { Light SatyrLordRedMissile9 }
+	Frame MSP1O { Light SatyrLordRedMissile10 }
+	Frame MSP1P { Light SatyrLordRedMissile11 }
+}
